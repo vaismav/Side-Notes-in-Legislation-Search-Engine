@@ -9,7 +9,7 @@ def get_all_laws():
     for root,subFolder,files in os.walk(wrd):
         for item in files:
             if(item.endswith("main.xml")):
-                dst = wrd + "\\xmls\\law" + str(counter)
+                dst = wrd + "\\xmls\\law" + str(counter)+".xml"
                 src=str(root)+"\\main.xml"
                 copyfile(src, dst)
                 counter += 1
