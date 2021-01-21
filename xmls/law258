@@ -1,0 +1,2741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1969-03-27/165789/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1969-03-27/165789" />
+          <FRBRdate date="1969-03-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1969-03-27/165789/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1969-03-27/165789/he@" />
+          <FRBRdate date="1969-03-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1969-03-27/165789/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1969-03-27/165789/he@" />
+          <FRBRdate date="1969-03-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1969-03-27" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="גולדה_מאיר" href="/ontology/person/גולדה_מאיר" showAs="גולדה מאיר" />
+        <TLCPerson eId="יעקב_ש._שפירא" href="/ontology/person/יעקב_ש._שפירא" showAs="יעקב ש. שפירא" />
+        <TLCPerson eId="יוסף_אלמוגי" href="/ontology/person/יוסף_אלמוגי" showAs="יוסף אלמוגי" />
+        <TLCPerson eId="שניאור_זלמן_שזר" href="/ontology/person/שניאור_זלמן_שזר" showAs="שניאור זלמן שזר" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="שר_העבודה" href="ontology/role/akn/שר_העבודה" showAs="שר העבודה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק בית הדין לעבודה, תשכ"ט–1969</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>בית דין לעבודה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>בית דין לעבודה (להלן – בית הדין) יהיה של שתי ערכאות: בית דין אזורי ובית דין ארצי.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>שופטים ונציגי ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>לבית הדין יתמנו שופטים ונציגי ציבור.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכשירות להיות שופט</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>מי שכשיר להתמנות שופט בית משפט מחוזי, לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">חוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref> (להלן – חוק בתי המשפט), כשיר להתמנות שופט בית הדין (להלן – שופט).</p>
+          </content>
+        </point>
+        <point eId="point_3א">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג למינוי שופט</p>
+            </authorialNote>
+          </heading>
+          <num>3א.</num>
+          <content>
+            <p>על מועמד להתמנות שופט בית הדין יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_7א">סעיף 7א לחוק בתי המשפט</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי שופטים</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שופט יתמנה בידי נשיא המדינה לפי בחירה של הועדה לבחירת שופטים לפי <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_4">סעיף 4(ב) לחוק־יסוד: השפיטה</ref>, אלא שחברי הממשלה בועדת הבחירה יהיו שר המשפטים ושר התעשייה המסחר והתעסוקה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שופט יצהיר הצהרת אמונים כאמור <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_6">בסעיף 6 לחוק־יסוד: השפיטה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היו שר המשפטים ושר התעשייה המסחר והתעסוקה סבורים, שלתקופה מסויימת קיים צורך ששופט משופטי בתי המשפט יכהן כשופט בית הדין, יודיעו על כך לנשיא בית המשפט העליון, והוא רשאי למנות, בהסכמת המתמנה, שופט משופטי בית המשפט העליון או שופט משופטי בית משפט מחוזי להיות שופט בית הדין לאותה תקופה; שופט שנתמנה על פי סעיף זה והתחיל בדיון יהיה מוסמך לסיימו גם לאחר תום תקופת מינויו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>נשיא בית הדין הארצי וסגנו</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בבית הדין הארצי יהיו נשיא וסגן נשיא שיתמנו בדרך שנקבעה למינוי שופט.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נתפנה מקומו של נשיא בית הדין הארצי וכל עוד הנשיא החדש לא התחיל לכהן, או נעדר הנשיא מן הארץ או שנבצר ממנו זמנית למלא תפקידו, ימלא סגן הנשיא את התפקידים המוטלים על הנשיא וישתמש בסמכויות הנתונות לו לפי כל חיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תקופת כהונתם של נשיא בית הדין הארצי וסגן נשיא בית הדין הארצי תהיה שבע שנים מיום המינוי, ולא ניתן לשוב ולמנותם לתקופת כהונה נוספת באותו תפקיד.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>נשיא בית הדין האזורי וסגנו</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נשיאים וסגני נשיאים של בתי דין אזוריים יתמנו בידי שר המשפטים ושר התעשיה המסחר והתעסוקה, בהסכמת נשיא בית הדין הארצי לעבודה, מקרב השופטים של בתי הדין האזוריים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקופת כהונתם של נשיאים וסגני נשיאים של בתי דין אזוריים תהיה שבע שנים מיום המינוי, ולא ניתן לשוב ולמנותם לתקופת כהונה נוספת באותו תפקיד בבית דין אזורי.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יתמנה לנשיא בית דין אזורי או לסגן נשיא בית דין אזורי מי שלא יוכל לכהן בתפקיד זה במשך שלוש שנים לפחות עקב יציאתו לקצבה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_13">סעיף 13(א)(1) לחוק בתי המשפט</ref> כפי שהוא מוחל <ref href="#point_8">בסעיף 8(ב)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>שופט בפועל</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>שר המשפטים, בהתייעצות עם שר התעשייה המסחר והתעסוקה ובהסכמת נשיא בית הדין הארצי, רשאי למנות, בהסכמת המתמנה, שופט בית הדין הארצי לכהן בפועל כנשיא בית דין אזורי או כשופט בית דין אזורי, ושופט בית דין אזורי לכהן בפועל כשופט בית הדין הארצי; כהונה בפועל, ברציפות או לסירוגין, לא תארך יותר משנה אחת מתוך תקופה של שלוש שנים.</p>
+          </content>
+        </point>
+        <point eId="point_7א">
+          <heading>
+            <authorialNote placement="side">
+              <p>שופט עמית</p>
+            </authorialNote>
+          </heading>
+          <num>7א.</num>
+          <list>
+            <point eId="point_7א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר המשפטים, בהתייעצות עם שר הכלכלה, ונשיא בית הדין הארצי לעבודה כאחד, רשאים למנות שופט בית דין אזורי שיצא לקצבה לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_13">סעיף 13(א)(1), (ב) או (ג) לחוק בתי המשפט</ref> לתפקיד של שופט עמית בבית דין אזורי, ואם יצא לקצבה לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_13">סעיף 13(ב)(3) לחוק האמור</ref> – אם הנסיבות שבשלן יצא לקצבה אינן מונעות ממנו לכהן כשופט עמית (בחוק זה – שופט עמית).</p>
+              </content>
+            </point>
+            <point eId="point_7א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא ימונה שופט כשופט עמית אלא אם כן חלפו 45 ימים מיום ששר המשפטים ונשיא בית הדין הארצי לעבודה הודיעו לוועדה לבחירת שופטים כאמור <ref href="#point_4">בסעיף 4</ref> על הכוונה למנותו ושום חבר ועדה לא הגיש הסתייגות למינוי; הוגשה הסתייגות בתקופה האמורה, תדון בה הוועדה ותחליט אם לאשר את המינוי.</p>
+              </content>
+            </point>
+            <point eId="point_7א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שופט עמית ימונה לתקופה שלא תעלה על ארבע שנים, ושר המשפטים ונשיא בית הדין הארצי לעבודה רשאים, לפי בחירת הוועדה לבחירת שופטים כאמור <ref href="#point_4">בסעיף 4</ref>, להאריך את מינויו לתקופה אחת נוספת שלא תעלה על שנתיים, והכול ובלבד שלא יכהן כשופט עמית מי שגילו עולה על 75.</p>
+              </content>
+            </point>
+            <point eId="point_7א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>שופט עמית יראו אותו כשופט לכל דבר ועניין, ואולם יכול שיכהן במשרה חלקית.</p>
+              </content>
+            </point>
+            <point eId="point_7א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מספר השופטים העמיתים שיכהנו לא יעלה על 15 אחוזים ממספר התקנים המאוישים של שופטים בבתי הדין האזוריים לעבודה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>מעמדו של שופט בית הדין</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על שופט יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_5">סעיפים 5</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_7">7 עד 14 לחוק יסוד: השפיטה</ref>, בשינוי זה: <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_9">בסעיף 9(א) לחוק־יסוד: השפיטה</ref>, אחרי ”אלא בהסכמת נשיא בית המשפט העליון“ יקראו ”ונשיא בית הדין הארצי“.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/החלטת_משכורת_נושאי_משרה_שיפוטית">החלטת משכורת נושאי משרה שיפוטית, התשמ"א–1981</ref>, בהתאם <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_10">לסעיף 10 לחוק־יסוד: השפיטה</ref> כפי שהוחל בסעיף זה.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_5">סעיף 5</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_11">וסעיפים 11 עד 24</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_46">ו־46 לחוק בתי המשפט</ref>, יחולו בשינויים המחויבים על שופט בבית הדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי נציגי ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נציגי הציבור בבית הדין יהיו נציגי עובדים ונציגי מעסיקים, שימנו שר המשפטים ושר התעשייה המסחר והתעסוקה (בחוק זה – השרים) לאחר התייעצות עם הוועדה המייעצת לעניין נציגי ציבור, שמונתה לפי <ref href="#point_16א">סעיף 16א</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>כשיר להתמנות לנציג ציבור מי שמתקיימים לגביו כל אלה:</p>
+                </intro>
+                <point eId="point_10__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא בעל ניסיון של חמש שנים לפחות בתפקיד או בפעילות בתחום משפט העבודה, יחסי עבודה, רווחה, ביטחון סוציאלי, כלכלה או מינהל ציבורי, לרבות ניסיון בהוראה או במחקר בתחומים אלה במסגרת אקדמית;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא לא הורשע בעבירה פלילית, שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן כנציג ציבור; לעניין זה, ”הורשע“, בעבירה פלילית – לרבות מי שבית המשפט קבע כי ביצע את העבירה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוא לא הורשע בעבירת משמעת אשר מפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן כנציג ציבור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>היו תלויים ועומדים נגד אדם הליכים בעבירות כאמור בסעיף קטן (ב)(2) או (3), רשאים השרים לדחות את החלטתם בעניין מינויו עד לסיום ההליכים נגדו; בסעיף זה, ”הליכים“ – החל בחקירה על פי דין.</p>
+                </intro>
+                <point eId="point_10__point_ג__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>במינוי נציגי ציבור, יפעלו השרים למתן ביטוי הולם, בנסיבות העניין, לייצוגן של אוכלוסיות שונות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת כהונה של נציג ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>מינויו של נציג ציבור הוא לארבע שנים, אך מותר לחזור ולמנותו לתקופת כהונה נוספת אחת, ובלבד שלא יכהן כנציג ציבור מי שמלאו לו 75 שנים.</p>
+          </content>
+        </point>
+        <point eId="point_11א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקנות לעניין מינוי נציגי ציבור וכהונתם</p>
+            </authorialNote>
+          </heading>
+          <num>11א.</num>
+          <list>
+            <intro>
+              <p>השרים רשאים לקבוע, לאחר התייעצות עם נשיא בית הדין הארצי, עם ארגון העובדים המייצג את המספר הגדול ביותר של עובדים במדינה ועם ארגונים ארציים של מעסיקים שלדעת השרים הם יציגים ונוגעים בדבר, הוראות נוספות בעניין מינוי של נציגי ציבור בבית הדין וכהונתם, לרבות בעניינים אלה:</p>
+            </intro>
+            <point eId="point_11א__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הליכי מיון למועמדים להתמנות לנציגי ציבור, וכן הכשרת נציגי ציבור מכהנים ובכלל זה השתלמויות שעליהם לעבור;</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אמות מידה לחידוש מינוי של נציג ציבור בתום תקופת כהונתו;</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_3">
+              <num>(3)</num>
+              <content>
+                <p>פרסום הודעה לציבור בדבר הכוונה למנות נציג ציבור ובדבר הדרך להגשת מועמדות להתמנות לנציג ציבור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום מינוי</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>נציג ציבור שמינויו פורסם ברשומות אין עוררין על מינויו.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>התפטרות נציג ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>נציג ציבור רשאי להתפטר מתפקידו במתן הודעה בכתב לשר המשפטים; כהונתו תופסק כתום שלושים יום מהגשת כתב ההתפטרות, אם לא הסכים שר המשפטים למועד קצר יותר.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>סיום משפטים</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>נציג ציבור שהחל בדיון ותקופת מינויו לכהונה הסתיימה יהיה מוסמך לסיים את הדיון בתוך שישה חודשים מיום סיום הכהונה, אלא אם כן הוא הועבר או הושעה מכהונתו לפי <ref href="#point_15">סעיף 15(ה)(1)(ב) או (ז)</ref>, או לפי <ref href="#point_15א">סעיף 15א(א) או (ב)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>בירור תלונות נגד נציגי ציבור והטלת אמצעי משמעת</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תלונה נגד נציג ציבור בשל התנהגות שאינה הולמת את תפקידו או בשל הפרת כללי האתיקה לנציגי ציבור שנקבעו לפי סעיף קטן (ח), תוגש לוועדה המייעצת לעניין נציגי ציבור או לנשיא בית הדין הארצי שיעבירה לוועדה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוועדה המייעצת לעניין נציגי ציבור תהיה אחראית לבירור תלונות שהוגשו לפי סעיף קטן (א); בירור תלונה יהיה בדרך שתיראה לוועדה המייעצת והיא לא תהיה קשורה להוראות שבסדרי הדין או בדיני הראיות, פרט לדינים בדבר ראיות חסויות.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוועדה המייעצת לעניין נציגי ציבור תיתן לנציג הציבור שהתלונה נוגעת אליו, הזדמנות להשמיע את דבריו לפניה, בהקדם האפשרי בנסיבות העניין.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוועדה המייעצת לעניין נציגי ציבור תעביר, בתום בירור תלונה, את ממצאיה והמלצותיה לשרים.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ה">
+              <num>(ה)</num>
+              <list>
+                <point eId="point_15__point_ה__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>השרים רשאים, על יסוד המלצות הוועדה המייעצת לעניין נציגי ציבור ולאחר התייעצות עם נשיא בית הדין הארצי, לקבוע כי תלונה נגד נציג ציבור היא מוצדקת ולהטיל על נציג הציבור הנילון אחד מאמצעי משמעת אלה:</p>
+                    </intro>
+                    <point eId="point_15__point_ה__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>נזיפה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ה__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>העברתו מכהונתו או אי־חידושה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שר המשפטים יודיע בכתב למתלונן על ההחלטה לפי פסקה (1).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>מצאו השרים, על יסוד המלצות הוועדה המייעצת לעניין נציגי ציבור ולאחר התייעצות עם נשיא בית הדין הארצי, שהתלונה לא היתה מוצדקת, יודיע שר המשפטים על כך בכתב למתלונן.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הוגשה תלונה נגד נציג ציבור, רשאים השרים, על יסוד המלצות הוועדה המייעצת ולאחר התייעצות עם נשיא בית הדין הארצי, להשעותו מכהונתו עד למתן החלטה לפי סעיף זה בעניינו.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>נשיא בית הדין הארצי רשאי, לאחר התייעצות עם השרים, לקבוע כללי אתיקה לנציגי ציבור.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>הוועדה המייעצת לעניין נציגי ציבור רשאית, ביוזמתה, לפתוח בהליך בירור נגד נציג ציבור אם היה לה יסוד סביר להניח כי הוא נהג בדרך שאינה הולמת את תפקידו או הפר כלל מכללי האתיקה, כאמור בסעיף קטן (א), ויחולו על הליך הבירור כאמור הוראות סעיף זה החלות על בירור תלונה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברה או השעיה מכהונה של נציג ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>15א.</num>
+          <list>
+            <point eId="point_15א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השרים יעבירו נציג ציבור מכהונתו לפני תום תקופת כהונתו אם חדל להתקיים בו תנאי מהתנאים למינוי.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היו תלויים ועומדים נגד נציג הציבור הליכים בעבירות כאמור <ref href="#point_10">בסעיף 10(ב)(2) או (3)</ref>, רשאים השרים להשעותו מכהונתו עד לסיום ההליכים נגדו; בסעיף זה, ”הליכים“ – החל בחקירה על פי דין.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החלטת השרים בעניין העברה או השעיה מכהונה, לא תינתן אלא לאחר שניתנה לנציג הציבור הזדמנות להשמיע את דבריו לפני הוועדה המייעצת, והוועדה המייעצת המליצה על העברתו או השעייתו מכהונה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־תלות של נציגי ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אין על נציג ציבור מרות בעניני שפיטה, אלא מרותו של הדין.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בפעולתו בבית הדין יפעל נציג ציבור לפי מצפונו ולא יראה עצמו חייב בנאמנות לארגון שבהתייעצות עמו נתמנה או לציבור שהוא מייצג.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה מייעצת לעניין נציגי ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>16א.</num>
+          <list>
+            <point eId="point_16א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השרים ימנו ועדה לעניין נציגי ציבור (בחוק זה – ועדה מייעצת לעניין נציגי ציבור), ואלה תפקידיה:</p>
+                </intro>
+                <point eId="point_16א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לייעץ לשרים בעניין מינוים של נציגי ציבור, כאמור <ref href="#point_10">בסעיף 10(א)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לברר תלונות וכן לנקוט ביוזמתה בהליך בירור נגד נציגי ציבור ולהמליץ לשרים בעניינם, כאמור <ref href="#point_15">בסעיף 15</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>להמליץ לשרים בעניין העברה או השעיה מכהונה לפי <ref href="#point_15א">סעיף 15א</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_16א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הרכב הוועדה לעניין נציגי ציבור יהיה כמפורט להלן:</p>
+                </intro>
+                <point eId="point_16א__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שופט בדימוס של בית הדין הארצי או של בית דין אזורי, שיקבע נשיא בית הדין הארצי, והוא יהיה היושב ראש;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>נציג שר המשפטים, מבין עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נציג שר התעשייה המסחר והתעסוקה, מבין עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>נציג ארגון העובדים המייצג את המספר הגדול ביותר של עובדים במדינה;</p>
+                  </content>
+                </point>
+                <point eId="point_16א__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>נציג ארגונים ארציים של מעסיקים שלדעת השרים הם יציגים ונוגעים בדבר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי רשם</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נשיא בית הדין הארצי, לאחר התייעצות עם שר התעשייה המסחר והתעסוקה ובאישור שר המשפטים, רשאי למנות שופט בית דין אזורי או אדם הכשיר להתמנות שופט בית משפט שלום להיות רשם של בית דין.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רשם שמינויו פורסם ברשומות, אין עוררין על מינויו.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_21א">סעיפים 21א עד 21ח לחוק בתי המשפט</ref> יחולו על רשם, בשינויים המחויבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרכב בית דין אזורי</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בית דין אזורי ידון בשלושה, שהם השופט – והוא יהיה אב בית הדין – ושני נציגי ציבור, האחד מנציגי העובדים והאחד מנציגי המעסיקים.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות סעיף קטן (א), בהתקיים האמור בפסקאות (1) או (2), ידון בית הדין האזורי לפני השופט כדן יחיד, בכפוף לאמור באותן פסקאות:</p>
+                </intro>
+                <point eId="point_18__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בהליך המנוי <ref href="#appendix_3">בתוספת השלישית</ref>; ואולם רשאי נשיא בית דין אזורי להורות, לפני תחילת הדיון בעניין מסוים, כי הדיון בו יתקיים בהרכב כאמור בסעיף קטן (א);</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם שופט של בית דין אזורי החליט על כך בהחלטה מנומקת, על פי בקשת אחד הצדדים, ולאחר שנתן לצדדים האחרים בהליך הזדמנות להשמיע את דבריהם בפניו; ואולם לא יחליט שופט של בית דין אזורי כאמור, בעניין תובענה לפי <ref href="#point_24">סעיף 24(א)(2) או (4)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ההחלטה בדבר הרכב בית הדין תינתן לפני שנקבע מותב בית הדין, ואין אחריה ולא כלום.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_18__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בהליכים שבית הדין דן בהם בשלושה, יהיו לשופט לבדו הסמכויות המנויות <ref href="#appendix_4">בתוספת הרביעית</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>השרים, בהתייעצות עם נשיא בית הדין הארצי ועם ארגון העובדים המייצג את המספר הגדול ביותר של עובדים במדינה ועם ארגונים ארציים של מעסיקים שלדעת השרים הם יציגים ונוגעים בדבר, ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאים, בצו, לשנות את <ref href="#appendix_3">התוספת השלישית</ref>, ובלבד שלא תכלול הליכים לפי <ref href="#point_24">סעיף 24(א)(2) או (4)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>שר המשפטים, בהתייעצות עם נשיא בית הדין הארצי ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי, בצו, לשנות את <ref href="#appendix_4">התוספת הרביעית</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>בצו כאמור בסעיפים קטנים (ה) או (ו) ניתן לקבוע כי השינוי האמור בצו יחול גם לעניין הליכים תלויים ועומדים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>מותב בית הדין האזורי</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>מותב של בית דין אזורי ייקבע על ידי שופט אותו בית דין, ואם היו בו יותר משופט אחד – על ידי נשיא בתי הדין האזוריים או סגנו, ויכול שייקבע לתקופה מסויימת או לדיון בענין פלוני, או לדיון בענינים שבתחום ענף עבודה או מקצוע פלוני; מותב שנקבע לתקופה מסויימת והתחיל בדיון יהיה מוסמך לסיימו גם לאחר תום אותה תקופה.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרכב בית הדין הארצי</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בית הדין הארצי ידון בחמישה, שהם שלושה שופטים ושני נציגי ציבור, נציג עובדים ונציג מעסיקים; ואולם רשאי נשיא בית הדין הארצי או סגנו להורות, לפני תחילת הדיון בעניין מסוים, או במהלכו, כי הדיון בו יתקיים לפני מספר בלתי זוגי גדול יותר של שופטים ולפני שני נציגי ציבור, נציג עובדים ונציג מעסיקים, או ארבעה נציגי ציבור, שני נציגי עובדים ושני נציגי מעסיקים, אם מצא כי מפאת חשיבותה, קשיותה או חידושה של שאלה משפטית שעולה באותו עניין, יש מקום לדיון לפני הרכב מורחב כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות סעיף קטן (א) –</p>
+                </intro>
+                <point eId="point_20__point_א1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בערעור על פסק דין בהליך המנוי <ref href="#appendix_3">בתוספת השלישית</ref> ידון בית הדין הארצי בשלושה שופטים בלבד; ואולם רשאי נשיא בית הדין הארצי או סגנו להורות, לפני תחילת הדיון בעניין מסוים, או במהלכו, כי הדיון בו יתקיים בהרכב כאמור בסעיף קטן (א) או לפני מספר בלתי זוגי גדול יותר של שופטים;</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בערעור על פסק דין של בית דין אזורי לפי <ref href="#point_24">סעיף 24(ב)</ref> ידון בית הדין הארצי בשלושה שופטים בלבד; ואולם רשאי נשיא בית הדין הארצי או סגנו להורות, לפני תחילת הדיון בעניין מסוים, או במהלכו, כי הדיון בו יתקיים לפני מספר בלתי זוגי גדול יותר של שופטים;</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_א1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בעניינים שהוא דן בהם לפי <ref href="#point_25">סעיף 25(1)</ref> ידון בית הדין בשבעה שהם שלושה שופטים, שני נציגי עובדים ושני נציגי מעסיקים; ואולם רשאי נשיא בית הדין הארצי או סגנו להורות, לפני תחילת הדיון בעניין מסוים, או במהלכו, כי הדיון בו יתקיים לפני מספר בלתי זוגי גדול יותר של שופטים ולפני ארבעה נציגי ציבור, שני נציגי עובדים ושני נציגי מעסיקים, אם מצא כי מפאת חשיבותה, קשיותה או חידושה של שאלה משפטית שעולה באותו עניין, יש מקום לדיון לפני הרכב מורחב כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בבית הדין הארצי יהיו לאב בית הדין או לשופט שהוא מינה לכך הסמכויות המנויות <ref href="#appendix_4">בתוספת הרביעית</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>מותב בית הדין הארצי</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <list>
+            <intro>
+              <p>מותב של בית הדין הארצי ייקבע על ידי נשיא בית הדין; אב בית הדין יהיה מי שיושב בדין, שהוא הראשון מבין אלה:</p>
+            </intro>
+            <point eId="point_21__point_1">
+              <num>(1)</num>
+              <content>
+                <p>נשיא בית הדין;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_2">
+              <num>(2)</num>
+              <content>
+                <p>סגן נשיא בית הדין;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_3">
+              <num>(3)</num>
+              <content>
+                <p>נשיא לשעבר של בית הדין, ואם כמה נשיאים לשעבר יושבים בדין – הוותיק שביניהם, ובין בעלי ותק שווה – הקשיש שבהם;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_4">
+              <num>(4)</num>
+              <content>
+                <p>סגן לשעבר לנשיא בית הדין, ואם כמה סגנים לשעבר יושבים בדין – הוותיק שביניהם, ובין בעלי ותק שווה – הקשיש שבהם;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_5">
+              <num>(5)</num>
+              <content>
+                <p>הוותיק שבשופטים, ובין בעלי ותק שווה – הקשיש שבהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>העדר נציג ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נציג ציבור שהוזמן ולא בא רשאי בית הדין, מנימוקים שיירשמו, לקיים את הדיון ללא השתתפותו, והוא רשאי, בשים לב לשלב שבו נמצא הדיון, להורות על הפסקת השתתפותו של אותו נציג ציבור באותו הליך ולקבוע כי יש להמשיך את ההליך עם נציג ציבור אחר.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נשאר המותב מספר זוגי והיו הדעות שקולות, תכריע דעתו של אב בית הדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>מקום מושב ואיזור שיפוט</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <content>
+            <p>שר המשפטים, לאחר התייעצות עם שר התעשייה המסחר והתעסוקה, יקים, בצו, את בתי הדין האזוריים ויקבע בו את מקום מושבם, אזור שיפוטם ומספר השופטים בכל אחד מהם; <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_34">סעיפים 34</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_36">ו־36 לחוק בתי המשפט</ref>, יחולו על בית דין אזורי, בשינויים המחוייבים.</p>
+          </content>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות בית דין אזורי</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <list>
+            <point eId="point_24__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לבית דין אזורי תהא סמכות ייחודית לדון –</p>
+                </intro>
+                <point eId="point_24__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בתובענות בין עובד או חליפו למעסיק או חליפו שעילתן ביחסי עבודה, לרבות השאלה בדבר עצם קיום יחסי עבודה ולמעט תובענה שעילתה <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279">בפקודת הנזיקין [נוסח חדש]</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_1א">
+                  <num>(1א)</num>
+                  <content>
+                    <p>בתובענה שעילתה במשא ומתן לקראת כריתתו של חוזה ליצירת יחסי עבודה, בתובענה שעילתה בחוזה כאמור לפני שנוצרו יחסי עבודה או לאחר שנסתיימו יחסים כאמור, או בתובענה שעילתה בקבלת אדם לעבודה או באי קבלתו;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_1ב">
+                  <num>(1ב)</num>
+                  <content>
+                    <p>תובענה שעילתה <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_29">בסעיפים 29</ref>, <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_31">31</ref>, <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_62">62</ref><ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_63">או 63 לפקודת הנזיקין [נוסח חדש]</ref> בקשר לסכסוך עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_1ג">
+                  <num>(1ג)</num>
+                  <content>
+                    <p>תובענה שבין מעסיק לעובדיו, בקשר לסכסוך עבודה, שעילתה <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/148008#point_16">בסעיפים 16</ref><ref href="/akn/il/act/PrimaryLegislation/1969-07-27/148008#point_17">או 17 לחוק המקרקעין, התשכ"ט–1969</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_1ד">
+                  <num>(1ד)</num>
+                  <content>
+                    <p>בתובענה של עובד או נציג ארגון עובדים נגד מעסיק או נושא משרה אצלו, או של מעסיק או נושא משרה אצלו נגד עובד או נציג ארגון עובדים, בקשר ליחסי עבודה, שעילתה עוולה אזרחית לפי <ref href="/akn/il/act/PrimaryLegislation/1965-07-30/147516">חוק איסור לשון הרע, התשכ"ה–1965</ref>; לעניין זה, ”נושא משרה“ – מנהל פעיל בתאגיד, שותף למעט שותף מוגבל, ממונה על העובד ופקיד האחראי מטעם התאגיד על תחום זכויות עובדים.</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בתובענה בין מי שיכולים להיות צדדים להסכם קיבוצי מיוחד כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_ההסכמים_הקיבוציים">בחוק ההסכמים הקיבוציים, תשי"ז–1957</ref> (להלן – חוק הסכמים קיבוציים), בענין קיומו, תחולתו, פירושו, ביצועו או הפרתו של הסכם קיבוצי או הסדר קיבוצי אחר או בכל ענין אחר הנובע מהם או בענין תחולתו, פירושו, ביצועו או הפרתו של כל דין;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תובענות של חברים או חליפיהם או של מעסיקים או חליפיהם נגד קופות גמל, כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">בחוק הגנת השכר, תשי"ח–1958</ref>, או תובענות של קופות הגמל נגד חבריהן או חליפיהם או נגד מעסיקים או חליפיהם, הכל אם התובענות נובעות מהחברות בקופות או מחבותם של מעסיקים לקופות, לפי הענין וכן כל תובענה לקצבה הנובעת מיחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תובענות שבין עובד לארגון עובדים הקשורות בחברות או בתחום פעילותו של הארגון בעניני עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>בכל ענין שמוענקת לבתי הדין האזוריים סמכות בו על פי התיקונים <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">לחוק הביטוח הלאומי [נוסח משולב], התשכ"ח–1968</ref>, ולחוקים אחרים, כמפורט <ref href="#appendix_1">בתוספת הראשונה</ref> או בכל חוק אחר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_24__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>האמור בסעיף קטן (א) אינו בא לגרוע מהוראת כל דין לענין השיפוט בהליכי פשיטת רגל, פירוק חברה או פירוק אגודה שיתופית.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לבית דין אזורי תהא הסמכות לדון בעבירות על החיקוקים המפורשים <ref href="#appendix_2">בתוספת השניה</ref> והתקנות על פיהן; שר המשפטים ושר התעשייה המסחר והתעסוקה רשאים, באישור ועדת העבודה של הכנסת, לתקן, בצו, את <ref href="#appendix_2">התוספת השניה</ref>, להוסיף עליה ולגרוע ממנה; בהליכים לפי סעיף קטן זה ידון שופט יחיד ויחולו סדרי הדין ודיני הראיות החלים בהליכים פליליים בבתי המשפט.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (א)(2), רשאי נשיא בית הדין הארצי או סגנו, על פי בקשה של בעל דין או של היועץ המשפטי לממשלה שהוגשה לפני תחילת הדיון או במהלכו, להורות שדיון בתובענה לפי הסעיף הקטן האמור, שהוא בעל חשיבות, דחיפות או רגישות מיוחדת, יתקיים בבית הדין הארצי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות בית הדין הארצי</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <list>
+            <intro>
+              <p>לבית הדין הארצי תהא הסמכות הייחודית לדון –</p>
+            </intro>
+            <point eId="point_25__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בתובענה בין מי שיכולים להיות צדדים להסכם קיבוצי כללי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">בחוק הסכמים קיבוציים</ref> בענין קיומו, תחולתו, פירושו, ביצועו או הפרתו של הסכם קיבוצי או הסדר קיבוצי אחר או בכל ענין אחר הנובע מהם, או בענין תחולתו, פירושו, ביצועו או הפרתו של כל דין;</p>
+              </content>
+            </point>
+            <point eId="point_25__point_2">
+              <num>(2)</num>
+              <content>
+                <p>בתובענות בין ארגון עובדים לארגון עובדים אחר ותובענות בין ארגון מעסיקים לארגון מעסיקים אחר, הכל אם התובענות נובעות מענינים שביחסי עבודה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור לפני בית הדין הארצי</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <list>
+            <point eId="point_26__point_א">
+              <num>(א)</num>
+              <content>
+                <p>פסק דין של בית דין אזורי לפי <ref href="#point_24">סעיף 24(א)</ref> ניתן לערעור לפני בית הדין הארצי; כל החלטה אחרת של בית דין אזורי ניתנת לערעור אם נתקבלה רשות לכך מנשיא בית הדין הארצי או סגנו או שופט של בית הדין הארצי שנתמנה לכך על ידי הנשיא רשות כאמור בסעיף קטן זה, לגבי החלטה אחרת, תינתן אם שוכנע בית הדין כי אם הערעור על ההחלטה יידון במסגרת הערעור על פסק הדין ולא באופן מיידי, יהיה בכך כדי להשפיע באופן ממשי על זכויות הצדדים או שעלול להיגרם לצד להליך נזק של ממש, או שעלול להתנהל הליך מיותר או בדרך שגויה.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (א), לא תינתן רשות ערעור על סוגי החלטות ששר המשפטים קבע, בצו, בהתייעצות עם שר התעשייה המסחר והתעסוקה, ובאישור ועדת החוקה חוק ומשפט של הכנסת; נקבע סוג החלטה בצו כאמור, יחול הצו על החלטה שהתקבלה לאחר תחילתו.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/SecondaryLegislation/2017-11-05/52378">צו בית הדין לעבודה (סוגי החלטות שלא תינתן בהן רשות ערעור), התשע"ח–2017</ref>.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_26__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פסק דין של בית דין אזורי לפי <ref href="#point_24">סעיף 24(ב)</ref> ניתן לערעור לפני בית הדין הארצי; בערעור כאמור ידון בית הדין הארצי בשלושה שופטים בלבד, ויחולו בו סדרי הדין ודיני הראיות החלים בערעורים פליליים בבית משפט.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>פסק דין בערעור לפי סעיף קטן (ב) דינו לענין ערעור נוסף כדין פסק דין של בית משפט מחוזי בערעור פלילי רשות כאמור בסעיף קטן זה, לגבי החלטה אחרת, תינתן אם שוכנע בית הדין כי אם הערעור על ההחלטה יידון במסגרת הערעור על פסק הדין ולא באופן מיידי, יהיה בכך כדי להשפיע באופן ממשי על זכויות הצדדים או שעלול להיגרם לצד להליך נזק של ממש, או שעלול להתנהל הליך מיותר או בדרך שגויה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות הרשם</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <list>
+            <point eId="point_27__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סמכויותיו ותפקידיו של הרשם וערעור על החלטותיו יהיו בהתאם <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_86">לסעיפים 86</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_87">87</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_88">88</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_89">89</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_90">90(1) עד 90(11)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_91">91</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_95">95</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_96">96</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_98">98</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_99">99</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_100">100</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_101">101</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_102">102</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_103">103</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_105א">105א</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_105ג">ו־105ג לחוק בתי המשפט</ref>, בתיאומים ובשינויים המחוייבים לפי הענין.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_27__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בנוסף לאמור בסעיף קטן (א) תהיה גם לרשם הסמכות הנתונה לבית דין אזורי בתובענות לשכר עבודה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">בחוק הגנת השכר, תשי"ח–1958</ref>, בתובענות לקצבה כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">בחוק האמור</ref>, למעט תובענות שענינן עצם הזכאות לקצבה, וכן בכל תובענה כספית אחרת שבין עובד למעסיקו שעניינה הזכויות שהעובד זכאי להן עקב עבודתו, לפי חוק, הסכם קיבוצי, או לפי צו הרחבה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">בחוק הסכמים קיבוציים</ref>, המנויים <ref href="#appendix_5">בתוספת החמישית</ref>, ובלבד שסכום התובענה אינו עולה על 50,000 שקלים חדשים, והחלטת בתי הדין האזוריים בערעור על החלטת הרשם לפי סעיף קטן זה תהיה נתונה לערעור נוסף ברשות לפני בית הדין הארצי בשאלה משפטית; הרשות יכול שתינתן בגוף החלטת בתי הדין האזוריים או מאת נשיא בית הדין הארצי או סגנו.</p>
+                  </content>
+                </point>
+                <point eId="point_27__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רשם בית דין אזורי רשאי לתת צו המחייב מעסיק למסור לעובד מסמכים שחובה על מעסיק להנפיק על פי חוק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_27__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>שר המשפטים ושר התעשייה המסחר והתעסוקה, בהתייעצות עם נשיא בית הדין הארצי, עם ארגון העובדים המייצג את המספר הגדול ביותר של עובדים במדינה ועם ארגונים ארציים של מעסיקים שלדעת השרים הם יציגים ונוגעים בדבר ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאים בצו להגדיל את הסכום הנקוב בסעיף קטן (ב); או תובענה כספית אחרת כמשמעותה בסעיף קטן (ב) שהגדלת הסכום כאמור הוסיפה לסמכותו של רשם וערב תחילתו של הצו היתה תלויה ועומדת לפני בית דין אזורי לעבודה, ולא החלו בשמיעת עדים, רשאי שופט של בית הדין להעבירה לדיון לפני רשם.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>תובענה לשכר עבודה הכוללת פיצוי הלנת שכר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747#point_17">בסעיף 17 לחוק הגנת השכר, תשי"ח–1958</ref>, וכן תובענה לקצבה הכוללת פיצוי הלנת קצבה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747#point_16">בסעיף 16(ג) לחוק האמור</ref> יראו לענין הסכום הנקוב בסעיף קטן (ב) כאילו לא כלול בה פיצוי כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ב3">
+              <num>(ב3)</num>
+              <content>
+                <p>שר המשפטים רשאי, בצו, בהסכמת שר התעשייה המסחר והתעסוקה, לאחר התייעצות עם נשיא בית הדין הארצי ובאישור ועדת החוקה חוק ומשפט של הכנסת, לשנות את <ref href="#appendix_5">התוספת החמישית</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שר המשפטים רשאי, לאחר התייעצות עם שר התעשייה המסחר והתעסוקה, לקבוע בתקנות סמכויות ששופט בית דין אזורי יהיה רשאי להעביר לרשם תקנות המסמיכות רשם לעשות כל דבר שבסדרי דין ונוהג טעונות את אישורה של ועדת החוקה חוק ומשפט של הכנסת.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1975-03-19/18924">תקנות בית הדין לעבודה (סמכויות שניתן להעבירן לרשם), תשל"ה–1975</ref>.</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>בוררות</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <content>
+            <p>שום דבר בחוק זה לא יתפרש כאילו הוא בא למנוע מסירת ענין פלוני לבוררות; אולם אם נושא הבוררות היחיד היה ענין שיש בו לבית הדין סמכות ייחודית, יהיו לבית הדין סמכויות בית המשפט בבוררות וכן תהא לבית הדין סמכות ייחודית לדון בתובענה שעילתה בפסק של בוררות כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות למתן סעד</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <list>
+            <point eId="point_29__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בית דין אזורי, או בית הדין הארצי כשאינו דן בערעור, מוסמכים ליתן כל סעד שבית משפט מחוזי מוסמך לתיתו, ובתחום סמכותם כוחם ככוחו של בית המשפט המחוזי.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בית הדין הארצי הדן בערעור מוסמך לתת כל סעד שבית המשפט העליון כבית משפט לערעורים מוסמך לתיתו, ובתחום סמכותו כוחו ככוחו של בית המשפט העליון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_30">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכות התערבות בהליכים</p>
+            </authorialNote>
+          </heading>
+          <num>30.</num>
+          <list>
+            <point eId="point_30__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראה היועץ המשפטי לממשלה, שבהליך פלוני שלפני בית הדין כרוכים או נפגעים, או עלולים להיות כרוכים או נפגעים, זכות של מדינת ישראל, או זכות ציבורית או ענין ציבורי, רשאי הוא, לפי ראות עיניו, להתייצב באותו הליך ולהשמיע דברו, או להסמיך במיוחד את נציגו לעשות זאת מטעמו.</p>
+              </content>
+            </point>
+            <point eId="point_30__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ארגון עובדים או ארגון מעסיקים שהוא צד להסכם קיבוצי רשאי להתייצב בכל הליך שלפני בית הדין שבו נתון אותו הסכם קיבוצי לפירוש, להשמיע את טענותיו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_31">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיון מהיר</p>
+            </authorialNote>
+          </heading>
+          <num>31.</num>
+          <list>
+            <point eId="point_31__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתובענה כאמור <ref href="#point_24">בסעיף 24(א)(1) או (3)</ref> לתשלום סכום שלא יעלה על הסכום שקבעו שר התעשייה המסחר והתעסוקה ושר המשפטים ידון בית דין אזורי בדרך של דיון מהיר על פי הוראות סעיף זה; הסכום האמור ייקבע על ידי השרים בהתייעצות עם נשיא בית הדין הארצי, עם ארגון העובדים המייצג את המספר הגדול ביותר של עובדים במדינה ועם ארגונים ארציים של מעסיקים שלדעת השרים הם יציגים ונוגעים בדבר, ובאישור ועדת העבודה והרווחה של הכנסת.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1990-08-16/33210">תקנות בית הדין לעבודה (קביעת סכום התביעה בדיון מהיר), התש"ן–1990</ref>, לפיהן סכום התביעה או שווי הנושא בדיון מהיר בפני שופט או רשם לא יעלה על 9,000 שקלים חדשים (נכון לשנת 1993), או 31,300 ש"ח בשנת 2020).</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_31__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בדיון מהיר לא יהיה בית הדין כפוף לסדרי הדין, והוא יפעל בדרך הנראית לו מועילה ביותר להכרעה צודקת ומהירה.</p>
+              </content>
+            </point>
+            <point eId="point_31__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בדיון מהיר תהיה לבתי הדין האזוריים סמכות לפסוק לדין או בהסכמת בעלי הדין – לפשרה.</p>
+              </content>
+            </point>
+            <point eId="point_31__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>פסק דין של בית דין אזורי בדיון מהיר אינו נתון לערעור, אלא אם כן נשיא בית הדין הארצי או סגנו או שופט של בית הדין הארצי שנתמנה לכך על ידי הנשיא נתנו לכך רשות.</p>
+              </content>
+            </point>
+            <point eId="point_31__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בית דין אזורי רשאי, בין מיזמתו ובין לבקשת צד, להפסיק את הדיון המהיר מבלי לפסוק בו, אם מצא כי נושא הדיון, הבעיות השנויות במחלוקת, או היקף הראיות הדרושות לבירור הענין אינן מאפשרות דיון מהיר או שמן הצדק להפסיק את הדיון המהיר מבלי לפסוק בו. הופסק הדיון המהיר כאמור – ימשיך בתי הדין האזוריים לדון בתובענה בדרך הרגילה.</p>
+              </content>
+            </point>
+            <point eId="point_31__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>בית דין אזורי רשאי, בהסכמת בעלי הדין, להעביר את הדיון בתובענה כאמור בסעיף קטן (א) לבורר שהסכים לדון בענין בלי לקבל שכר; שופט או נשיא בית דין אזורי או סגנו, או רשם, הכל לפי הענין, רשאים לעשות כן אף בטרם החל הדיון לפני בתי הדין האזוריים; הוראות <ref href="/akn/il/act/PrimaryLegislation/1968-08-09/146927">חוק הבוררות, התשכ"ח–1968</ref>, למעט <ref href="/akn/il/act/PrimaryLegislation/1968-08-09/146927#point_23">סעיפים 23 עד 29</ref><ref href="/akn/il/act/PrimaryLegislation/1968-08-09/146927#point_31">ו־31 עד 35</ref> יחולו על בוררות לפי סעיף זה, ככל שהן נוגעות לענין, אולם –</p>
+                </intro>
+                <point eId="point_31__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כל מקום שנאמר בו ”בית המשפט“ ייקרא כאילו נאמר ”בית דין אזורי לעבודה“;</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דין פסק בורר לפי סעיף קטן זה, פרט לערעור, כדין פסק דין של בית דין אזורי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_31__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_31__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>לענין סעיף זה, ”בית דין אזורי“ – לרבות רשם של בית הדין בענין שבתחום סמכותו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_32">
+          <heading>
+            <authorialNote placement="side">
+              <p>ראיות</p>
+            </authorialNote>
+          </heading>
+          <num>32.</num>
+          <content>
+            <p>בית הדין לא יהיה קשור בדיני הראיות אלא בדיון על פי <ref href="#point_24">סעיפים 24(ב)</ref><ref href="#point_26">ו־26(ב)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_33">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי־הדין</p>
+            </authorialNote>
+          </heading>
+          <num>33.</num>
+          <content>
+            <p>בכל ענין של סדר דין שאין עליו הוראה אחרת בחוק זה או בתקנות לפיו, ינהג בית הדין בדרך הנראית לו טובה ביותר לעשיית משפט צדק.</p>
+          </content>
+        </point>
+        <point eId="point_34">
+          <heading>
+            <authorialNote placement="side">
+              <p>ייצוג</p>
+            </authorialNote>
+          </heading>
+          <num>34.</num>
+          <content>
+            <p>בבית הדין רשאי בעל דין להיות מיוצג על ידי מי שקבע לכך ארגון עובדים או מעסיקים שהמיוצג חבר בו; הייצוג יהיה על פי הרשאה מיוחדת בלבד, ואולם הודעה של המיוצג שנרשמה בפרוטוקול, והאומרת שהוא חבר בארגון עובדים או מעסיקים, לפי הענין, והוא מסכים להיות מיוצג על ידי מי שקבע לכך הארגון, דינה – לענין סעיף זה, כדין הרשאה מיוחדת.</p>
+          </content>
+        </point>
+        <point eId="point_35">
+          <heading>
+            <authorialNote placement="side">
+              <p>פטור ממס בולים</p>
+            </authorialNote>
+          </heading>
+          <num>35.</num>
+          <content>
+            <p>הרשאה, הן לעורך דין והן לאדם אחר, לייצג בעל דין בהליך לפני בית הדין – פטורה ממס בולים ומכל תשלום חובה אחר.</p>
+          </content>
+        </point>
+        <point eId="point_36">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלטת בית הדין</p>
+            </authorialNote>
+          </heading>
+          <num>36.</num>
+          <content>
+            <p>החלטה של בית הדין, ופסק הדין בכלל זה, תינתן בכתב בידי כל אחד מחברי המותב שישבו לדין, ובדן יחיד – בידי השופט שישב לדין.</p>
+          </content>
+        </point>
+        <point eId="point_37">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוצאה לפועל</p>
+            </authorialNote>
+          </heading>
+          <num>37.</num>
+          <content>
+            <p>פסק דין של בית הדין דינו, בכל הנוגע להוצאה לפועל, כדין פסק דין של בית משפט, והוראות <ref href="/akn/il/act/PrimaryLegislation/1967-08-14/147254">חוק ההוצאה לפועל, תשכ"ז–1967</ref>, והתקנות לפיו, יחולו בשינויים המחוייבים.</p>
+          </content>
+        </point>
+        <point eId="point_38">
+          <heading>
+            <authorialNote placement="side">
+              <p>בזיון בית הדין</p>
+            </authorialNote>
+          </heading>
+          <num>38.</num>
+          <content>
+            <p>לשופט יהיו כל הסמכויות על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_בזיון_בית_המשפט#point_5">סעיפים 5 עד 8 לפקודת בזיון בית המשפט</ref>, בשינויים המחוייבים, ולענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_בזיון_בית_המשפט#point_8">סעיף 8 לפקודה</ref> יהיו לבית הדין הארצי, במותב של שלושה שופטים, הסמכויות של בית המשפט העליון.</p>
+          </content>
+        </point>
+        <point eId="point_39">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה והוראות</p>
+            </authorialNote>
+          </heading>
+          <num>39.</num>
+          <content>
+            <p>
+              <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_68">סעיפים 68 עד 81</ref>, <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_82">82(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_82א">ו־82א לחוק בתי המשפט</ref> ותקנות שהותקנו לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_73">סעיף 73 לחוק האמור</ref>, יחולו על בית הדין בשינויים המחוייבים, אלא שסמכות נשיא בית המשפט העליון לפי הסעיפים האמורים, למעט הסמכות לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_72">סעיף 72</ref>, תהיה מסורה לנשיא בית הדין הארצי, ולענין <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_77">סעיף 77 לאותו חוק</ref> יהיה בית הדין מוסמך לדון רק בתובענות שבתחום סמכותו העניינית.</p>
+          </content>
+        </point>
+        <point eId="point_39א">
+          <heading>
+            <authorialNote placement="side">
+              <p>טענת פסלות</p>
+            </authorialNote>
+          </heading>
+          <num>39א.</num>
+          <content>
+            <p>הוראת <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_77א">סעיף 77א לחוק בתי המשפט</ref> תחול בשינויים המחוייבים על השופטים, הרשמים ונציגי הציבור של בית הדין; ערעור כאמור <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_77א">בסעיף 77א(ג)</ref> יהיה לפני בית הדין הארצי, וידון בו נשיא בית הדין הארצי, או מותב של שופטי בית הדין הארצי, או שופט אחד, הכל כפי שיקבע הנשיא.</p>
+          </content>
+        </point>
+        <point eId="point_39ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>משמר בתי המשפט</p>
+            </authorialNote>
+          </heading>
+          <num>39ב.</num>
+          <content>
+            <p>איש משמר בתי המשפט ימלא את תפקידי משמר בתי המשפט לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#chp_ג1">פרק ג׳1 לחוק בתי המשפט</ref> גם לגבי בית הדין, ויהיו נתונות לו לשם כך הסמכויות לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#chp_ג1">הפרק האמור</ref>, בשינויים המחויבים.</p>
+          </content>
+        </point>
+        <point eId="point_40">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>40.</num>
+          <content>
+            <p>תחילתו של חוק זה היא ביום י"ח באלול תשכ"ט (1 בספטמבר 1969).</p>
+          </content>
+        </point>
+        <point eId="point_41">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>41.</num>
+          <content>
+            <p>הליכים שערב תחילתו של חוק זה היו תלויים ועומדים לפני בית משפט, בית הדין לביטוח לאומי, או רשות אחרת שבית הדין בא במקומה מכוח התיקונים <ref href="#appendix_1">שבתוספת הראשונה</ref>, ינהגו בהם כאילו לא נכנס חוק זה לתקפו.</p>
+          </content>
+        </point>
+        <point eId="point_42">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>42.</num>
+          <content>
+            <p>לענין חוק זה דין המדינה כדין כל מעסיק אחר ובית הדין רשאי ליתן סעד נגד המדינה גם בדרך צו מניעה או ביצוע בעין.</p>
+          </content>
+        </point>
+        <point eId="point_43">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>43.</num>
+          <list>
+            <point eId="point_43__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר המשפטים ושר התעשייה המסחר והתעסוקה ממונים על ביצוע חוק זה והם רשאים להתקין תקנות בכל ענין הנוגע לביצועו.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">סמכויות שר התעשייה המסחר והתעסוקה הועברו לשר הרווחה והשירותים החברתיים (י"פ תשע"ז, 1314), ותוארו שונה לשר העבודה הרווחה והשירותים החברתיים (ק"ת תשע"ח, 250).</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_43__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>שר המשפטים רשאי, לאחר התייעצות עם שר התעשייה המסחר והתעסוקה, להתקין תקנות בדבר סדר הדין בבית הדין, לרבות תקנות בדבר ערעורים וכן תקנות בדבר –</p>
+                </intro>
+                <point eId="point_43__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מועדים לישיבות הרגילות של בית הדין;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>פרסום פסקי דין;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אגרות בית דין ופטור מהן;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הטלת הוצאות משפט, הערכתן וקביעת שכר טרחה של עורכי הדין ששופט או רשם רשאים להקציב להם בעד פעולותיהם לפני בית הדין;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>סעד משפטי;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>תשלום לנציגי ציבור;<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1978-01-26/21420">תקנות בית הדין לעבודה (תשלום לנציגי ציבור), התשל"ח–1978</ref>.</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>דמי נסיעה, אוכל ולינה ושכר בטלה של עדים;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>הארכת מועדים לעשיית דבר שבסדרי דין או שבנוהג, אף אם נקבעו בחיקוק;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_9">
+                  <num>(9)</num>
+                  <list>
+                    <intro>
+                      <p>קביעת שיעורי התשלומים שרשאי בית דין או רשם לחייב בהם בעל דין בהליך אזרחי עבור רישום פרוטוקול הדיון, בין ידנית ובין במכשיר הקלטה או באמצעים אחרים (להלן – התשלומים), לרבות –</p>
+                    </intro>
+                    <point eId="point_43__point_ב__point_9__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סוגי ההליכים בהם ניתן להטיל את התשלומים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_43__point_ב__point_9__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>דרכי גביית התשלומים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_43__point_ב__point_9__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מועדי הטלתם של התשלומים, תוך מתן אפשרות להטילם לפני ההליך, במהלכו או עם סיומו וכן לשנות עם סיום ההליך החלטה שניתנה קודם לכן לענין זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_43__point_ב__point_9__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>התחשבות ביכולתו הכספית של בעל הדין;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_43__point_ב__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>קביעת אגרה מיוחדת שתיועד למימון רישום פרוטוקולים כאמור בפסקה (9), ותשולם על ידי בעל דין בדרך שתיקבע בתקנות.</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>בית הדין שתהא נתונה לו הסמכות המקומית לדון בבקשה בעניין פרסום שם חשוד לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_70">סעיף 70(ד1)(2)(א), (ה) או (ה1) לחוק בתי המשפט</ref>, לרבות בקשה כאמור המוגשת לאחר שעות העבודה הרגילות של בית הדין, על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_70א">בסעיף 70א(א) ו־(ב) לחוק בתי המשפט</ref>.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1991-10-24/34164">תקנות בית הדין לעבודה (סדרי דין), התשנ"ב–1991</ref>.</wikicomment><br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1969-08-29/14704">תקנות בית הדין לעבודה (סדר הדין בסכסוך קיבוצי), תשכ"ט–1969</ref>.</wikicomment><br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1977-01-21/20588">תקנות בית הדין לעבודה (סדר הדין בענין שביתה חלקית בלתי מוגנת), התשל"ז–1977</ref>.</wikicomment><br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1991-01-24/33596">תקנות בית הדין לעבודה (סדרי דין במצב חירום מיוחד), התשנ"א–1991</ref>.</wikicomment><br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1984-12-30/28173">תקנות בית הדין לעבודה (פגרות), התשמ"ד–1984</ref>.</wikicomment></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_43__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תקנות לפי סעיף קטן (ב)(9) עד (11) טעונות אישורה של ועדת החוקה, חוק ומשפט של הכנסת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_24">סעיף 24(א)(5)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], תשכ"ח–1968</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_החיילים_המשוחררים_החזרה_לעבודה">בחוק החיילים המשוחררים (החזרה לעבודה), תש"ט–1949</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_שירות_המדינה_גימלאות">בחוק שירות המדינה (גימלאות), תשט"ו–1955</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1959-01-23/148681">בחוק שירות התעסוקה, תשי"ט–1959</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">בחוק הגנת השכר, תשי"ח–1958</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/148170">בחוק ארגון הפיקוח על העבודה, תשי"ד–1954</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1951-05-22/148168">בחוק שעות עבודה ומנוחה, תשי"א–1951</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159646">בחוק שכר שווה לעובדת ולעובד, תשכ"ד–1964</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הגימלאות_לנפגעי_ספר">בחוק הגימלאות לנפגעי ספר, תשי"ז–1956</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התגמולים_לנפגעים_בהצלת_נפש">בחוק התגמולים לנפגעים בהצלת נפש, תשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1951-07-11/147376">בחוק חופשה שנתית, תשי"א–1951</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_שרותי_הכבאות">בחוק שרותי הכבאות, תשי"ט–1959</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שניה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שניה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_24">סעיף 24(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_מחלקת_העבודה">פקודת מחלקת העבודה, 1943</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_תאונות_ומחלות_משלוח_יד_הודעה">פקודת תאונות ומחלות משלוח יד (הודעה), 1945</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה, 1946</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_החיילים_המשוחררים_החזרה_לעבודה">חוק החיילים המשוחררים (החזרה לעבודה), תש"ט–1949</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1951-05-22/148168">חוק שעות עבודה ומנוחה, תשי"א–1951</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1951-07-11/147376">חוק חופשה שנתית, תשי"א–1951</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_איסור_אפיית_לילה">חוק איסור אפיית לילה, תשי"א–1951</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_חמרי_נפץ">חוק חמרי נפץ, תשי"ד–1954</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1953-07-23/147415">חוק החניכות, תשי"ג–1953</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1953-07-23/150257">חוק עבודת הנוער, תשי"ג–1953</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(נמחק)</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1954-08-12/148069">חוק עבודת נשים, תשי"ד–1954</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/148170">חוק ארגון הפיקוח על העבודה, תשי"ד–1954</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">חוק הגנת השכר, תשי"ח–1958</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1959-01-23/148681">חוק שירות התעסוקה, תשי"ט–1959</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), תשי"ט–1959</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_שירות_עבודה_בשעת_חירום">חוק שירות עבודה בשעת חירום, תשכ"ז–1967</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], תשכ"ח–1967</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_המלאכות_והתעשיות_הסדרתן_נפט">תקנות המלאכות והתעשיות (הסדרתן) (נפט) – 1934</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_מס_מקביל">חוק מס מקביל, תשל"ג–1973</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">חוק הסכמים קיבוציים, תשי"ז–1957</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1987-04-09/151459">חוק שכר מינימום, התשמ"ז–1987</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_שיוויון_ההזדמנויות_בעבודה">חוק שיוויון ההזדמנויות בעבודה, התשמ"ח–1988</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_עובדים_זרים_העסקה_שלא_כדין">חוק עובדים זרים (העסקה שלא כדין), התשנ"א–1991</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1994-12-28/156875#chp_ו_sec_א">סימן א׳ לפרק ו׳ לחוק יישום ההסכם בדבר רצועת עזה ואזור יריחו (הסדרים כלכליים והוראות שונות) (תיקוני חקיקה), התשנ"ה–1994</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655">חוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#chp_ד">פרק ד׳ לחוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_8">סעיף 8 לחוק למניעת הטרדה מינית, התשנ"ח–1998</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הוסף בטעות פעם נוספת)</wikicomment>
+                <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">חוק הסכמים קיבוציים, התשי"ז–1957</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942#point_29">סעיף 29 לחוק מידע גנטי, התשס"א–2000</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2001-05-17/170466">חוק הודעה מוקדמת לפיטורים ולהתפטרות, התשס"א–2001</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/2002-07-07/41566">חוק הודעה לעובד ולמועמד לעבודה (תנאי עבודה והליכי מיון וקבלה לעבודה), התשס"ב–2002</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>חוק הגנה על עובדים בשעת חירום (הוראת שעה), התשס"ג–2003 <wikicomment font-size="x-small">(פקע)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2006-08-02/145805">חוק הגנה על עובדים בשעת חירום, התשס"ו–2006</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הגנה_על_עובדים_חשיפת_עבירות_ופגיעה_בטוהר_המידות_או_במינהל_התקין#point_5א">סעיף 5א לחוק הגנה על עובדים (חשיפת עבירות ופגיעה בטוהר המידות או במינהל התקין), התשנ"ז–1997</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_24">סעיפים 24</ref>, <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_31">31</ref>, <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_32">32</ref>, <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_33">33</ref>, <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_35">35</ref>, <ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_36">36</ref><ref href="/akn/il/act/PrimaryLegislation/2011-12-19/275505#point_37">ו־37 לחוק להגברת האכיפה של דיני העבודה, התשע"ב–2011</ref></p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2012-02-27/429735">חוק איסור קבלת ביטחונות מעובד, התשע"ב–2012</ref>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2016-12-29/2007976#chp_ב">פרק ב׳ לחוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2017 ו־2018), התשע"ז–2017</ref>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_18">סעיפים 18(ב)(1) ו־(ה)</ref><ref href="#point_20">ו־20(א1)(1)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>ערעור על החלטה או קביעה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> (בפרט זה – חוק הביטוח הלאומי), כמפורט להלן:</p>
+              </intro>
+              <point eId="appendix_שלישית__point_1__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קביעה של דרגת נכות, דרגת אי־כושר להשתכר, מוגבלות בניידות או רמת תלות, לפי הסכם שנערך לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_9">סעיף 9 לחוק הביטוח הלאומי</ref>;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_1__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטה של ועדה רפואית לעררים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_123">סעיף 123 לחוק הביטוח הלאומי</ref>;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_1__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלטה של ועדה רפואית לעררים, החלטה של ועדה לעררים והחלטה של ועדה לעררים לשירותים מיוחדים, לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_213">סעיף 213 לחוק הביטוח הלאומי</ref>;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_1__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטה של ועדה לעררים לילד נכה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_222">סעיף 222(ד) לחוק הביטוח הלאומי</ref>;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_1__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>החלטה של ועדה לעררים לעניין מצב תפקודי לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_230ב">סעיף 230ב לחוק הביטוח הלאומי</ref>;</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שלישית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>ערעור על החלטה של ועדה רפואית לעררים לפי <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/174461#point_7">סעיף 7 לחוק תגמולים לאסירי ציון ולבני משפחותיהם, התשנ"ב–1992</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>ערעור על החלטה של ועדה רפואית לעררים לפי <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919#point_5">סעיף 5(ד) לחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>ערעור על החלטה של המוסד לביטוח לאומי בדבר תשלום קצבה חודשית לפי <ref href="/akn/il/act/PrimaryLegislation/1992-12-31/157652#point_7א">סעיף 7א לחוק לפיצוי נפגעי עירוי דם (נגיף האיידס), התשנ"ג–1992</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>תובענה לפי <ref href="/akn/il/act/PrimaryLegislation/2001-06-14/170682#point_6">סעיף 6 לחוק המסייעים לנטרול תוצאות אסון צ׳רנוביל, התשס"א–2001</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>ערעור על החלטה של ועדת ערעור לפי <ref href="/akn/il/act/PrimaryLegislation/1954-02-09/147356#point_17">סעיף 17(ה) לחוק חומרי נפץ, התשי"ד–1954</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>ערעור על החלטה של ועדה רפואית לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-04/164086#point_14">סעיף 14(ב) לחוק לפיצוי נפגעי גזזת, התשנ"ד–1994</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>תובענה לפי <ref href="/akn/il/act/PrimaryLegislation/2012-11-15/318214#point_5">סעיף 5 לחוק שירותי רווחה (זכויות נשים ששהו במקלט לנשים מוכות), התשע"ג–2012</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_רביעית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת רביעית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_18">סעיפים 18(ד) ו־(ו)</ref><ref href="#point_20">ו־20(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_רביעית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>לבדוק אם כתבי הטענות ערוכים כדין;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>להתיר תיקון כתבי טענות או להורות על כך;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>לערוך רשימת הפלוגתות;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>לקבוע את שלבי הדיון בתובענה ואת הסדר שבו יתבררו שאלות שבעובדה ושבמשפט;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>ליתן צווים לעיקול נכסים או לעיכוב יציאה מן הארץ;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>ליתן פסק דין במעמד צד אחד בתובענה שנתבע אינו מתגונן בה או ליתן החלטה במעמד צד אחד בבקשה שמשיב אינו משיב לה, כנגד אותו נתבע או משיב, למעט בהליך של סכסוך קיבוצי, וכן לבטל פסק דין או החלטה שניתנו כאמור;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>ליתן פסק דין במעמד צד אחד למחיקת תובענה או בקשה כשהתובע או המבקש אינו מתייצב לדיון, למעט בהליך של סכסוך קיבוצי;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>למחוק תובענה או בקשה, על פי בקשת התובע או המבקש;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>ליתן פסק דין בנוסח מוסכם אם הסכימו בעלי הדין למתן פסק דין כאמור, אף אם הסכימו בעלי הדין לגופו של עניין בלבד ולא על סכום הוצאות המשפט, וכן ליתן, לבקשת בעלי הדין, תוקף של פסק דין להסדר פשרה שעשו ביניהם;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>להאריך, מטעמים מיוחדים שיירשמו, מועד או זמן שנקבע בחיקוק או להאריך מועד שקבע בית הדין או רשם, לעשיית דבר שבסדר דין או שבנוהג;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>להעביר הליך לבית דין אחר, אם מצא שאין הוא יכול לדון בו מחמת שאינו בסמכותו המקומית;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>לדון ולהחליט בבקשה לעיכוב ביצוע של פסק דין, למעט בהליך של סכסוך קיבוצי;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>להורות כל הוראה לסדר הדין שיש בה כדי לפשט את הדיון או להקל עליו;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>לדון ולהחליט בבקשות שהוגשו עד לתחילת שלב ההוכחות בהליך, בעניינים שאינם מנויים <ref href="#appendix_4">בתוספת זו</ref>, למעט בהליך של סכסוך קיבוצי ובבקשות לדחייה על הסף;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>נוסף על האמור <ref href="#appendix_4_פרט_5">בפרט (5)</ref>, לדון ולהחליט בבקשות למתן סעד זמני, עד לתחילת שלב ההוכחות בדיון בבקשה למתן סעד זמני, למעט בהליך של סכסוך קיבוצי;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>להפעיל סמכות או למלא תפקיד הנתונים לרשם בית דין לפי <ref href="#point_27">סעיף 27(א)</ref>, ושאינם מנויים <ref href="#appendix_4_פרט_1">בפרטים (1) עד (15)</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_חמישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת חמישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_27">סעיף 27(ב)(1) ו־(ב3)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_חמישית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">חוק הגנת השכר, התשי"ח–1958</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1951-05-22/148168">חוק שעות עבודה ומנוחה, התשי"א–1951</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1951-07-11/147376">חוק חופשה שנתית, התשי"א–1951</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1963-08-16/148301">חוק פיצויי פיטורים, התשכ"ג–1963</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1987-04-09/151459">חוק שכר מינימום, התשמ"ז–1987</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219">חוק דמי מחלה, התשל"ו–1976</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163631">חוק דמי מחלה (היעדרות בשל מחלת בן זוג), התשנ"ח–1998</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1993-12-09/154744">חוק דמי מחלה (היעדרות בשל מחלת הורה), התשנ"ד–1993</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1993-07-22/154025">חוק דמי מחלה (היעדרות בשל מחלת ילד), התשנ"ג–1993</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_דמי_מחלה_היעדרות_עקב_היריון_ולידה_של_בת_זוג">חוק דמי מחלה (היעדרות עקב היריון ולידה של בת זוג), התש"ס–2000</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2001-05-17/170466">חוק הודעה מוקדמת לפיטורים ולהתפטרות, התשס"א–2001</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בדבר תשלום דמי הבראה;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בדבר השתתפות מעסיק בהוצאות נסיעה לעבודה וממנה;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בדבר תשלום תוספת יוקר;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בדבר דמי חגים;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בדבר ימי אבל;</p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>הסכם קיבוצי או צו הרחבה של הסכם קיבוצי כללי או כללי–ענפי בעניין פנסיה.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="גולדה_מאיר">גולדה מאיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יעקב_ש._שפירא">יעקב ש. שפירא</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יוסף_אלמוגי">יוסף אלמוגי</person>
+            <role refersTo="שר_העבודה">שר העבודה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שניאור_זלמן_שזר">שניאור זלמן שזר</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

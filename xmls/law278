@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248" />
+          <FRBRdate date="1970-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248/he@" />
+          <FRBRdate date="1970-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1970-08-13/2002248/he@" />
+          <FRBRdate date="1970-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1970-08-13" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="יעקב_ש׳_שפירא" href="/ontology/person/יעקב_ש׳_שפירא" showAs="יעקב ש׳ שפירא" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הסדרי משפט ומינהל [נוסח משולב], תש"ל–1970</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>בחוק זה, ”צו החלת המשפט“ – צו לפי <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_11ב">סעיף 11ב לפקודת סדרי השלטון והמשפט, תש"ח–1948</ref>.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">ביום 28.6.1967 פורסם ”צו החלת המשפט“ – <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו סדרי השלטון והמשפט (מס׳ 1), תשכ"ז–1967</ref> (ק"ת תשכ"ז, 2690).</wikicomment></p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>המקומות הקדושים</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>המקומות הקדושים הנמצאים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לא יחול עליהם, מיום תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref>, <ref href="/akn/il/act/PrimaryLegislation/1950-03-20/150181">חוק נכסי נפקדים, תש"י–1950</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־נפקדות</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אדם שביום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> נמצא בשטח תחולתו והיה תושב בו, לא יראוהו מאותו יום כנפקד כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1950-03-20/150181">בחוק נכסי נפקדים, תש"י–1950</ref>, לגבי נכס הנמצא באותו שטח.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לענין סעיף זה, אין נפקא מינה אם לאחר תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> נמצא אותו אדם לפי היתר חוקי במקום שהימצאותו בו היתה עושה אותו נפקד אילולא הוראה זו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>טענת אויבות</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>אדם שהוא תושב בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לא יזדקק בית משפט או בית דין בענין אזרחי לטענה שהוא אויב או נתין אויב, אלא אם נטענה הטענה על־ידי היועץ המשפטי לממשלה או בהסכמתו בכתב.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>שחרור מקרקעין</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מקרקעין הנמצאים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, וערב היום שבו עבר השטח להחזקת צבא־הגנה לישראל הם היו מוקנים לאדם אשר שלטונות המדינה שהשטח היה תפוס בידיה למעשה מינו אותו לממונה על רכוש האויב או לבעל תפקיד או תואר דומה, או היו מוקנים לרשות מרשויותיה של אותה מדינה או לגוף שבשליטתה אשר אותו אדם העבירם להם או שהיו אותה שעה בהחזקתם או בניהולם של אדם, גוף או רשות כאמור – מוקנים מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> לאפוטרופוס הכללי שיעשה בהם כאמור להלן בסעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(לא חל על נכס מקרקעין):</wikicomment> האפוטרופוס הכללי ישחרר, בתעודה חתומה בידו, את המקרקעין למי שהיה בעלם לפני שהוקנו לאדם כאמור בסעיף קטן (א) או לפני שאותו אדם התחיל להחזיק בהם או לנהלם, לפי הענין, או לחליפו של אותו בעל, לפי בקשתם; כל עוד לא שוחררו המקרקעין, יעשה בהם האפוטרופוס הכללי כפי שהוא רשאי לעשות בנכס עזוב שלגביו ניתן לו צו ניהול לפי <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_6">סעיף 6(א) לחוק האפוטרופוס הכללי, תשל"ח–1978</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_15">סעיף 15(ג4) ו־(ד) לחוק האמור</ref> יחולו.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">(לעניין נכס מקרקעין):</wikicomment> האפוטרופוס הכללי ישחרר, בתעודה חתומה בידו, את המקרקעין למי שהיה בעלם לפני שהוקנו לאדם כאמור בסעיף קטן (א) או לפני שאותו אדם התחיל להחזיק בהם או לנהלם, לפי הענין, או לחליפו של אותו בעל, לפי בקשתם; כל עוד לא שוחררו המקרקעין, יעשה בהם האפוטרופוס הכללי כפי שהוא רשאי לעשות בנכס עזוב שלגביו ניתן לו צו ניהול לפי <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_6">סעיף 6(א) לחוק האפוטרופוס הכללי, תשל"ח–1978</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_15">סעיף 15(ג) ו־(ד) לחוק האמור</ref> יחולו.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נרכשו המקרקעין לצרכי ציבור לפי כל חוק לאחר תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> ובטרם שוחררו, ישולמו הפיצויים המגיעים לפי אותו חוק בעד הרכישה לידי האפוטרופוס הכללי שיעשה בהם, בשינויים המחוייבים, בהתאם לסעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>מקרקעין הנמצאים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, ובזמן מן הזמנים בין הקמת המדינה לבין היום שבו עבר השטח להחזקת צבא־הגנה לישראל היו מוקנים לאדם כאמור בסעיף קטן (א), או היו בהחזקתו או בניהולו, יהיו לנכסי המדינה מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, אם נתמלא בהם אחד מאלה:</p>
+                </intro>
+                <point eId="point_5__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לפני היום שבו עבר השטח להחזקת צבא־הגנה לישראל נרכשו לצרכי ציבור לפי הדין שהיה חל על השטח אותה שעה או הוחל בהליכים לרכישתם כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בתקופה שבין הקנייתם לאדם כאמור בסעיף קטן (א), תחילת ההחזקה בהם בידיו או הניהול בידיו לבין תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, הוחל להקים או הוקם עליהם בנין או מיתקן המיועדים לשמש לצרכי ציבור – למעט בנין או מיתקן ארעיים בלבד – או בוצעו והושלמו בהם עבודות אחרות שהכשירום לשימוש לצרכי ציבור;</p>
+                  </content>
+                </point>
+                <wrapup eId="point_5__point_ד__wrapup_none">
+                  <content>
+                    <p>ושר האוצר אישר שביום תחילתו של חוק הסדרי משפט ומינהל (תיקון), תשל"ג–1973 (בסעיף זה – היום הקובע), עדיין נועדו לשמש לצרכי ציבור שפורטו באישורו של שר האוצר.</p>
+                  </content>
+                </wrapup>
+              </list>
+            </point>
+            <point eId="point_5__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>אישר שר האוצר שחלק מסויים בלבד מהמקרקעין כאמור בסעיף קטן (ד) נועד ביום הקובע לשמש לצרכי ציבור ולפי הדין שחל על אותם המקרקעין ניתן להפריד אותו חלק מיתרת השטח של המקרקעין לצרכי רישום בפנקסי המקרקעין תבוצע ההפרדה בהתאם לאותו דין, וסעיף קטן (ד) יחול על אותו חלק מהמקרקעין בלבד שלגביו ניתן האישור של שר האוצר.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>היו מקרקעין לנכס המדינה לפי סעיף זה, ואחרי היום הקובע שונה יעודם והם או חלק מסויים שלהם (להלן בסעיף זה – החלק) אינם משמשים עוד את צרכי הציבור המפורטים באישור של שר האוצר (להלן בסעיף זה – שינוי היעוד), רשאי מי שהיה זכאי למקרקעין אילולא האמור בסעיף קטן (ד) (להלן בסעיף זה – הזכאי), לקנות את המקרקעין או את החלק, הכל לפי הענין, במחיר שלא יעלה על הפיצויים ששולמו בעדם לפי סעיף זה או על החלק היחסי שלהם ששולמו בעד החלק, בצירוף שוויה של כל השבחה במקרקעין או בחלק הנובעת מביצועה של המטרה הציבורית ששימשו אותה; הוראה זו לא תחול על חלק מסויים ממקרקעין שלא ניתן להפרידו מיתרת המקרקעין לצרכי רישום בפנקסי המקרקעין.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>על בעל המקרקעין כאמור בסעיף קטן (ו) להודיע בכתב לזכאי על שינוי היעוד ולפרט בהודעה את ברירת הקניה של הזכאי לפי סעיף זה, ואם ברצונו של הזכאי לקנות את המקרקעין או את החלק, עליו להודיע לבעל המקרקעין בכתב על הקניה לפני תום 60 יום מהיום שבו הומצאה לו הודעת בעל המקרקעין לפי סעיף קטן זה או שבו נודע לו בדרך אחרת על שינוי היעוד, הכל לפי המוקדם.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>הודיע הזכאי, לפי סעיף זה, שהוא קונה את המקרקעין, רשאי בעל המקרקעין לדרוש ממנו בכתב שיפקיד את מחיר המקרקעין או החלק בידי הרשם של לשכת רישום המקרקעין תוך ששה חדשים מיום המצאת הדרישה; לא הופקד תוך אותו מועד, בטלה הקניה; הופקד תוך המועד האמור, ירשום הרשם את המקרקעין, או את החלק, אחרי ביצוע ההפרדה, על שם הזכאי בד בבד עם תשלום הפקדון לידי המוכר.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>באין הסכם בין בעל המקרקעין לבין הזכאי על מחיר המקרקעין או החלק, יכריע בית המשפט; בחישוב התקופה של ששה חדשים להפקדת המחיר לא תבוא במנין התקופה שבה היתה עומדת ותלויה בבית המשפט תביעה לקביעת המחיר, עד שפסק דינו של בית המשפט נעשה חלוט.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_י">
+              <num>(י)</num>
+              <content>
+                <p>מקרקעין שהיו לנכסי המדינה לפי סעיף קטן (ד), יחושבו הפיצויים בעדם לפי שוויים ביום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, או ביום כ"ט באב תשכ"ח (23 באוגוסט 1968), הכל לפי המאוחר; ואם נתמלאו במקרקעין התנאים המפורטים בפסקה (2) לסעיף קטן (ד) – לא יבוא בחשבון הפיצויים שוויים של הבנין או המיתקן או ההשבחה עקב העבודות שמדובר בהם באותה פסקה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברות – המשך פעולות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <content>
+            <p>חברה שערב תחילת חוק זה או ערב תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לפי המאוחר יותר, היה לה מקום עסקים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> והיא נוסדה על־פי הדין שהיה מוטל על אותו שטח בעת ייסודה, רשאית, על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">בפקודת החברות</ref> או <ref href="/akn/il/act/PrimaryLegislation/1950-03-20/150181">בחוק נכסי נפקדים, תש"י–1950</ref>, להמשיך בפעולותיה עד תום ששה חדשים מיום תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מיום תחילת חוק זה או עד שהחליט בית המשפט בבקשה שהוגשה לפי <ref href="#point_9">סעיף 9</ref><ref href="#point_10">או 10</ref>, הכל לפי המאוחר יותר.</p>
+          </content>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברות – אי־נפקדות של מנהל או חבר</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>מנהל או חבר של חברה כאמור <ref href="#point_6">בסעיף 6</ref> שרואים אותו לפי חוק זה כאדם שאינו נפקד לגבי נכסיו, יראוהו כאדם שאינו נפקד גם לגבי נכסי החברה, לגבי זכויותיו כמנהל או כחבר בחברה או לגבי פעולות החברה לפי <ref href="#point_6">הסעיפים 6</ref>, <ref href="#point_8">8</ref>, <ref href="#point_9">9</ref><ref href="#point_10">או 10</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברות – רישום שעבודים</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>חברה כאמור <ref href="#point_6">בסעיף 6</ref> שנתנה משכון או שעבוד על נכסיה, יחולו עליה הוראות <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#point_127">סעיף 127 לפקודת החברות</ref> בדבר רישום המשכון או השעבוד.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברות – העברת נכסים והתחייבויות לפי סידור</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חברה כאמור <ref href="#point_6">בסעיף 6</ref>, שתוך ששה חדשים מיום תחילת חוק זה או מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לפי המאוחר יותר, באה לידי סידור עם חברה שנרשמה בישראל ולמטרה זו על־ידי חברי החברה האמורה <ref href="#point_6">בסעיף 6</ref>, כולם או מקצתם, או עם חברה אחרת הרשומה בישראל, להעביר לידיה את נכסיה והתחייבויותיה, רשאית החברה שעמה נעשה הסידור לפנות, תוך שלושה חדשים מיום הסידור, לבית המשפט המחוזי בירושלים בבקשה בדרך המרצה ליתן צו המאשר את הסידור.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הודעה על הגשת בקשה לפי סעיף קטן (א) ועל מועד שמיעתה תפורסם בנוסח שקבע בית המשפט.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על סידור לפי סעיף זה יחולו <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#point_119א">סעיפים קטנים (3), (4), (6), (7), (8), (10) ו־(12) לסעיף 119א לפקודת החברות</ref>, בשינויים המחוייבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפיכת חברה לחברה ישראלית</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>חברה כאמור <ref href="#point_6">בסעיף 6</ref>, שמקום עסקיה היחיד הוא בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> וכל מנהליה וחבריה הם תושבי אותו שטח, רשאית, תוך ששה חדשים מיום תחילת חוק זה או מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref>, לפי המאוחר יותר, לפנות לבית המשפט המחוזי בירושלים בבקשה בדרך המרצה ליתן צו ההופך אותה לחברה ישראלית, ובית המשפט רשאי ליתן את הצו בתנאים שייראו לו, לרבות תנאים בדבר הגשת מסמכים לרשם החברות.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברות – רישום והעברת נכסים והתחייבויות על פי צו</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_11__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חברה אשר ערב תחילת חוק זה או ערב תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לפי המאוחר יותר, היה לה משרד רשום או מקום עסקים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref>, והיא נוסדה על פי הדין שהיה מוטל על השטח בעת ייסודה ולא פעלה לפי <ref href="#point_9">סעיפים 9</ref><ref href="#point_10">או 10</ref> עד ליום ט׳ באייר תשכ"ט (27 באפריל 1969) – רשאי שר המשפטים להורות בצו על רישומה בישראל לפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref> מן היום שקבע השר בצו; ורשאי הוא להוסיף וליתן בצו כל הוראה בענין רישומה של החברה, מוסדותיה בעת הרישום והמשך פעולתה לאחר הרישום, ובכלל זה הוראה בענין דרך רישומה, צורת התאגדותה כחברה לפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref>, מען משרדה הרשום, מועדים לענינים שהיא חייבת לפעול בהם לפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref> והנהלתה אם אין לחברה, בעת הרישום, חברי דירקטוריון, או מנהלי עסקים כנדרש על פי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref> או על פי מסמכי התאגדותה.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הורה שר המשפטים כאמור, ירשום רשם החברות את החברה בהתאם לצו, ורשם החברות והחברה יפעלו בהתאם לכל הוראה שניתנה בצו; לענין כל דין ועל אף האמור בתזכיר החברה ותקנותיה, יראו את הענינים שעליהם הורה השר – כהחלטות תקפות של החברה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>צו לפי סעיף קטן (א) יפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>רשם החברות רשאי לדרוש מחברה שחל עליה סעיף קטן (א) וממי ששימש בה חבר דירקטוריון או מנהל עסקים ערב מתן הצו לפי סעיף קטן (א), או ממי שנקבע כחבר דירקטוריון או מנהל עסקים מכוח אותו צו, כי יגישו לו העתק מקויים של התזכיר ושל תקנות ההתאגדות של החברה וימסרו לו פרטים ומסמכים נוספים בדבר החברה, אשר לפי הדין היא חייבת לרשום בספריה, לדווח עליהם או להגישם לרשם החברות.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>נכסיה והתחייבויותיה של חברה לפני שנרשמה לפי סעיף קטן (א) יהיו לנכסיה והתחייבויותיה משנרשמה; והוא אם בית המשפט המחוזי בירושלים לא קבע אחרת, משנתבקש לכך על ידי אדם שיש לו ענין בדבר או על ידי היועץ המשפטי לממשלה, כדי להגן על מי שהיה לפני הרישום או אחריו בעל זכויות בחברה, נושה שלה או מועסק אצלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>חברה שנרשמה על פי צו ולא מסרה תזכיר ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <intro>
+              <p>חברה שנרשמה לפי <ref href="#point_11">סעיף 11(א)</ref> וטרם הגישה לרשם החברות העתק מקויים של התזכיר ושל התקנות כנדרש <ref href="#point_11">בסעיף 11(ג)</ref>, יחולו עליה הוראות אלה:</p>
+            </intro>
+            <point eId="point_12__point_1">
+              <num>(1)</num>
+              <content>
+                <p>ניהלה החברה, בעת הרישום, עסקים מסוג מסויים בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, יראו סוג עסקים זה, ואותו בלבד, כמצוי בתחום מטרותיה;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_2">
+              <num>(2)</num>
+              <content>
+                <p>כל עוד לא הגישה תקנותיה לרשם החברות, יראו את התקנות <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#appendix_3">שבתוספת השלישית לפקודת החברות</ref> כתקנותיה, והוא – אם שר המשפטים לא הורה אחרת בצו;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_3">
+              <num>(3)</num>
+              <content>
+                <p>על אף האמור בפסקאות (1) ו־(2) רשאי שר המשפטים להגדיר בצו מה הן מטרותיה של חברה כאמור, והגדרה זו תהא בתקפה כל עוד לא הגישה תזכיר ותקנות כנדרש <ref href="#point_11">בסעיף 11(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>אישור השר</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>שר המשפטים, או מי שהשר הסמיכו לכך, רשאי ליתן אישור בכתב בדבר מטרותיה של החברה ובדבר כל ענין אחר הנובע מצו שניתן לפי <ref href="#point_11">סעיף 11</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>שותפויות</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>הוראות <ref href="#point_6">סעיפים 6 עד 13</ref>, בשינויים המחוייבים, יחולו גם על שותפויות.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>אגודות שיתופיות – המשך פעולות</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אגודה שיתופית, שערב תחילת חוק זה או ערב תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, לפי המאוחר יותר, היה מקום פעולותיה בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref>, והיא נוסדה על פי הדין שהיה מוטל על אותו שטח בעת ייסודה, רשאית, על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">בפקודת האגודות השיתופיות</ref> או <ref href="/akn/il/act/PrimaryLegislation/1950-03-20/150181">בחוק נכסי נפקדים, תש"י–1950</ref>, להמשיך בפעולותיה עד תום ששה חדשים מיום תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מיום תחילת חוק זה או עד שהחליט בית המשפט בבקשה שהוגשה לפי <ref href="#point_16">סעיף 16(ב)</ref>, הכל לפי המאוחר יותר.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות <ref href="#point_7">סעיפים 7</ref><ref href="#point_8">ו־8</ref>, בשינויים המחוייבים, יחולו גם על אגודה שיתופית כאמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>אגודות שיתופיות, רישום והעברת נכסים והתחייבויות</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר העבודה רשאי לקבוע בצו כללי או מיוחד, הוראות בדבר רישומה של אגודה שיתופית שתבוא במקום אגודה כאמור <ref href="#point_15">בסעיף 15</ref>, לרבות קביעת תקנותיה, חבריה ורשויותיה; אגודה שנרשמה על־פי צו כאמור, יראוה לכל דבר כאילו נרשמה לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">פקודת האגודות השיתופיות</ref>, ובכל ענין שלא נקבעו לו הוראות בצו, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">הפקודה</ref> והתקנות לפיה.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רשם האגודות השיתופיות יסדיר העברת נכסיה והתחייבויותיה של האגודה כאמור <ref href="#point_15">בסעיף 15</ref> לאגודה שנרשמה לפי סעיף קטן (א), ויפנה לבית המשפט המחוזי בירושלים בבקשה בדרך המרצה ליתן צו המאשר את הסידור; הוראות <ref href="#point_9">סעיף 9(ב) ו־(ג)</ref>, בשינויים המחוייבים, יחולו גם לענין סעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>פעולה כאמור בסעיף זה, כוחה יפה גם אם נעשתה לפני תחילת חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפיכת אגודה לאגודה ישראלית</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>שר העבודה רשאי לקבוע, בצו כללי או מיוחד, הוראות בדבר הפיכת אגודה כאמור <ref href="#point_15">בסעיף 15</ref> לאגודה שיתופית ישראלית, אם כל חברי האגודה וחברי הנהלתה הם תושבי שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>רשיונות עיסוק – המשך עד רישוי ישראלי</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תושב של שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, שסמוך לפני תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> עסק במקצוע, במלאכה או בעיסוק אחר לפי הדין שהיה מוטל על אותו שטח, והעיסוק טעון רשיון לפי חיקוק ישראלי, רשאי להמשיך בעיסוקו עד תום ששה חדשים מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מיום תחילת חוק זה או עד שהוחלט בבקשתו לקבלת רשיון לפי החיקוק הישראלי, הכל לפי המאוחר יותר.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מותר יהיה לתת רשיון לתושב כאמור בסעיף קטן (א) אף אם לא נתקיים בו תנאי מתנאי הכשירות האישית שנקבעו בחיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היה מתן הרשיון מותנה לפי החיקוק בתנאים הנוגעים למקום העיסוק, רשאי השר הממונה על ביצוע החיקוק להתקין תקנות שיהיו בהן הקלות, אם לזמן מסויים ואם בדרך אחרת, לענין מקום העיסוק שלפני תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>; כל עוד לא הותקנו תקנות כאמור, רשאית הרשות המוסמכת ליתן את הרשיון לתת הקלות כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>סעיף זה לא יחול על רשיון לפי <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483">חוק כלי היריה, תש"ט–1949</ref>, או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_חמרי_נפץ">חוק חמרי נפץ, תשי"ד–1954</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>רשיונות עיסוק – רישוי על פי צו</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <list>
+            <point eId="point_19__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תושב של שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> אשר בסמוך לפני תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> עסק במקצוע, במלאכה או בעיסוק אחר לפי הדין שהיה מוטל על אותו שטח, והעיסוק טעון רשיון על פי חיקוק ישראלי, והוא טרם קיבל רשיון כאמור, רשאי השר הממונה על ביצוע החיקוק הישראלי להורות, בצו, כי יראו את התושב כבעל רשיון מן היום שקבע השר בצו.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מי שצו לפי סעיף קטן (א) חל עליו, רואים אותו לכל ענין כמי שקיבל רשיון מכוח החיקוק הישראלי החל על המקצוע, המלאכה או העיסוק האחר.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>צו לפי סעיף קטן (א) יפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>השר הממונה על ביצוע החיקוק האמור או מי שהשר הסמיכו לכך, רשאי לדרוש מתושב שחל עליו סעיף קטן (א) כי ימסור על עצמו או על כשירותו פרטים שניתן לדרוש אותם לפי אותו חיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות סעיף זה באות להוסיף על הוראות <ref href="#point_18">סעיף 18</ref> ולא לגרוע מהן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>עורכי־דין</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תושב של שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> שערב היום שבו עבר השטח להחזקת צבא־הגנה לישראל כיהן כשופט בבית משפט אזרחי או כעורך־דין באותו שטח או בכל חלק של ארץ ישראל שלא נקבע בצו כאמור, יהיה לחבר לשכת עורכי־הדין מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מיום תחילת חוק זה, לפי המאוחר יותר.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר המשפטים יפרסם ברשומות את שמותיהם של האנשים שסעיף קטן (א) חל עליהם.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שר המשפטים רשאי לקבוע בתקנות תנאים, לרבות הקלות, לקבלת חברות בלשכת עורכי־דין בשביל תושב ישראל שהיה תושב של שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> ערב תחילתו והיה כשיר להיות עורך־דין אך לא עסק במקצוע עריכת דין, או התמחה בעריכת דין בשטח כאמור וטרם השלים את תקופת התמחותו.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>שר המשפטים רשאי לקבוע בתקנות תנאים, לרבות הקלות, לקבלת חברות בלשכת עורכי־הדין בשביל תושב ישראל שכיהן, בכל עת שלפני תחילתו של חוק זה, כשופט של בית משפט אזרחי בכל חלק של ארץ־ישראל שלא נקבע <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">בצו החלת המשפט</ref> או שהיה שם עורך־דין.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מי שנהיה לחבר לשכת עורכי־הדין לפי סעיף זה, יהיו לו כל הזכויות ויחולו עליו כל החובות של חבר הלשכה לפי <ref href="/akn/il/act/PrimaryLegislation/1961-06-22/148084">חוק לשכת עורכי הדין, תשכ"א–1961</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>מי שנהיה לחבר לשכת עורכי־הדין על־פי סעיף זה, רואים לצורך כל חיקוק גם את תקופת עיסוקו הקודמת בשפיטה או בעריכת דין כאמור בסעיפים קטנים (א) או (ד), כתקופה שבה עסק בישראל בשפיטה או בעריכת דין, לפי הענין; סעיף קטן זה אינו גורע מן הסמכויות לפי סעיפים קטנים (ג) או (ד).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>רישום זכויות בפטנטים ומדגמים</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <list>
+            <point eId="point_21__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מי שביום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> היתה לו בשטח תחולתו זכות רשומה בפטנט, במדגם או בסימן מסחר, או שביקש לפני אותו יום לרשום לו זכות כאמור, רשאי לבקש, תוך ששה חדשים מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מיום תחילת חוק זה, לפי המאוחר יותר, לרשום את זכותו על פי הדין הישראלי, ויראו כאילו הגיש את הבקשה לרישום הזכות על־פי הדין הישראלי ביום שבו הגיש לראשונה את בקשתו לרישום אותה זכות.</p>
+              </content>
+            </point>
+            <point eId="point_21__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רישום פטנט לפי סעיף קטן (א) לא יגרע מתקפו של פטנט שנרשם בישראל לפי בקשה שהוגשה לפני תחילת <ref href="/akn/il/act/PrimaryLegislation/1967-08-17/148340">חוק הפטנטים, תשכ"ז–1967</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>פעולות בניה</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הושלמה בניית יסודותיו של בנין בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> על־פי היתר בניה שניתן על־פי הדין שהיה מוטל על אותו שטח לפני תחילת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref>, ומסר בעל ההיתר תוך שנה מתחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> או מתחילת חוק זה, לפי המאוחר יותר, הודעה לועדה המחוזית לתכנון ולבניה על רצונו להמשיך בפעולות הבניה, זכאי הוא לקבל היתר בניה לפי הדין הישראלי.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הועדה המחוזית לתכנון ולבניה רשאית, תוך שלושה חדשים ממתן ההיתר לפי סעיף קטן (א), ולאחר שנתנה לבעל ההיתר הזדמנות סבירה לטעון טענותיו, לתקן את ההיתר, לשנותו, לקבוע בו תנאים, לרבות הקלות, או לבטלו, הכל מהטעמים שלפיהם רשאית היא לעשות כאמור לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבניה, תשכ"ה–1965</ref>; ורשאית היא להתלות את ההיתר עד תום שלושה חדשים מהיום שניתן או עד להחלטתה לפי סעיף קטן זה, לפי המוקדם יותר.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היתר לפי סעיף קטן (א) פטור מתשלום אגרה; הוחל בבניית יסודותיו של בנין כאמור בסעיף קטן (א) אך לא הושלמה בניית יסודותיו לפני תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref>, והוגשה בקשה להיתר בניה לפי הדין הישראלי, רשאית הועדה המחוזית לתכנון ולבניה לפטור את ההיתר מתשלום אגרה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי עובדי ציבור</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <content>
+            <p>ראש הממשלה רשאי לפטור בתקנות, לזמן מסויים או בדרך אחרת, בני־אדם שהם תושבים של שטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> מהוראת כל חוק המתנה מינוי למשרה של עובד ציבור באזרחותו הישראלית של המועמד, ורשאי הוא לענין זה לקבוע הוראות שונות לגבי סוגים שונים של עובדי ציבור.</p>
+          </content>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקף היתר רשיון ורישום</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <content>
+            <p>רשיון או היתר שניתנו, או רישום שנעשה, מכוחו של חוק זה, אין עוררין על תקפו.</p>
+          </content>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>רציפות משפטים וכו׳</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <list>
+            <intro>
+              <p>שר המשפטים רשאי לקבוע בתקנות, אם בדרך כלל ואם לסוג מסויים של ענינים, הוראות בדבר –</p>
+            </intro>
+            <point eId="point_25__point_1">
+              <num>(1)</num>
+              <content>
+                <p>סמכותם הענינית והמקומית של בתי משפט לדון בכל ענין פלילי או אזרחי בקשר לכל מעשה, מחדל או אירוע שחל בשטח תחולתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> בכל עת שלפני תחילתו, לרבות הדיון במשפטים שהיו תלויים ועומדים בבתי המשפט שפעלו באותו שטח והערעור על פסקי־דין שניתנו על ידיהם, וסדרי הדין בענינים אלה;</p>
+              </content>
+            </point>
+            <point eId="point_25__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אכיפתם על ידי בתי המשפט של פסקי דין סופיים ושל צווים והחלטות אחרות שניתנו בענין פלילי או אזרחי בכל עת שלפני תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> על־ידי בתי המשפט שפעלו בשטח תחולתו, וביצועם של פסקי־דין, צווים והחלטות כאמור על־ידי משרדי ההוצאה לפועל ורשויות אחרות;</p>
+              </content>
+            </point>
+            <point eId="point_25__point_3">
+              <num>(3)</num>
+              <content>
+                <p>הכרה ואישור של מסמכים שהוצאו או אושרו בכל עת שלפני תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> על ידי רשות מן הרשויות שפעלו בשטח תחולתו.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הסדרי_משפט_ומינהל_רציפות_הליכים_אזרחיים_אכיפת_פסקים_והכרה_במסמכים">תקנות הסדרי משפט ומינהל (רציפות הליכים אזרחיים, אכיפת פסקים והכרה במסמכים), תשכ"ט–1968</ref>.</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולת חוק נכסי המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <content>
+            <p>מיום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> יחול <ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179#point_2">סעיף 2 לחוק נכסי המדינה, תשי"א–1951</ref>, בשינויים המחוייבים לפי הענין, על נכס של המדינה או של רשות מרשויותיה, אשר שטח תחולת <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> היה תפוס בידיה למעשה והנכס נמצא באותו שטח; הוראה זו לא תחול על מקרקעין שבזמן מן הזמנים בין הקמת המדינה לבין היום שבו עבר השטח להחזקת צבא־הגנה לישראל היו מוקנים לאדם כאמור <ref href="#point_5">בסעיף 5(א)</ref>, או היו בהחזקתו או בניהולו, וינהגו במקרקעין אלה כאמור <ref href="#point_5">בסעיף 5</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת תקפן של הוראות מסויימות</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <content>
+            <p>כשתפורסם ברשומות הכרזה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_יסוד_הממשלה#point_38">סעיף 9(ד) לפקודת סדרי השלטון והמשפט, תש"ח–1948</ref>, כי חדל מצב החירום במדינה יחדל תקפם של <ref href="#point_11">סעיפים 11</ref>, <ref href="#point_12">12</ref>, <ref href="#point_13">13</ref>, <ref href="#point_19">19</ref>, <ref href="#point_20">20(ו)</ref>, <ref href="#point_24">24</ref><ref href="#point_26">ו־26</ref>, ובמקום המלים <ref href="#point_20">בסעיף 20(א)</ref> ”כיהן כשופט בבית משפט אזרחי או כעורך־דין באותו שטח או בכל חלק של ארץ ישראל שלא נקבע בצו כאמור“ יבוא ”כיהן באותו שטח כשופט בבית משפט אזרחי או היה בו עורך־דין“.</p>
+          </content>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <list>
+            <point eId="point_28__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היתה תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">צו החלת המשפט</ref> לפני תחילת חוק זה, יחול <ref href="#point_3">סעיף 3</ref> גם על אדם שביום תחילתו של <ref href="/akn/il/act/SecondaryLegislation/1967-06-28/12816">הצו</ref> היה תושב בשטח תחולתו אך נעדר ממנו, ובלבד שביום תחילת חוק זה נמצא בו כחוק.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פעולה משפטית שנעשתה על־ידי האפוטרופוס לנכסי נפקדים לפני תחילת חוק זה והיתה בטלה אילו חוק זה היה עומד בתקפו ביום עשייתה, יראוה כבטלה מיום עשייתה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <list>
+            <point eId="point_29__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר המשפטים ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות לביצועו; היו התקנות נוגעות לענין שבחוק אשר שר אחר ממונה על ביצועו, יותקנו התקנות על־ידי אותו שר בהסכמת שר המשפטים.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בתקנות לפי חוק זה מותר לקבוע הוראות בדבר הארכת מועדים, לרבות מועדים לפי חוק זה וכל חוק אחר, ובדבר תיאום אגרות ופטור מהן.<br xml:space="preserve" xmlns=""> </br>iswrapup="true"&gt;
+  <wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הסדרי_משפט_ומינהל_רציפות_הליכים_אזרחיים_אכיפת_פסקים_והכרה_במסמכים">תקנות הסדרי משפט ומינהל (רציפות הליכים אזרחיים, אכיפת פסקים והכרה במסמכים), תשכ"ט–1968</ref>.</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יעקב_ש׳_שפירא">יעקב ש׳ שפירא</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,2015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-04/32132/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-04/32132" />
+          <FRBRdate date="1989-05-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-04/32132/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-04/32132/he@" />
+          <FRBRdate date="1989-05-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-04/32132/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-04/32132/he@" />
+          <FRBRdate date="1989-05-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1989-05-04" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/מדד/32132" showAs="מדד" />
+        <TLCTerm eId="term_2" href="/ontology/term/המדד_החדש/32132" showAs="המדד_החדש" />
+        <TLCTerm eId="term_3" href="/ontology/term/המדד_היסודי/32132" showAs="המדד_היסודי" />
+        <TLCPerson eId="יעקב_צור" href="/ontology/person/יעקב_צור" showAs="יעקב צור" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות אגרות בריאות, התשמ"ט–1989</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1958-01-09/148355#point_38">סעיף 38</ref><ref href="/akn/il/act/PrimaryLegislation/1958-01-09/148355">לחוק הפיקוח על מצרכים ושירותים, התשי"ח–1957</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_66">סעיף 66</ref><ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091">לפקודת הרוקחים [נוסח חדש], התשמ"א–1981</ref>, <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001794#point_19א">סעיף 19א</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001794">לפקודת המילדות</ref>, <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278#point_62">סעיף 62</ref><ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">לפקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>, <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002295#point_66">סעיפים 66</ref><ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002295#point_67">ו־67</ref><ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002295">לפקודת רופאי השיניים [נוסח חדש], התשל"ט–1979</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078#point_57">סעיף 57</ref><ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078">לחוק הפסיכולוגים, התשל"ז–1977</ref>, <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_70">סעיף 70</ref><ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">לפקודת בריאות העם, 1940</ref>, <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_10">וסעיף 10</ref><ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450">לחוק רישוי עסקים, התשכ"ח–1968</ref>, והסמכויות לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_9">סעיף 9</ref><ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">לפקודת בריאות העם, 1940</ref>, לפי <ref href="/akn/il/act/PrimaryLegislation/1981-05-15/2002063#point_3">סעיף 3(5)</ref><ref href="/akn/il/act/PrimaryLegislation/1981-05-15/2002063">לפקודת ההסגר [נוסח חדש], התשמ"א–1981</ref>, ולפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002268#point_312">סעיף 3</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_בריאות_הציבור_מזון">לפקודת בריאות הציבור (מזון) [נוסח חדש], התשמ"ג–1983</ref>, שנטלתי לעצמי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_יסוד_הממשלה#point_34">סעיף 32 לחוק יסוד: הממשלה</ref>, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>אגרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>סכומי האגרות לעניין התקנות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref> יפורטו <ref href="#appendix_2">בתוספת השניה</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצמדה למדד</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סכומי האגרות הנקובים <ref href="#appendix_2">בתוספת השניה</ref> ישתנו ב־1 במרס של כל שנה (להלן – יום השינוי) לפי שיעור שינוי המדד החדש לעומת המדד היסודי.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בתקנה זו –</p>
+                </intro>
+                <point eId="point_2__point_ב__point_מדד">
+                  <content>
+                    <p>
+                      <def />”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום השינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_המדד_היסודי">
+                  <content>
+                    <p>
+                      <def />”המדד היסודי“ – המדד שפורסם לאחרונה לפני יום השינוי הקודם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סכום שהשתנה כאמור בתקנה זו יעוגל לשקל החדש השלם הקרוב.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>עדכון הסכום, כאמור בתקנת משנה (א) ייעשה על בסיס הסכום שנקבע ליום השינוי הקודם, לפני שעוגל לפי תקנת משנה (ג).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>המנהל הכללי של משרד הבריאות יפרסם בהודעה ברשומות את נוסח <ref href="#appendix_2">התוספת השניה</ref> כפי שהשתנה לפי תקנה זו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תיקון תקנות</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרוקחים_תכשירים_רפואיים">בתקנות הרוקחים (תכשירים רפואיים), התשמ"ו–1986</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים">בצו הפיקוח על מצרכים ושירותים (תמרוקים), התשל"ג–1973</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1976-08-26/20136">בצו הרוקחים (אגרת תעודת היתר למכירת רעל), התשל"ז–1976</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224">בתקנות הרוקחים (יסודות רדיואקטיביים ומוצריהם), התש"ם–1980</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תכשירים_להדברת_מזיקים_לאדם">בצו הפיקוח על מצרכים ושירותים (תכשירים להדברת מזיקים לאדם), התשכ"ב–1962</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_מכשירי_קרינה_לטיפול_רפואי">בצו הפיקוח על מצרכים ושירותים (מכשירי קרינה לטיפול רפואי), התשכ"ח–1968</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26731">בצו הרוקחים (אגרות רשיון לרוקח ולעוזר רוקח), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654">בצו הרופאים (אגרות), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה">בצו רופאי השיניים (אגרות רישיון, היתר זמני ואישור תואר מומחה), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_י">
+              <num>(י)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26730">בצו רופאי השיניים (אגרת בחינה), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_יא">
+              <num>(יא)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26734">בצו המילדות (אגרות רשיון ותעודת היתר), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_יב">
+              <num>(יב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">בנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26733">בתקנות הפסיכולוגים (אגרות רישום), התשמ"ד–1983</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_יג">
+              <num>(יג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_ההסגר">בתקנות ההסגר, 1933</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_יד">
+              <num>(יד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1977-01-12/20567">בתקנות ההסגר (אגרות חיסונים ותעודות), התשל"ז–1977</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_טו">
+              <num>(טו)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">בתקנות בריאות העם (קבורה מחדש), 1941</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_טז">
+              <num>(טז)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/SecondaryLegislation/1981-07-23/24564">בתקנות בריאות הציבור (מזון) (בדיקת דגים), התשמ"א–1981</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3__point_יז">
+              <num>(יז)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">תקנה 1</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1986-05-23/29631">תקנות הרוקחים (תכשירים), התשמ"ו–1986</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_1א">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1א.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרוקחים_תנאי_ייצור_נאותים_לתכשירים">תקנות הרוקחים (תנאי ייצור נאותים לתכשירים), התשס"ט–2008</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים">צו הפיקוח על מצרכים ושירותים (תמרוקים), התשל"ג–1973</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1976-08-26/20136">צו הרוקחים (אגרת תעודת היתר למכירת רעל), התשל"ז–1976</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224">תקנות הרוקחים (יסודות רדיואקטיביים ומוצריהם), התש"ם–1980</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תכשירים_להדברת_מזיקים_לאדם">צו הפיקוח על מצרכים ושירותים (תכשירים להדברת מזיקים לאדם), התשכ"ב–1962</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_מכשירי_קרינה_לטיפול_רפואי">צו הפיקוח על מצרכים ושירותים (מכשירי קרינה לטיפול רפואי), התשכ"ח–1968</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26731">צו הרוקחים (אגרות רשיון לרוקח ולעוזר רוקח), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654">צו הרופאים (אגרות), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה">צו רופאי השיניים (אגרות רישיון, היתר זמני ואישור תואר מומחה), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26730">צו רופאי השיניים (אגרת בחינה), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26734">צו המילדות (אגרות רשיון ותעודת היתר), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הפסיכולוגים_אגרת_רישום">תקנות הפסיכולוגים (אגרת רישום), התשמ"ד–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_ההסגר">תקנות ההסגר, 1933</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1977-01-12/20567">תקנות ההסגר (אגרות חיסונים ותעודות), התשל"ז–1977</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">תקנות בריאות העם (קבורה מחדש), 1941</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1981-07-23/24564">תקנות בריאות הציבור (מזון) (בדיקת דגים), התשמ"א–1981</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1978-05-10/21677">תקנות רופאי שיניים (שינניות), התשל"ח–1978</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_שיניים_הגדרת_תחום_עבודתם_של_טכנאי_השיניים_והסדרתה">תקנות רופאי שיניים (הגדרת תחום עבודתם של טכנאי השיניים והסדרתה), התשמ"ו–1986</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים_מרפאות_של_תאגידים">תקנות רופאי השיניים (מרפאות של תאגידים), התשנ"ג–1992</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינת_רישוי">תקנות הרופאים (בחינת רישוי), התשמ"ח–1988</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינה_לקראת_סטאז">תקנות הרופאים (בחינה לקראת סטאז׳), התשמ"ח–1988</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">תקנות בריאות העם (מעבדות רפואיות), התשל"ז–1977</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1993-02-11/35074">תקנות העיסוק באופטומטריה (בחינות ואגרות), התשנ"ג–1993</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1991-01-03/33552">תקנות השימוש בהיפנוזה (לימודי היפנוט מוכרים והוראתם, ופרטי הבחינה וסדריה), התשנ"א–1991</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/2017-01-31/51848">תקנות הסדרת העיסוק במקצועות הבריאות (אגרות), התשע"ז–2017</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1976-12-16/20451">תקנות הרופאים, התשל"ז–1976</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1978-03-23/21562">תקנות רופאי שיניים, התשל"ח–1978</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1981-08-18/24629">תקנות בריאות העם (צוות סיעודי במרפאות), התשמ"א–1981</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/2017-06-12/52126">תקנות בריאות העם (עוסקים בסיעוד בבתי חולים) (אגרות), התשע"ז–2017</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1987-08-06/30764">תקנות בריאות העם (רישום מרפאות), התשמ"ז–1987</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שניה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שניה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">תקנות 1</ref><ref href="#point_2">ו־2</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(כל הסכומים מעודכנים לשנת 2017).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>תכשירים רפואיים</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1986-05-23/29631">בתקנות הרוקחים (תכשירים), התשמ"ו–1986</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_1__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1986-05-23/29631#point_27">תקנה 27(א) ו־(ב)</ref> –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_1__point_1__point_א">
+                    <num>א.</num>
+                    <content>
+                      <p>בעד בדיקת איכות של תכשיר לצורך רישום — 16,326 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_1__point_ב">
+                    <num>ב.</num>
+                    <content>
+                      <p>בעד בדיקת איכות של תכשיר לצורך חידוש רישומו — 6,651 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_1__point_ג">
+                    <num>ג.</num>
+                    <content>
+                      <p>בעד תעודת שחרור רשמי של אצווה — 4,050 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_1__point_ד">
+                    <num>ד.</num>
+                    <list>
+                      <intro>
+                        <p>בעד שינוי בבדיקת איכות או בתעודת איכות של תכשיר –</p>
+                      </intro>
+                      <point eId="appendix_שניה__point_1__point_1__point_ד__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>שינוי מסוג משמעותי המצריך את בדיקת המנהל — 2,317 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_1__point_1__point_ד__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>שינוי אחר, למעט שינוי שהמנהל הורה שלא תיגבה לגביו אגרה — 535 שקלים חדשים</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_1__point_ה">
+                    <num>ה.</num>
+                    <content>
+                      <p>בעד בדיקת איכות של חומר גלם לייצורו של תכשיר או הנועד עצמו לשמש תכשיר — 1,300 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_1__point_ו">
+                    <num>ו.</num>
+                    <content>
+                      <p>בעד תעודת איכות של חומר גלם לייצורו של תכשיר או הנועד עצמו לשמש תכשיר — 26 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_1__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1986-05-23/29631#point_27">תקנה 27(ג)</ref> –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_1__point_2__point_א">
+                    <num>א.</num>
+                    <content>
+                      <p>בעד רישום תכשיר בפנקס — 6,022 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_2__point_ב">
+                    <num>ב.</num>
+                    <content>
+                      <p>בעד חידוש רישומו של תכשיר — 1,875 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_2__point_ג">
+                    <num>ג.</num>
+                    <list>
+                      <intro>
+                        <p>בעד שינוי ברישום של תכשיר –</p>
+                      </intro>
+                      <point eId="appendix_שניה__point_1__point_2__point_ג__point_1">
+                        <num>1.</num>
+                        <content>
+                          <p>שינוי שם של תכשיר או שינוי שם יצרן התכשיר או סוכנו — 1,202 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_1__point_2__point_ג__point_2">
+                        <num>2.</num>
+                        <content>
+                          <p>שינוי של התוויה של תכשיר לרבות הוספת התוויה — 1,806 שקלים חדשים</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_2__point_ד">
+                    <num>ד.</num>
+                    <content>
+                      <p>בעד העתק אישור שינוי שם של תכשיר או שם של יצרן, או שם סוכנו של יצרן התכשיר, אם המפעל נמצא מחוץ לישראל — 17 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_1__point_2__point_ה">
+                    <num>ה.</num>
+                    <content>
+                      <p>בעד העתק תעודות רישום או חידוש רישום — 17 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_1א">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאי ייצור נאותים לתכשירים</p>
+              </authorialNote>
+            </heading>
+            <num>1א.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרוקחים_תנאי_ייצור_נאותים_לתכשירים">בתקנות הרוקחים (תנאי ייצור נאותים לתכשירים), התשס"ט–2008</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_1א__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד בקשה לקבלת אישור או חידושו — 35,271 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_1א__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד בקשה לקבלת העתק תעודת GMP‏ — 181 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_1א__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בעד יום בקרה או ביקורת של עובד שהסמיך המנהל הנדרש לצורך מתן תעודת GMP, או לצורך ביצוע בקרה או ביקורת תקופתית או ביצוע בקרה או ביקורת פתע בעסק, למעט בקרה ראשונית לצורך קבלת אישור או חידושו — 2,922 שקלים חדשים</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>תמרוקים</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים">בצו הפיקוח על מצרכים ושירותים (תמרוקים), התשל"ג–1973</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים#point_3">סעיף 3</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_2__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד רשיון תמרוקים כללי, או חידושו — 1,725 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_2__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד רשיון לתמרוק פלוני, או חידושו — 312 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_2__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>בעד תעודת בדיקה לתמרוק פלוני, בין לצורך הוצאת רישיון לתמרוק פלוני ובין לצורך חידושו, אם התמרוק הוא –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_2__point_3__point_none">
+                    <content>
+                      <p>בעל גוון אחד — 1,002 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_2__point_3__point_none">
+                    <content>
+                      <p>לכל גוון נוסף — 161 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>היתר רעלים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1976-08-26/20136">בצו הרוקחים (אגרת תעודת היתר למכירת רעל), התשל"ז–1976</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1976-08-26/20136#point_1">סעיף 1</ref>, בעד תעודת היתר למכירת רעל או חידושה, תשולם אגרה בסך 3,717 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>יסודות רדיואקטיביים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224">בתקנות הרוקחים (יסודות רדיואקטיביים ומוצריהם), התש"ם–1980</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#point_10ב">תקנה 10ב</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_4__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד היתר לעסוק בחומר רדיואקטיבי במוצר המכיל חומר רדיואקטיבי — 263 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_4__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד היתר לעסוק במכשיר קרינה — 263 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_4__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בעד היתר להקים מיתקן רדיואקטיבי או לעסוק בו — 425 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_4__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>בעד היתר להקים מיתקן קרינה או לעסוק בו — 425 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_4__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>בעד היתר להחדיר או לפזר חומר רדיואקטיבי בקרקע, במים או באויר, או לערב חומר רדיואקטיבי בכל חומר אחר — 425 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_4__point_6">
+                <num>(6)</num>
+                <list>
+                  <intro>
+                    <p>בעד היתר לתת או להפעיל את אחד מהשירותים המפורטים להלן:</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_4__point_6__point_א">
+                    <num>א.</num>
+                    <content>
+                      <p>דוזימטריה אישית — 164 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ב">
+                    <num>ב.</num>
+                    <content>
+                      <p>כיול מכשירי מדידת קרינה מיננת, לרבות מקורות כיול — 263 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ג">
+                    <num>ג.</num>
+                    <content>
+                      <p>בדיקת מעבדה רדיוטוקסיקולוגית — 263 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ד">
+                    <num>ד.</num>
+                    <content>
+                      <p>תיקון מכשירי קרינה ואחזקתם — 425 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ה">
+                    <num>ה.</num>
+                    <content>
+                      <p>העברת חומר רדיואקטיבי או מוצר המכיל חומר רדיואקטיבי — 425 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ו">
+                    <num>ו.</num>
+                    <content>
+                      <p>שירותי רדיוגרפיה — 425 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ז">
+                    <num>ז.</num>
+                    <content>
+                      <p>אחזקת ציוד מגן ייחודי לעבודה בחומרים רדיואקטיביים — 263 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ח">
+                    <num>ח.</num>
+                    <content>
+                      <p>סילוק פסולת רדיואקטיבית — 304 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_ט">
+                    <num>ט.</num>
+                    <content>
+                      <p>הפעלה או ניהול מעבדה בכל מה שקשור להכנה ולמינון חומרים רדיואקטיביים לצורכי ריפוי או אבחון רפואי — 425 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_4__point_6__point_י">
+                    <num>י.</num>
+                    <content>
+                      <p>הפעלה או ניהול מכון איזוטופים רפואי — 425 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>תכשירים להדברת מזיקים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תכשירים_להדברת_מזיקים_לאדם">בצו הפיקוח על מצרכים ושירותים (תכשירים להדברת מזיקים לאדם), התשכ"ב–1962</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_תכשירים_להדברת_מזיקים_לאדם#point_8">סעיף 8(א)</ref>, בעד מתן רשיון לגבי תכשיר כאמור להלן בטור א׳ תשולם אגרה בשיעור הנקוב בצדו בטור ב׳:<br xml:space="preserve" xmlns=""> </br><table><tr><th><span style="font-size: smaller; display:block" xmlns="">טור א׳</span></th><th><span style="font-size: smaller; display:block" xmlns="">טור ב׳</span><br xml:space="preserve" xmlns=""> </br> אגרה בשקלים חדשים</th></tr><tr><td>: (1) תכשיר המצריך בדיקה של חומר פעיל אחד</td><td>595</td></tr><tr><td>: (2) תכשיר המצריך בדיקה של יותר מחומר פעיל אחד, לכל חומר פעיל נוסף</td><td>200</td></tr></table></p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכשירי קרינה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_מכשירי_קרינה_לטיפול_רפואי">בצו הפיקוח על מצרכים ושירותים (מכשירי קרינה לטיפול רפואי), התשכ"ח–1968</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_הפיקוח_על_מצרכים_ושירותים_מכשירי_קרינה_לטיפול_רפואי#point_8">סעיף 8(א)</ref>, בעד מתן רשיון שנתי תשולם אגרה בסך 377 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשיון רוקח</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26731">בצו הרוקחים (אגרות רשיון לרוקח ולעוזר רוקח), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_7__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26731#point_1">סעיף 1</ref> –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_7__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בעד מתן רשיון לעסוק ברוקחות, בלא הגבלת תוקפו, תשולם, עם מתן הרישיון, אגרה בסך 440 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_7__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בעד רשיון זמני לעסוק ברוקחות ובעד חידוש רשיון זמני לעסוק ברוקחות תשולם, עם מתן הרשיון הזמני או עם חידושו, לפי הענין, אגרה בסך 400 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_7__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26731#point_2">סעיף 2</ref> –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_7__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בעד רשיון לשמש עוזר לרוקח, בלא הגבלת תוקפו, תשולם, עם מתן הרשיון, אגרה בסך 400 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_7__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בעד רשיון זמני לשמש עוזר רוקח ובעד חידושו או הארכתו של רשיון זמני לשמש עוזר לרוקח, תשולם, עם מתן הרשיון הזמני, עם חידושו או עם הארכתו, לפי הענין, אגרה בסך 263 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשיון רופא</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654">בצו הרופאים (אגרות), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_8__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654#point_1">סעיף 1</ref>, בעד רשיון לעסוק ברפואה תשולם, עם מתן הרשיון, אגרה בסך 440 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_8__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654#point_2">סעיף 2</ref>, בעד היתר זמני לעסוק ברפואה ובעד חידושו תשולם, עם מתן ההיתר או עם חידושו, לפי הענין, אגרה בסך 400 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_8__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654#point_2א">סעיף 2א</ref>, בעד היתר מוגבל לעסוק ברפואה ובעד חידושו, תשולם אגרה בסך 150 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_8__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654#point_2ב">סעיף 2ב</ref>, בעד אישור תואר מומחה ובעד חידושו, תשולם אגרה בסך 400 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_8__point_5">
+                <num>(5)</num>
+                <list>
+                  <intro>
+                    <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-08-14/26654#point_2ג">סעיף 2ג</ref>, בעד בחינת התמחות לצורך קבלת אישור תואר מומחה, תשולם האגרה בסכום כמפורט להלן:</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_8__point_5__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בחינה בשלב א׳ או בשלב ב׳ — 1,050 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_8__point_5__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בחינה חוזרת בשלב א׳ או בשלב ב׳ — 750 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשיון רופא־שיניים</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה">בצו רופאי השיניים (אגרות רישיון, היתר זמני ואישור תואר מומחה), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_9__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה#point_1">סעיף 1</ref>, בעד רשיון לעסוק בריפוי שיניים תשולם, עם מתן הרשיון, אגרה בסך 440 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_9__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה#point_2">סעיף 2</ref>, בעד היתר זמני לעסוק בריפוי שיניים ובעד חידושו תשולם, עם מתן ההיתר או עם חידושו, לפי הענין, אגרה בסך 400 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_9__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_רופאי_השיניים_אגרות_רישיון_היתר_זמני_ואישור_תואר_מומחה#point_2א">סעיף 2א</ref>, בעד אישור תואר מומחה, תשולם אגרה בסך 400 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינה לרופא־שיניים</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26730">בצו רופאי השיניים (אגרת בחינה), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_10__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26730#point_2">סעיף 2</ref>, בעד בחינת מקצוע ובחינה נוספת:</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_10__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכתב — 350 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_10__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מעשית או מעשית הנערכת עם בחינה בעל פה — 711 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_10__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בעל פה, הנערכת לחוד — 99 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_10__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26730#point_2א">סעיף 2א</ref>, בעד בחינת התמחות לצורך קבלת אישור תואר מומחה, לרבות בחינה חוזרת, תשולם האגרה בסכום כמפורט להלן:</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_10__point_ב__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בחינת שלב א׳ — 721 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_10__point_ב__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בחינת שלב ב׳ — 721 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשיון מילדת</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26734">בצו המילדות (אגרות רשיון ותעודת היתר), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_11__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26734#point_1">סעיף 1</ref>, בעד רשיון לעסוק ביילוד, ללא הגבלת תקפו, תשולם, עם מתן הרשיון, אגרה בסך 392 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_11__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26734#point_2">סעיף 2</ref>, בעד רשיון זמני ובעד תעודת היתר ארעית לעסוק ביילוד ובעד חידושם תשולם, עם מתן הרשיון או תעודת היתר או עם חידושם, לפי הענין, אגרה בסך 247 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישום פסיכולוגים</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26733">בתקנות הפסיכולוגים (אגרות רישום), התשמ"ד–1983</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_12__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26733">תקנה 1</ref>, בעד רישום בפנקס הפסיכולוגים תשולם, עם מתן תעודת רישום, אגרה בסך 420 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_12__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26733">תקנה 2</ref>, בעד היתר זמני לעסוק בפסיכולוגיה, למעט מומחיות מוכרת לפי <ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078#point_19">סעיף 19 לחוק</ref>, תשולם, עם מתן תעודת ההיתר הזמני, אגרה בסך 312 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_12__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לענין <ref href="/akn/il/act/SecondaryLegislation/1983-09-18/26733">תקנה 3</ref>, בעד רישום כמומחה בפנקס כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הפסיכולוגים_אישור_תואר_מומחה#point_29">בתקנה 29 לתקנות הפסיכולוגים (אישור תואר מומחה), התשל"ט–1979</ref>, תשולם בעת מתן אישור תואר מומחה, אגרה בסך 400 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסגר</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_ההסגר">בתקנות ההסגר, 1933</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_ההסגר#point_14">סעיף 14(1)</ref> –<br xml:space="preserve" xmlns=""> </br><span style="text-align: center" xmlns=""><span style="font-weight: bold">אגרות ותשלומי הסגר</span></span></p>
+              </intro>
+              <point eId="appendix_שניה__point_13__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>חקירה ובדיקה רפואית של אניות, לרבות העברת צוות הסגר בסירה לאניות לשם חקירה ובדיקה רפואית — חינם</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מתן תעודת בריאות — חינם</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מתן פנקס בריאות המיועד לאניות מפרש העוברות לאורך חופי ישראל בלבד — חינם</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לכל שירות של כל שומר הסגר, ליממה או חלק ממנה — 473 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>לכל סירת משמר, ליממה או לחלק ממנה — 473 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>לכל תעודה הניתנת מאת רשות ההסגר, למעט תעודת הרכבת חיסון ותעודת בריאות — 473 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_7">
+                <num>(7)</num>
+                <list>
+                  <point eId="appendix_שניה__point_13__point_7__point_א">
+                    <num>(א)</num>
+                    <list>
+                      <intro>
+                        <p>אניות שעיכבון בהסגר לאחר החקירה והבדיקה הרפואית, ליממה או לחלק ממנה, לאחר 24 שעות ראשונות –</p>
+                      </intro>
+                      <point eId="appendix_שניה__point_13__point_7__point_א__point_none">
+                        <content>
+                          <p>
+                            <span style="font-size: smaller" xmlns="">
+                              <u xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">המשקל הרשום בטונות נטו</u>
+                            </span>
+                          </p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_7__point_א__point_none">
+                        <content>
+                          <p>1 עד 100 — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_7__point_א__point_none">
+                        <content>
+                          <p>101 עד 200 — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_7__point_א__point_none">
+                        <content>
+                          <p>201 עד 300 — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_7__point_א__point_none">
+                        <content>
+                          <p>301 ומעלה — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_7__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>כל נוסע או עובד אניה עוגנת שהחזיקוהו בהסגר ליממה או לחלק ממנה — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_8">
+                <num>(8)</num>
+                <list>
+                  <intro>
+                    <p>חיטוי תאי נוסעים וחדרי אניה ולרבות מלבושי עובדים אך למעט חיטוי מחסני האניה ומטענה –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>
+                        <span style="font-size: smaller" xmlns="">
+                          <u xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">המשקל הרשום בטונות נטו</u>
+                        </span>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>1 עד 100 — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>101 עד 200 — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>201 עד 400 — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>401 ומעלה — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_8__point_none">
+                    <content>
+                      <p>באניות שיש בהן מכשירי קיטור לחיטוי ושירותי הסגר והשתמשו בהם לחיטוי המלבושים וכן באניות שבהן חיטאו את העובדים בלבד – מחצית התשלומים האמורים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>בעד השמדת עכברים באניה וחיטוי מחסניה – מחיר חומרי החיטוי או שאר החומרים שהשתמשו בהם, בתוספת 10% בעד השימוש בכלים ו־473 שקלים חדשים ליממה או לחלק ממנה בעד כל עובד שעסק בדבר.</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_10">
+                <num>(10)</num>
+                <list>
+                  <intro>
+                    <p>חיטוי נוסעים וחפציהם הפרטיים –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_13__point_10__point_none">
+                    <content>
+                      <p>לכל אדם מגיל שבע ומעלה שרחצוהו באמבטיה וחיטאוהו — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_10__point_none">
+                    <content>
+                      <p>לכל אדם עד גיל שבע שרחצוהו באמבטיה וחיטאוהו — חינם</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_10__point_none">
+                    <content>
+                      <p>לחפציו של כל אדם — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_11">
+                <num>(11)</num>
+                <list>
+                  <point eId="appendix_שניה__point_13__point_11__point_none">
+                    <content>
+                      <p>חיטוי סחורות או כלי בית, עורות, לכל מאה יריעות — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_11__point_none">
+                    <content>
+                      <p>סחורות צמר וכותנה, לכל חבילה — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_11__point_none">
+                    <content>
+                      <p>סחורות אחרות וכלי בית, לכל חבילה של 125 ק"ג או חלק מהם — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_12">
+                <num>(12)</num>
+                <list>
+                  <intro>
+                    <p>עיכובם והחזקתם של נוסעים בבית־חולים של ההסגר, בעד כל נוסע, לכל יממה או חלק ממנה –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_13__point_12__point_none">
+                    <content>
+                      <p>עד גיל שבע — חינם</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_12__point_none">
+                    <content>
+                      <p>מגיל שבע ומעלה — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_13">
+                <num>(13)</num>
+                <content>
+                  <p>בעד מזון שניתן לנוסעים שעיכבום בבית חולים של ההסגר יוטל תשלום לפי מחירי חוזה ההספקה הנהוגים באותה עת.</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_14">
+                <num>(14)</num>
+                <content>
+                  <p>בעד העברת גוויה, פיקוח על גוויה וחיתום ארונו של המת — 473 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_13__point_15">
+                <num>(15)</num>
+                <list>
+                  <point eId="appendix_שניה__point_13__point_15__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>בעד תעודת שחרור מהשמדת חולדות לאניות שתפוסתן נטו –</p>
+                      </intro>
+                      <point eId="appendix_שניה__point_13__point_15__point_1__point_none">
+                        <content>
+                          <p>עד 200 טון — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_15__point_1__point_none">
+                        <content>
+                          <p>מעל 200 טון עד 500 טון — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                      <point eId="appendix_שניה__point_13__point_15__point_1__point_none">
+                        <content>
+                          <p>מעל 500 טון — 473 שקלים חדשים</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="appendix_שניה__point_13__point_15__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעד הארכת תעודת שחרור כאמור בפסקה (1) — 473 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_13__point_16">
+                <num>(16)</num>
+                <content>
+                  <p>בעד תעודת חיטוי חבילות — 473 שקלים חדשים</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיסונים</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1977-01-12/20567">בתקנות ההסגר (אגרות חיסונים ותעודות), התשל"ז–1977</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1977-01-12/20567">תקנה 2(א)</ref>, בעד הרכבת חיסון ורישום בתעודת חיסון בינלאומית –</p>
+              </intro>
+              <point eId="appendix_שניה__point_14__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד הרכבת חיסון — 71 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_14__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד רישום בתעודת חיסון בינלאומית — 65 שקלים חדשים</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>קבורה מחדש</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">בתקנות בריאות העם (קבורה מחדש), 1941</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">תקנה 10(א)</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_15__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד תעודה לפי <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">תקנה 6(2)(ג)</ref> — 137 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_15__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד חתימת הארון לפי <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">תקנה 6(2)(ג)</ref> — 691 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_15__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בעד תעודה מרופא ממשלתי לפי <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54524">תקנה 9(1)(ג)</ref> — 137 שקלים חדשים</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקת דגים</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1981-07-23/24564">בתקנות בריאות הציבור (מזון) (בדיקת דגים), התשמ"א–1981</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1981-07-23/24564">תקנה 10(א)</ref>, הרשות המקומית שבתחומה נבדקו הדגים בידי רופא וטרינר מקומי תגבה, בשביל מרכז השלטון המקומי, אגרת בדיקה בסך 0.99 אגורות <wikicomment font-size="x-small">[צ"ל: 99 אגורות]</wikicomment> לכל 10 קילוגרם.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינה לשיננית</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1978-05-10/21677">בתקנות רופאי שיניים (שינניות), התשל"ח–1978</ref>, לענין <ref href="/akn/il/act/SecondaryLegislation/1978-05-10/21677">תקנה 5א</ref> –<br xml:space="preserve" xmlns=""> </br>בעד בחינה ממשלתית – בעל־פה, בכתב ומעשית, יחד — 678 שקלים חדשים</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינה לטכנאי שיניים</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים_הגדרת_תחום_עבודתם_של_טכנאי_השיניים_והסדרתה">בתקנות רופאי השיניים (הגדרת תחום עבודתם של טכנאי השיניים והסדרתה), התשמ"ו–1986</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים_הגדרת_תחום_עבודתם_של_טכנאי_השיניים_והסדרתה">תקנה 30א</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_18__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד בחינה לטכנאי שיניים מעשי –<br xml:space="preserve" xmlns=""> </br>בכתב — 441 שקלים חדשים</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_18__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>בעד בחינה לטכנאי שיניים מוסמך –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_18__point_2__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכתב — 500 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_18__point_2__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מעשית ובעל פה, יחד — 556 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_18__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>בעד בחינה לטכנאי שיניים מומחה –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_18__point_3__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכתב — 441 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_18__point_3__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מעשית או מעשית הנערכת יחד עם בחינה בעל פה — 556 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_18__point_3__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בעל פה, הנערכת לחוד — 99 שקלים חדשים</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשיון למרפאה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים_מרפאות_של_תאגידים">בתקנות רופאי השיניים (מרפאות של תאגידים), התשנ"ג–1993</ref>, לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים_מרפאות_של_תאגידים">תקנה 22</ref>, תשולם בעד קבלת רישיון למרפאה או בעד חידושו אגרה בסך 3,000 שקלים חדשים , בתוספת 460 שקלים חדשים לכל עמדת טיפול נוספת על הראשונה.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינה לרופאים</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינת_רישוי">בתקנות הרופאים (בחינת רישוי), התשמ"ח–1988</ref>, לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינת_רישוי">תקנה 3א</ref>, תשולם אגרה בסך 658 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינה לקראת סטאז׳</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינה_לקראת_סטאז">בתקנות הרופאים (בחינה לקראת סטאז׳), התשמ"ח–1988</ref>, לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_בחינה_לקראת_סטאז">תקנה 3א</ref>, תשולם אגרה בסך 658 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעבדות רפואיות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנות בריאות העם (מעבדות רפואיות), התשל"ז–1977</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_22__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">תקנה 4ד</ref>, בעד תעודת רישום למעבדה רפואית, תשולם אגרה בסך 4,502 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_22__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">תקנה 62י</ref> –</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_22__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בעד בחינה כאמור <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנות 62א(ג)</ref>, <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136#point_62ה">62ה(א)(1)(ג) ו־(ב)(3)</ref>, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_22__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בעד היתר לניהול מעבדה כאמור <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנה 5</ref>, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_22__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>בעד תעודת עובד מעבדה רפואית בכיר במקצוע מעבדה רפואית כאמור <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנה 62ג</ref>, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעד תעודה זמנית של עובד מעבדה רפואית אקדמאי או בעד תעודה זמנית של עובד מעבדה רפואית מוסמך, ובעד חידושם, כאמור <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנה 62ה</ref>, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_22__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בעד תעודה קבועה של עובד מעבדה רפואית, כאמור <ref href="/akn/il/act/SecondaryLegislation/1977-08-25/21136">בתקנה 62ה</ref>, תשולם אגרה בסך 350 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>אופטומטריה</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1993-02-11/35074">בתקנות העיסוק באופטומטריה (בחינות ואגרות), התשנ"ג–1993</ref>, לעניין <ref href="/akn/il/act/SecondaryLegislation/1993-02-11/35074">תקנה 15א</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_23__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>בעד בחינות רישוי כאמור <ref href="/akn/il/act/SecondaryLegislation/1993-02-11/35074">בתקנה 2</ref>, לרבות בחינה חוזרת כאמור <ref href="/akn/il/act/SecondaryLegislation/1993-02-11/35074">בתקנה 13</ref>, תשולם אגרה בסכום כמפורט להלן:</p>
+                  </intro>
+                  <point eId="appendix_שניה__point_23__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בעד בחינה בכתב — 354 שקלים חדשים</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שניה__point_23__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בעד בחינה מעשית — 354 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="appendix_שניה__point_23__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד רישיון לעסוק באופטומטריה, תשולם אגרה בסך 350 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>היפנוזה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1991-01-03/33552">בתקנות השימוש בהיפנוזה (לימודי היפנוט מוכרים והוראתם, ופרטי הבחינה וסדריה), התשנ"א–1991</ref>, לעניין <ref href="/akn/il/act/SecondaryLegislation/1991-01-03/33552">תקנה 14ג</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_24__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד בחינה, תשולם אגרה בסך 354 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_24__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד הרשאה להיפנוט, תשולם אגרה בסך 350 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקצועות הבריאות</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/2017-01-31/51848">בתקנות הסדרת העיסוק במקצועות הבריאות (אגרות), התשע"ג–2012</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_25__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/2017-01-31/51848">תקנה 2</ref>, בעד בחינה, תשולם אגרה בסך 354 שקלים חדשים.</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_25__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/2017-01-31/51848">תקנה 3</ref>, בעד בקשה לקבלת תעודה, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתק רישיון לרופא</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1976-12-16/20451">בתקנות הרופאים, התשל"ז–1976</ref>, לעניין <ref href="/akn/il/act/SecondaryLegislation/1976-12-16/20451">תקנה 8ב</ref>, בעד העתק של רישיון תשולם אגרה בסך 50 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתק רישיון לרופא שיניים</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים">בתקנות רופאי השיניים, התשל"ח–1978</ref>, לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_רופאי_השיניים">תקנה 7ב</ref>, בעד העתק של רישיון תשולם אגרה בסך 50 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שניה__point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיעוד (מרפאות)</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/1981-08-18/24629">בתקנות בריאות העם (צוות סיעודי במרפאות), התשמ"א–1981</ref>, לעניין <ref href="/akn/il/act/SecondaryLegislation/1981-08-18/24629">תקנה 19א</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_28__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד תעודה המעידה על רישום בפנקס כאמור <ref href="/akn/il/act/SecondaryLegislation/1981-08-18/24629">בתקנה 9</ref>, תשולם אגרה בסך 420 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_28__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד היתר זמני כאמור <ref href="/akn/il/act/SecondaryLegislation/1981-08-18/24629">בתקנה 12(1) ו־(2)</ref>, תשולם אגרה בסך 350 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיעוד (בתי חולים)</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/SecondaryLegislation/2017-06-12/52126">בתקנות בריאות העם (עוסקים בסיעוד בבתי חולים) (אגרות), התשע"ז–2017</ref> –</p>
+              </intro>
+              <point eId="appendix_שניה__point_29__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/2017-06-12/52126">תקנה 2</ref>, בעד תעודה המעידה על רישום בפנקס, תשולם אגרה בסך 420 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_29__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/2017-06-12/52126">תקנה 3</ref>, בעד היתר זמני לעסוק בסיעוד, תשולם אגרה בסך 350 שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שניה__point_29__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לעניין <ref href="/akn/il/act/SecondaryLegislation/2017-06-12/52126">תקנה 4</ref>, בעד היתר מוגבל לעסוק בסיעוד, תשולם אגרה בסך 350 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שניה__point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישום מרפאות</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1987-08-06/30764">בתקנות בריאות העם (רישום מרפאות), התשמ"ז–1987</ref>, לעניין <ref href="/akn/il/act/SecondaryLegislation/1987-08-06/30764">תקנה 16א</ref>, בעד רישום מרפאה החייבת רישום או בעד חידושו, תשולם אגרה בסך 3,000 שקלים חדשים.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יעקב_צור">יעקב צור</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

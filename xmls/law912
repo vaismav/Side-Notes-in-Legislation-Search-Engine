@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252" />
+          <FRBRdate date="2020-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252/he@" />
+          <FRBRdate date="2020-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-06-30/2141252/he@" />
+          <FRBRdate date="2020-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2020-06-30" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אישור_רגולטורי/2141252" showAs="אישור_רגולטורי" />
+        <TLCTerm eId="term_2" href="/ontology/term/הוועדה/2141252" showAs="הוועדה" />
+        <TLCTerm eId="term_3" href="/ontology/term/רישיון/2141252" showAs="רישיון" />
+        <TLCTerm eId="term_4" href="/ontology/term/רשות_ציבורית/2141252" showAs="רשות_ציבורית" />
+        <TLCTerm eId="term_5" href="/ontology/term/התקופה_הקובעת/2141252" showAs="התקופה_הקובעת" />
+        <TLCTerm eId="term_6" href="/ontology/term/גז/2141252" showAs="גז" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_הגז/2141252" showAs="חוק_הגז" />
+        <TLCTerm eId="term_8" href="/ontology/term/מיתקן_גז/2141252" showAs="מיתקן_גז" />
+        <TLCTerm eId="term_9" href="/ontology/term/ספק_גז/2141252" showAs="ספק_גז" />
+        <TLCTerm eId="term_10" href="/ontology/term/ת''י_158/2141252" showAs="ת''י_158" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יריב_לוין" href="/ontology/person/יריב_לוין" showAs="יריב לוין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הארכת תקופות (הוראת שעה – נגיף הקורונה החדש) (אישורים רגולטוריים), התש"ף–2020</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אישור_רגולטורי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אישור רגולטורי“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_אישור_רגולטורי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אישור או רישיון הנדרש לפי חוק לצורך ביצוע פעילות או פעולה בידי אדם, לרבות אישור או רישיון כאמור הניתן לגבי מכשיר, שנתנה רשות ציבורית, לאותו אדם, ובלבד שהאישור או הרישיון כאמור ניתן מלכתחילה לתקופה העולה על חודש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_אישור_רגולטורי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אישור בכתב בדבר פטור מביצוע פעילות או פעולה, שנתנה רשות ציבורית לפי דין לאדם, ובלבד שהפטור כאמור ניתן מלכתחילה לתקופה העולה על חודש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_אישור_רגולטורי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אישור המנוי <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_הוועדה">
+                <content>
+                  <p>
+                    <def />”הוועדה“ – ועדה של הכנסת שהנושא נמצא בתחום סמכויותיה, כפי שתקבע ועדת הכנסת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רישיון">
+                <content>
+                  <p>
+                    <def />”רישיון“ – הרשאה, ובכלל זה רישיון, זיכיון או היתר או כל מסמך דומה אחר אף אם כינויו שונה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רשות_ציבורית">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”רשות ציבורית“ – כל אחד מהגופים שלהלן ובכלל זה מי שממונה על הגוף או עומד בראש הגוף, וכן עובד או נושא משרה בגוף כאמור, ולרבות מי שגוף כאמור אצל לו את סמכותו:</p>
+                  </intro>
+                  <point eId="point_1__point_רשות_ציבורית__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הממשלה ומשרדי הממשלה, לרבות יחידותיהם ויחידות הסמך שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשות_ציבורית__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רשות מקומית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשות_ציבורית__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תאגיד שהוקם לפי חוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשות_ציבורית__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>ועדה, מועצה או מינהלה שמונתה או שהוקמה לפי חוק;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_התקופה_הקובעת">
+                <content>
+                  <p>
+                    <def />”התקופה הקובעת“ – התקופה שמיום י"ד באדר התש"ף (10 במרס 2020) עד יום ח׳ בתמוז התש"ף (30 ביוני 2020).<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">התקופה הקובעת הוארכה עד ליום 30.9.2020 (ק"ת תשפ"א, 74).</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳: הארכת תוקף אישורים רגולטוריים –</num>
+        <title>
+          <content>
+            <p>הוראת שעה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הארכת תוקף אישורים רגולטוריים – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_2__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>על אף האמור בכל דין, תקופת תוקפו של אישור רגולטורי שמועד פקיעתו חל בתקופה שלהלן, תוארך בתקופה או עד המועד כמצוין לצידה (בסעיף זה – תקופת ההארכה), ויראו אותו, לכל דבר ועניין, כאילו עמד בתוקף גם בתקופה הקובעת, אלא אם כן הותלה או בוטל או שחדל להתקיים תנאי המפקיע את תוקפו, או שהרשות הציבורית סירבה לחדשו, לפני תום תקופת ההארכה, לפי כל דין:</p>
+                      </intro>
+                      <point eId="point_2__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>התקופה הקובעת – שלושה חודשים נוספים ממועד הפקיעה, או עד יום ח׳ בתמוז התש"ף (30 ביוני 2020), לפי המאוחר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>שני החודשים שלאחר תום התקופה הקובעת – עשרה שבועות נוספים ממועד הפקיעה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_2__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ראש הממשלה רשאי, בצו, באישור הממשלה ובאישור הוועדה, להאריך את התקופה הקובעת לעניין פסקה (1), בתקופה אחת נוספת שלא תעלה על שלושה חודשים, אם נוכח כי מתקיימות נסיבות משקיות חריגות או נסיבות מיוחדות אחרות המצדיקות זאת.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">התקופה הקובעת הוארכה בשלושה חודשים עד יום י"ב בתשרי התשפ"א (30 בספטמבר 2020) (ק"ת תשפ"א, 74).</wikicomment></p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_2__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות סעיף קטן (א), הרשות הציבורית המוסמכת למתן האישור הרגולטורי רשאית להחליט, ביוזמתה או לבקשת בעל אישור רגולטורי, כי אישור רגולטורי מסוים יעמוד בתוקפו לתקופה קצרה מתקופת ההארכה או כי הוראות סעיף קטן (א) לא יחולו לעניין אותו אישור, ובלבד ששקלה בין השאר את האפשרות של בעל האישור הרגולטורי לעמוד בתנאים למתן האישור ואת הנטל המוטל עליו לחידוש האישור, בשל השפעות נגיף הקורונה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החלטת הרשות הציבורית כאמור בפסקה (1) תיכנס לתוקף מהמועד שבו הודיעה על כך לבעל האישור הרגולטורי או מהמועד שצוין בהחלטה, לפי המאוחר; ההודעה תימסר לבעל האישור הרגולטורי זמן סביר מראש, בהודעה מנומקת בכתב.</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין אישורים המנויים <ref href="#appendix_1">בתוספת הראשונה</ref> יראו את הגורם המנוי לצד האישור כרשות הציבורית המוסמכת למתן אותו אישור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_2__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ההוראות לפי סעיפים קטנים (א) ו־(ב) לא יחולו לעניין אישור רגולטורי או סוגי אישורים כאמור המנויים <ref href="#appendix_2">בתוספת השנייה</ref>, ואם מנויים לצד האישור או סוגי האישורים תנאים – לא יחולו לעניין אותו אישור או סוגי אישורים בהתקיים אותם תנאים.</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ההוראות לפי סעיף קטן (א)(2) לא יחולו לעניין אישור רגולטורי או סוגי אישורים כאמור המנויים <ref href="#appendix_3">בתוספת השלישית</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעל אישור רגולטורי שתקופת תוקפו הוארכה לפי הוראות סעיף זה, אינו חייב בהגשת בקשה לעניין ההארכה או בתשלום אגרה בעד ההארכה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מכל חובה, תשלום או הוראה אחרת שחלים על בעל אישור רגולטורי לפי חוק או שנקבעו באישור הרגולטורי שתוקפו מוארך לפי הוראות סעיף זה, בכל תקופת תוקפו של האישור הרגולטורי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>אין בהוראות <ref href="#chp_ב">פרק זה</ref> כדי לגרוע מסמכות הנתונה לרשות ציבורית לפי דין לשנות את תקופת תוקפו של אישור רגולטורי, לחדשו, לסרב לחדשו או לקבוע בו תנאים.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>דחיית מועד לביצוע בדיקה תקופתית של מיתקן גז – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583#point_14">בסעיף 14(5) לחוק הגז</ref> ובת"י 158, חל המועד האחרון לביצוע בדיקה תקופתית לגבי מיתקן גז בתקופה הקובעת, רשאי ספק גז להמשיך לספק גז למיתקן הגז גם לאחר שחלפה התקופה שנקבעה לפי הסעיף או התקן האמורים לביצוע הבדיקה התקופתית לאותו מיתקן גז, למשך שלושה חודשים החל מהמועד האחרון לביצוע הבדיקה התקופתית או החל מיום תחילתו של חוק זה, לפי המאוחר (בסעיף זה – תקופת הדחייה); ואולם, התקבלה אצל ספק הגז קריאה בנוגע לתקלה או חשש לתקלה במיתקן הגז, או שנודע לו על כך בדרך אחרת, והתקלה או החשש מחייבים לבדוק בלא דיחוי את מיתקן הגז, לא יחולו על מיתקן הגז הוראות סעיף קטן זה מהמועד שבו נודע לספק הגז כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ספק הגז יודיע לצרכנים, בכתב, על המועד המעודכן לביצוע בדיקה תקופתית לפי סעיף זה ורשאי הוא להודיע כאמור בחשבונית או בהודעת התשלום שהוא שולח לצרכניו.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות סעיף זה יחולו גם על אספקת גז שבוצעה לפני יום תחילתו של חוק זה למיתקן גז כאמור בסעיף קטן (א), שהמועד האחרון לביצוע בדיקה תקופתית לגביו חל בתקופה הקובעת.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_4__point_ד__point_גז">
+                    <content>
+                      <p>
+                        <def />”גז“ – גז פחמימני מעובה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">בחוק הגז</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ד__point_חוק_הגז">
+                    <content>
+                      <p>
+                        <def />”חוק הגז“ – <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">חוק הגז (בטיחות ורישוי), התשמ"ט–1989</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ד__point_מיתקן_גז">
+                    <content>
+                      <p>
+                        <def />”מיתקן גז“ – מיתקן גז המשמש לצריכת גז לשימוש ביתי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ד__point_ספק_גז">
+                    <content>
+                      <p>
+                        <def />”ספק גז“ – מי שהוא בעל רישיון ספק גז לפי <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583#chp_ג">פרק ג׳ לחוק הגז</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ד__point_תי_158">
+                    <content>
+                      <p>
+                        <def />”ת"י 158“ – תקן ישראלי ת"י 158 חלק 4 – ”מיתקנים לגזים פחמימניים מעובים (גפ"מ): בדיקות“.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>ביקורת שיפוטית</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביקורת שיפוטית</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>על החלטה של רשות ציבורית לקבוע לפי הוראות <ref href="#point_2">סעיף 2(ב)</ref>, לעניין אישור רגולטורי מסוים, תקופת דחייה קצרה יותר מהתקופה האמורה <ref href="#point_2">בסעיף 2(א)</ref>, או לקבוע כאמור שהוראות <ref href="#point_2">אותו סעיף</ref> לא יחולו לעניין אישור רגולטורי מסוים ניתן לעתור או לערער לערכאה המוסמכת לפי החוק שמכוחו ניתן האישור הרגולטורי לדון בהחלטות הנוגעות לאותו אישור.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון התוספות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <intro>
+                <p>השר הממונה על ביצוע החיקוק שמכוחו ניתן אישור רגולטורי רשאי, בצו, לאחר התייעצות עם ראש הממשלה ובאישור הוועדה, לתקן את <ref href="#appendix_1">התוספת הראשונה</ref>, את <ref href="#appendix_2">התוספת השנייה</ref> ואת <ref href="#appendix_3">התוספת השלישית</ref> (בסעיף זה – התוספות), לעניין אותו אישור, ובלבד שהוספת אישור רגולטורי <ref href="#appendix_2">לתוספת השנייה</ref> לא תפגע בתוקפו של האישור הרגולטורי עד למועד תיקון <ref href="#appendix_2">אותה תוספת</ref>; ואולם –</p>
+              </intro>
+              <point eId="point_6__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>היתה הרשות הציבורית המוסמכת למתן האישור הרגולטורי תאגיד שהוקם לפי חוק, רשאי השר הממונה על התחום שבו פועל התאגיד שהוקם לפי חוק, באישור הוועדה, לתקן את התוספות לעניין אותו אישור;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>היתה הרשות הציבורית המוסמכת למתן האישור הרגולטורי רשות מקומית, רשאי שר הפנים, בהתייעצות עם ראש הממשלה ובאישור הוועדה, לתקן את התוספות לעניין אותו אישור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיף 1(2)</ref> – ההגדרה ”אישור רגולטורי“)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>אישור מעבדה מוסמכת לבדיקה תקופתית למכלית או לרכב שמותקן עליו מיכל, להובלת חומר מסוכן, בדבר כשירות ועמידה בדרישות כאמור <ref href="/akn/il/act/SecondaryLegislation/2001-02-19/40667#point_3">בתקנה 3(ג)(3) לתקנות שירותי הובלה, התשס"א–2001</ref>, לפי תקן ישראלי ת"י 819 או בהתאם לאמנה להובלת חומרים מסוכנים בכבישים (ADR) – המפקח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1997-08-07/165173">בחוק שירותי הובלה, התשנ"ז–1997</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>תעודת הכשרה שנתן מוסד הכשרה לפי <ref href="/akn/il/act/SecondaryLegislation/2007-05-01/44534#point_51">תקנה 51 לתקנות הבטיחות בעבודה (עבודה בגובה), התשס"ז–2007</ref>, ואישור שניתן לעובד בגובה בהתאם <ref href="/akn/il/act/SecondaryLegislation/2007-05-01/44534#point_6">לתקנה 6(ב) ו־(ג) לתקנות האמורות</ref> – מפקח עבודה ראשי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">בפקודת הבטיחות בעבודה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <content>
+              <p>הסמכה שנתנה רשות הסמכה לפי <ref href="/akn/il/act/SecondaryLegislation/1992-12-17/34986#point_6">תקנה 6(א) לתקנות הבטיחות בעבודה (עגורנאים [במקור: עגונראים], מפעילי מכונות הרמה אחרות ואתתים), התשנ"ג–1992</ref>, לאתת או לעגורנאי, לעניין הפעלת עגורן מסוג ג׳ ו־ד׳ – מפקח עבודה ראשי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">בפקודת הבטיחות בעבודה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>בדיקה סביבתית תעסוקתית בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה [נוסח חדש], התש"ל–1970</ref> (להלן – פקודת הבטיחות בעבודה) – מפקח עבודה ראשי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">בפקודת הבטיחות בעבודה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(5)</num>
+            <content>
+              <p>תסקיר על בדיקה שניתן בידי בודק מוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה</ref>, ובלבד שלא הוצא לגבי המכשיר שלגביו ניתן התסקיר, בשנה האחרונה, צו שיפור או צו בטיחות לפי <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/148170">חוק ארגון הפיקוח על העבודה, התשי"ד–1954</ref> – מפקח עבודה ראשי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">בפקודת הבטיחות בעבודה</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_2">סעיף 2(ג)(1)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התכנון_והבנייה">חוק התכנון והבנייה, התשכ"ה–1965</ref>, ואישור רגולטורי לפי <ref href="/akn/il/act/PrimaryLegislation/2014-08-07/548287">חוק לקידום הבנייה במתחמים מועדפים לדיור (הוראת שעה), התשע"ד–2014</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>היתר או אישור לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_צער_בעלי_חיים_ניסויים_בבעלי_חיים#point_13">סעיפים 13</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_צער_בעלי_חיים_ניסויים_בבעלי_חיים#point_14">14</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_צער_בעלי_חיים_ניסויים_בבעלי_חיים#point_19">או 19 לחוק צער בעלי חיים (ניסויים בבעלי חיים), התשנ"ד–1994</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <content>
+              <p>היתר הפעלה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1963-07-05/148967#point_8ג">בסעיף 8ג לחוק רישוי שירותי התעופה, התשכ"ג–1963</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>הכרה במוסד מוכר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הרופאים_אישור_תואר_מומחה_ובחינות#point_10ג">תקנה 10ג לתקנות הרופאים (אישור תואר מומחה ובחינות), התשל"ג–1973</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(5)</num>
+            <content>
+              <p>פנקס ימאי או אישור שירות הניתן לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הספנות_ימאים">תקנות הספנות (ימאים), התשס"ב–2002</ref>, או מוארך לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הספנות_ימאים">אותן תקנות</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(6)</num>
+            <content>
+              <p>רישיון לפי <ref href="/akn/il/act/PrimaryLegislation/2005-12-29/37656">חוק הנהיגה הספורטיבית, התשס"ו–2005</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(7)</num>
+            <content>
+              <p>תעודת היתר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_החומרים_המסוכנים_יבוא_ויצוא_פסולת_חומרים_מסוכנים">תקנות החומרים המסוכנים (יבוא ויצוא פסולת חומרים מסוכנים), התשנ"ד–1994</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(8)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#point_3">תקנות 3</ref>, <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#point_4">4</ref><ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#point_5">או 5 לתקנות הרוקחים (יסודות רדיואקטיביים ומוצריהם), התש"ם–1980</ref>, וכן היתר למתן שירות קרינה לפי <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#point_8">תקנה 8 לתקנות האמורות</ref> לעניין שירות המנוי <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#appendix_2_פרט_5">בפרטים 5</ref>, <ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#appendix_2_פרט_6">6</ref><ref href="/akn/il/act/SecondaryLegislation/1980-02-12/23224#appendix_2_פרט_7">ו־7 לתוספת השנייה לאותן תקנות</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(9)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/SecondaryLegislation/1000-01-30/54225#point_8א">תקנה 8א(א1) לתקנות הדיג, 1937</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(10)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_מחלות_בעלי_חיים_הסדרת_תנועת_בעלי_חיים_בישראל#point_2">תקנה 2 לתקנות מחלות בעלי חיים (הסדרת תנועת בעלי חיים בישראל), התשמ"ב–1982</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(11)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_מחלות_בעלי_חיים_רישום_סימון_והובלה_של_בקר">תקנות מחלות בעלי חיים (רישום, סימון והובלה של בקר), התשל"ו–1976</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(12)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_מחלות_בעלי_חיים_הקמה_והפעלה_של_משקי_טיפוח_הפצה_רבייה_וגידול_של_עופות#point_24">תקנה 24 לתקנות מחלות בעלי חיים (הקמה והפעלה של משקי טיפוח, הפצה, רבייה וגידול של עופות), התשמ"א–1981</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(13)</num>
+            <content>
+              <p>רישיון לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_מחלות_בעלי_חיים_יבוא_בעלי_חיים">תקנות מחלות בעלי חיים (יבוא בעלי חיים), התשל"ד–1974</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(14)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/PrimaryLegislation/1954-08-12/148069#point_9">סעיף 9(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1954-08-12/148069#point_9א">או 9א לחוק עבודת נשים, התשי"ד–1954</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(15)</num>
+            <content>
+              <p>אישור רגולטורי שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159654">חוק משק החשמל, התשנ"ו–1996</ref>, ולפי <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/147403">חוק החשמל, התשי"ד–1954</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(16)</num>
+            <content>
+              <p>היתר לייבוא או לייצוא של ערך טבע מוגן לפי <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212#point_33">סעיף 33 לחוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה, התשנ"ח–1998</ref>, לעניין ערך טבע כאמור שחלה לגביו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/אמנה_בדבר_סחר_בין_לאומי_במינים_של_חיית_בר_וצמחיית_בר_הנתונים_בסכנה">אכרזת גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה (יישום האמנה בדבר סחר בין־לאומי במינים של חיית בר וצמחיית בר הנתונים בסכנה) (ערכי טבע מוגנים), התשס"ד–2004</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(17)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הנמלים_בטיחות_השיט_הוראת_שעה">תקנות הנמלים (בטיחות השיט) (הוראת שעה), התש"ף–2020</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(18)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_התעבורה_הארכת_תקופת_תוקף_רישיון_רכב">צו התעבורה (הארכת תקופת תוקף רישיון רכב), התש"ף–2020</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(19)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_התעבורה_הוראת_שעה_מס_2">תקנות התעבורה (הוראת שעה מס׳ 2), התש"ף–2020</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(20)</num>
+            <content>
+              <p>הסמכת ממונים על פיצוצים, לפי <ref href="/akn/il/act/PrimaryLegislation/1954-02-09/147356">חוק חומרי נפץ, התשי"ד–1954</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(21)</num>
+            <content>
+              <p>בדיקות רפואיות של עובדים החשופים לגורם מזיק, שנדרשות לפי <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(22)</num>
+            <content>
+              <p>תסקיר בדיקה לגבי מעלית או עגורן צריח לפי <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(23)</num>
+            <content>
+              <p>היתרים לפי <ref href="/akn/il/act/PrimaryLegislation/1951-05-22/148168">חוק שעות עבודה ומנוחה, התשי"א–1951</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(24)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655">חוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(25)</num>
+            <content>
+              <p>אישור רגולטורי שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">חוק משק הגז הטבעי, התשס"ב–2002</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(26)</num>
+            <content>
+              <p>הסמכה שניתנה לפי <ref href="/akn/il/act/PrimaryLegislation/1997-04-13/162291">חוק הרשות הלאומית להסמכת מעבדות, התשנ"ז–1997</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(27)</num>
+            <content>
+              <p>רישיונות הניתנים לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/כללי_רשות_שדות_התעופה_כניסה_לשטחים_מוגבלים#point_4">כלל 4 לכללי רשות שדות התעופה (כניסה לשטחים מוגבלים), התשמ"ג–1983</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(28)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryLegislation/1952-08-31/150155">חוק הנפט, התשי"ב–1952</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(29)</num>
+            <content>
+              <p>תעודת כושר טיסה שניתנה לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#point_63">סעיף 63 לחוק הטיס, התשע"א–2011</ref> (<ref href="#appendix_2">בתוספת זו</ref> – חוק הטיס);</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(30)</num>
+            <content>
+              <p>פטור שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#point_165">סעיף 165 לחוק הטיס</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(31)</num>
+            <content>
+              <p>רישיון הפקה או רישיון הספקה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-08-13/147956#point_23">סעיף 23 לחוק המים, התשי"ט–1959</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(32)</num>
+            <content>
+              <p>אישור רגולטורי לפי <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544">חוק המהנדסים והאדריכלים, התשי"ח–1958</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(33)</num>
+            <content>
+              <p>הכרה בבית ספר כאמור בהגדרה ”תעודת הסמכה“ <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582#point_1">בסעיף 1 לחוק הספורט, התשמ"ח–1988</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(34)</num>
+            <content>
+              <p>היתר לפי <ref href="/akn/il/act/PrimaryLegislation/1966-02-09/147203">חוק הדרכים (שילוט), התשכ"ו–1966</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_2">סעיף 2(ג)(2)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>רישיון יבוא בפטור ממכס שניתן לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_יבוא_חופשי#point_2">סעיף 2(ד) לצו יבוא חופשי, התשע"ד–2014</ref> (להלן – צו יבוא חופשי);</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>רישיון יבוא שניתן לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_יבוא_חופשי#point_2">סעיף 2(א) לצו יבוא חופשי</ref> או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_יבוא_אישי#point_2">סעיף 2(א)(2) לצו יבוא אישי, התשע"ט–2019</ref> לטובין המסווגים בפרטי המכס המפורטים להלן: 36.04, 93.04.0020, 93.05.9900 ו־93.06.901000/2 לעניין כדורי איירסופט.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יריב_לוין">יריב לוין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>
