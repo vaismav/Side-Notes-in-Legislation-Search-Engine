@@ -107,9 +107,27 @@ class main_search:
 
 
         # return self.lists_of_scetions
+    def extract_all_side_notes(self):
+        all_side_notes_file=open("all_side_notes_file.txt","w",encoding="utf8")
+        work_dir = "".join(os.getcwd())
+        for i in range(len(os.listdir(work_dir + "\\xmls"))):
+            tree = ET.parse(work_dir + "\\xmls\\law" + str(i) + ".xml")
+            root = tree.getroot()
+            for element in root.iter():
+                if self.slice_prefix(element.tag) == "authorialNote" and element.get("placement") == "side":
+                    for sub_element in element.iter():
+                        if (self.slice_prefix(sub_element.tag) == "p" ):
+                            s=sub_element.text
+                            if(len(s)>1):
+                                all_side_notes_file.write( sub_element.text +" @@@\n")
+                                break
+        all_side_notes_file.close()
+
+
 
 words_list=[["הגדרות"],["הגבלת פעילות במוסדות חינוך","שעה"]]
-y=main_search(words_list)
-y.find_words_original_zip()
+# y=main_search(words_list)
+# y.extract_all_side_notes()
+# y.find_words_original_zip()
 print(y.get_more_sections())
 print(y.get_more_sections())
