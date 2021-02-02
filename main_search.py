@@ -1,5 +1,22 @@
 import os
 import xml.etree.ElementTree as ET
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+
+# Use a service account
+cred = credentials.Certificate('./side-notes-search-engine-firebase-adminsdk-l1e10-9d9bbece62.json')
+firebase_admin.initialize_app(cred)
+
+db = firestore.client()
+for id in range(4):
+    doc_ref = db.collection(u'sections').document(u'section'+str(id))
+    doc_ref.set({
+        u'first': u'yarin'+str(id),
+        u'last': u'kagal'+str(id),
+        u'born': u'check'+str(id)
+    })
+
 
 class main_search:
     def __init__(self,words_list):
@@ -129,5 +146,5 @@ words_list=[["הגדרות"],["הגבלת פעילות במוסדות חינוך
 # y=main_search(words_list)
 # y.extract_all_side_notes()
 # y.find_words_original_zip()
-print(y.get_more_sections())
-print(y.get_more_sections())
+# print(y.get_more_sections())
+# print(y.get_more_sections())
