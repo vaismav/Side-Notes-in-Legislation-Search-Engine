@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+
+#fasttext model files
+result/*.bin
+fastText/
+
 # Distribution / packaging
 .Python
 build/
@@ -129,3 +134,4 @@ dmypy.json
 .pyre/
 
 env/
+
