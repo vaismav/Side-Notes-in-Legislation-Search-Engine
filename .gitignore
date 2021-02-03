@@ -9,7 +9,7 @@ __pycache__/
 
 #fasttext model files
 result/*.bin
-fasttext/
+fastText/
 
 # Distribution / packaging
 .Python
