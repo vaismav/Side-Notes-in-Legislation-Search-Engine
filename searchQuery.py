@@ -76,9 +76,9 @@ class SearchQuery:
 
     def updateAllQueries(self):
         self.getAllSideNotes()
-        # for side_note in self.sideNotesStrings:
-        #     self.makeQueryResult(side_note)
-        self.makeQueryResult(self.sideNotesStrings[0])
+        for side_note in self.sideNotesStrings:
+            self.makeQueryResult(side_note)
+        # self.makeQueryResult(self.sideNotesStrings[0])
         
 
 
