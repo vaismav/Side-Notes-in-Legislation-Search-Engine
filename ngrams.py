@@ -2,8 +2,8 @@ import sys
 import json
 from side_notes_set_in_list import side_notes_list 
 
-from util import FastTextModel 
-from util import printEvent 
+from wordsModel import FastTextModel 
+from wordsModel import printEvent 
 
 
 
