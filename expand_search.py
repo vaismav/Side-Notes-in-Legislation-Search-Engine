@@ -87,6 +87,7 @@ class SideNotesNgrams:
             searchTerm ([type]): [description]
         """
         if(self.dictionary.get(searchTerm) != None):
+            print("Already exist in the dictionary")
             return 
         ngrams =  searchTerm.split()
 
@@ -117,15 +118,16 @@ if __name__ == "__main__":
                 obj.expandSearchTerm(note)
                 print("Finished term N0"+str(index))
                 index+=1
-                if(index >500):
-                    break
+                # if(index >100):
+                #     break
 
             printEvent("Finished Creating dictionary")
             printEvent("Creating JSON")
 
-            with open('data.json', 'w') as fp:
-                json.dump(obj.dictionary, fp)
+            with open('result/notes_ngrams.json', 'w' , encoding="utf-8") as fp:
+                json.dump(obj.dictionary, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
             printEvent("Finished Creating JSON")
+
         else:
             obj.expandSearchTerm(side_notes_list[int(sys.argv[1])])
