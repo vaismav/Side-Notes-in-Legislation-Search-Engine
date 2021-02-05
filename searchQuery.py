@@ -57,7 +57,6 @@ class SearchQuery:
         queryOutput['results' ] = []
 
         query_ngrams[0] = [query_ngrams[0]] #temporery patch TODO: fix the ngrams function
-
         for ngrams_level in query_ngrams:
             if ngrams_level != None:
                 for item in ngrams_level :
@@ -72,12 +71,16 @@ class SearchQuery:
                                 current_side_note_result = self.createResultObject(side_note_string, self.sections[side_note_string].values())
                                 queryOutput['results'].append(current_side_note_result)
         
-        self.queries[query] = queryOutput['results']
+        return queryOutput['results']
 
     def updateAllQueries(self):
         self.getAllSideNotes()
+        runNumber = 1
         for side_note in self.sideNotesStrings:
+            print("N0"+str(runNumber) + " Start creating results for: " + side_note)
             self.makeQueryResult(side_note)
+            print("N0"+str(runNumber) + " Finished creating results for: " + side_note)
+            runNumber+=1
         # self.makeQueryResult(self.sideNotesStrings[0])
         
 
