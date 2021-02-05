@@ -12,6 +12,8 @@ result/*.bin
 result/*.json
 fastText/
 
+#venv
+dev/
 # Distribution / packaging
 .Python
 build/
@@ -134,4 +136,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+env/
 
