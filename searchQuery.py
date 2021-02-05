@@ -76,12 +76,13 @@ class SearchQuery:
     def updateAllQueries(self):
         self.getAllSideNotes()
         runNumber = 1
-        for side_note in self.sideNotesStrings:
-            print("N0"+str(runNumber) + " Start creating results for: " + side_note)
-            self.makeQueryResult(side_note)
-            print("N0"+str(runNumber) + " Finished creating results for: " + side_note)
-            runNumber+=1
-        # self.makeQueryResult(self.sideNotesStrings[0])
+        # for side_note in self.sideNotesStrings:
+        #     print("N0"+str(runNumber) + " Start creating results for: " + side_note)
+        #     self.makeQueryResult(side_note)
+        #     print("N0"+str(runNumber) + " Finished creating results for: " + side_note)
+        #     runNumber+=1
+        with open(paths.queries_path, 'w' , encoding="utf-8") as fp:
+                json.dump(self.makeQueryResult(self.sideNotesStrings[0]), fp, ensure_ascii=False, indent=4, sort_keys=True)
         
 
 
@@ -93,6 +94,5 @@ class SearchQuery:
 if __name__ == "__main__":
     obj = SearchQuery()
     obj.updateAllQueries()
-    with open(paths.queries_path, 'w' , encoding="utf-8") as fp:
-                json.dump(obj.queries, fp, ensure_ascii=False, indent=4, sort_keys=True)
+    
     
