@@ -4,6 +4,7 @@ from side_notes_set_in_list import side_notes_list
 
 from wordsModel import FastTextModel 
 from wordsModel import printEvent 
+import paths
 
 
 
@@ -13,7 +14,7 @@ class SideNotesNgrams:
         self.dictionary = {}
         self.fastTextModel = FastTextModel()
         self.numOfAlternativesWords = 5
-        self.fastTextModel.loadModel("result/model.bin")
+        self.fastTextModel.loadModel(paths.model_path)
 
     
     def createNGrams(self, ngrams,N):
@@ -124,7 +125,7 @@ if __name__ == "__main__":
             printEvent("Finished Creating dictionary")
             printEvent("Creating JSON")
 
-            with open('result/notes_ngrams.json', 'w' , encoding="utf-8") as fp:
+            with open(paths.notes_ngrams_path, 'w' , encoding="utf-8") as fp:
                 json.dump(obj.dictionary, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
             printEvent("Finished Creating JSON")
