@@ -9,6 +9,7 @@ __pycache__/
 
 #fasttext model files
 result/*.bin
+result/*.json
 fastText/
 
 # Distribution / packaging
@@ -133,4 +134,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+env/
 
