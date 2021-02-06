@@ -80,7 +80,7 @@ class SearchQuery:
         query_ngrams = self.ngrams.get(query)
         if query_ngrams == None :
             throwError("couldnt find ngrams for \"" + query + "\"")
-            return
+            return []
 
         queryOutput = {}
         queryOutput['included_side_notes' ] = []

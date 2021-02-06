@@ -1,6 +1,6 @@
 from flask import (Flask, request, send_from_directory)
 import os
-from searchQuery import SearchQuery
+from searchHandler import SearchHandlerPool
 from flask_cors import CORS
 
 app = Flask(__name__, static_folder='client/build')
@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder='client/build')
 CORS(app)
 
 
-searchObj = SearchQuery()
+searchPool = SearchHandlerPool()
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
@@ -24,7 +24,7 @@ def searchOption():
     # print("text")
     # print(query)
     response = {}
-    response['data'] = searchObj.getSugestedSideNote(query, 50)
+    response['data'] = searchPool.getSugestedSideNote(query, 50)
     return response
     
 
@@ -33,7 +33,15 @@ def search():
     query = request.args.get("qu", "")
     print(query)
     response = {}
-    response['data'] = searchObj.makeQueryResult(query)
+    response['searchId'] = searchPool.addHandler(query)
+    return response
+
+@app.route('/api/getResults')
+def getResults():
+    searchId = request.args.get("si", "")
+    print(searchId)
+    response = {}
+    response['data'] = searchPool.getNextResults(searchId,5)
     return response
 
 if __name__ == "__main__":

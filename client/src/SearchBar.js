@@ -14,9 +14,11 @@ export default function MySearchBar({ handleClick}) {
         setSugestions(data);
         setSuggestElement(data.map(value => (<dt>{value}</dt>)));
     }
+    
     const handleChange = useCallback(
         async event => {
             setSearchTerm(event.target.value);
+            console.log("input = "+searchTerm)
             if(event.target.value != ""){
                 event.preventDefault();
                 const response = await fetch('http://localhost:'+port.toString()+'/api/searchOption?qu='+event.target.value, {
@@ -36,14 +38,15 @@ export default function MySearchBar({ handleClick}) {
     }
     
    
-    const createSuggestionList = () => (<div className="flatList">{suggestions.map(value => (<div className="suggestItem" ><p onClick={fillSearchInput(value)}>{value}</p></div>))}</div>);
-
+    const createSuggestionList = () => (<div className="flatList">{suggestions.map(value => (<div className="suggestItem" ><p >{value}</p></div>))}</div>);
+    // onClick={fillSearchInput(value)}
     
     const handleFocus = () => setSuggestElement([createSuggestionList()]); 
 
     const handleBlur = () => setSuggestElement([]); 
     
-    // const click = useCallback(() => handleClick(searchTerm),[])
+    const onClickHandle = useCallback(event => handleClick(searchTerm),[]);
+    
     return ( 
             <div className="SearchBar">
               <div>
@@ -55,7 +58,7 @@ export default function MySearchBar({ handleClick}) {
                 onFocus={handleFocus}
                 onBlur={handleBlur}
                 placeholder="הקלד הערת צד לחיפוש"></input>
-                <button onClick={handleClick(searchTerm)} >חפש</button>
+                <button onClick={onClickHandle} >חפש</button>
                 </div>
                 <div>{suggestElement}</div>
             </div>
