@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 flask=1.1.1
-=======
 # flask==1.1.1
 requests
 selenium
->>>>>>> 97851081c8c24f1b0a732adf5928d773afcf1e98

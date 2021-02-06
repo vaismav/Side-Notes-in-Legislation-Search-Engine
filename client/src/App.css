@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.suggestItem:hover{
+  background-color: #61dafb;
+}
+
+.SearchBar{
+  width: 100%;
+  
+}
+
+.SearchBar input{
+  width: 80%;
+  font-size: 20px;
+}
+
+.suggestItem{
+  border-bottom-color: '#26a69a';
+  border-bottom-width:1;
+}
+
+.flatList{
+  padding-left: 15;
+  margin-top:15;
+  padding-bottom:15;
+  font-size: 20;
+  border-bottom-color: '#26a69a';
+  border-bottom-width:1;
+}
+

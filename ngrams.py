@@ -16,6 +16,13 @@ class SideNotesNgrams:
         self.numOfAlternativesWords = 5
         self.fastTextModel.loadModel(paths.model_path)
 
+    def parseMetaChars(self, inputString: str):
+        """replace meta char with html enoding
+            return encoded string
+        Args:
+            input ([string]): string
+        """
+        return inputString.replace("\"",'&quot;').replace("\n",'&NewLine;').replace("\'",'&apos;')
     
     def createNGrams(self, ngrams,N):
         """gets array of strings and return array of N-grams strings
@@ -102,7 +109,7 @@ class SideNotesNgrams:
         else:
             newSearchTerms.append(None)
         newSearchTerms.append(ngrams)
-        self.dictionary[searchTerm] = newSearchTerms
+        self.dictionary[self.parseMetaChars(searchTerm)] = newSearchTerms
     
 
 if __name__ == "__main__":

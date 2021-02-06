@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
+import './App.css'
+import MySearchBar from './SearchBar';
 
 const port = process.env.PORT || 5000;
 
@@ -24,8 +25,8 @@ export default function App() {
   return (
     
       <div className="App">
-        <SearchBar  handleClick={handleSearch} />
+        <MySearchBar  handleClick={handleSearch} />
       </div>
-    
+  
   );
 }
