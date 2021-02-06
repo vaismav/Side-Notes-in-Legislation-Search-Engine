@@ -34,6 +34,7 @@ def search():
     print(query)
     response = {}
     response['searchId'] = searchPool.addHandler(query)
+    print("created new search with id "+ response['searchId'])
     return response
 
 @app.route('/api/getResults')

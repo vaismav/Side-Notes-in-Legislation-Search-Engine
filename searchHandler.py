@@ -23,7 +23,7 @@ class SearchHandler:
     
     def __init__(self,query):
         self.query = query
-        self.searchId = str(random.randint(0,10000000))#uuid.uuid4()
+        self.searchId = str(uuid.uuid4())
         self.results = self.flatResults(querySearchObj.makeQueryResult(query))
         self.totalNumOfResults = len(self.results)
         self.nextResultsPointer = 0 

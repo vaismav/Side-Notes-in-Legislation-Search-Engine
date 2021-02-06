@@ -18,6 +18,7 @@ export default function MySearchBar({ handleClick}) {
     const handleChange = useCallback(
         async event => {
             setSearchTerm(event.target.value);
+            console.log("event.target.value = "+event.target.value)
             console.log("input = "+searchTerm)
             if(event.target.value != ""){
                 event.preventDefault();
@@ -30,7 +31,7 @@ export default function MySearchBar({ handleClick}) {
                 setAndUpdateSuggestions(response.data);
             }
         },
-        []
+        [setSearchTerm,searchTerm]
       );
      
     const fillSearchInput = choice => {
@@ -45,7 +46,7 @@ export default function MySearchBar({ handleClick}) {
 
     const handleBlur = () => setSuggestElement([]); 
     
-    const onClickHandle = useCallback(event => handleClick(searchTerm),[]);
+    const onClickHandle = useCallback(event => handleClick(searchTerm),[searchTerm]);
     
     return ( 
             <div className="SearchBar">
