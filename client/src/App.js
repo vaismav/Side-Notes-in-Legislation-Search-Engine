@@ -53,10 +53,13 @@ export default function App() {
         getMoreResults(response.searchId);
     },[setSearchId,getMoreResults, searchId]);
 
+  const getMoreResultsNow = () => getMoreResults(searchId);
+
   return (
       <div className="App">
         <MySearchBar  handleClick={handleSearch} />
-        {/* <SearchResults results={results}/> */}
+        <SearchResults results={results}/>
+        <button onClick={getMoreResultsNow}>תוצאות נוספות</button>
       </div>
   
 

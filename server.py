@@ -2,10 +2,13 @@ from flask import (Flask, request, send_from_directory)
 import os
 from searchHandler import SearchHandlerPool
 from flask_cors import CORS
+from post_deploy import extractJsons
+
+extractJsons() ## extraciting the JSON DB from zip
 
 app = Flask(__name__, static_folder='client/build')
 
-CORS(app)
+# CORS(app)
 
 
 searchPool = SearchHandlerPool()
@@ -44,6 +47,7 @@ def getResults():
     response = {}
     response['data'] = searchPool.getNextResults(searchId,5)
     return response
+
 
 if __name__ == "__main__":
     app.run(debug=True)
