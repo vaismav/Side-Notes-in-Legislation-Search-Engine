@@ -10,7 +10,10 @@ __pycache__/
 #fasttext model files
 result/*.bin
 result/*.json
-fastText/
+
+
+#venv
+dev/
 
 # Distribution / packaging
 .Python

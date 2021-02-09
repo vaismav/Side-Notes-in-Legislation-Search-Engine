@@ -5,17 +5,47 @@ import side_notes_set_in_list
 def throwError(message):
     print("ERROR!" + message)
 
+
 class SearchQuery:
+    def log(self, message):
+        print("Log ===> SearchQuery: "+ message)
+
     def __init__(self):
         self.sideNotesStrings = []
-
+        self.log("Start loading Ngrams JSON")
         with open(paths.notes_ngrams_path) as f:
             self.ngrams  = json.load(f)
-        
+        self.log("Finished loading Ngrams JSON")
+
+        self.log("Start loading Section JSON")
         with open(paths.all_sections_path) as f:
             self.sections  = json.load(f)
+        self.log("Finished loading Section JSON")
+        
+        self.log("Creating list of side-notes")
+        self.side_note_list = self.sections.keys()
+        self.log("Finished creating list of side-notes")
 
         self.queries = {}
+
+    def getSugestedSideNote(self, inputStr, numOfResults):
+        """return list of all side-notes which contains the substring inputStr
+
+        Args:
+            inputStr ([type]): [description]
+        """
+        output = []
+        resultsFound = 0
+
+        for item in self.side_note_list:
+            if inputStr in item:
+                output.append(item)
+                resultsFound += 1
+            if resultsFound >= numOfResults:
+                break
+        
+        return output
+
 
     def getAllSideNotes(self):
         """return array of keys in all_sections json
@@ -50,7 +80,7 @@ class SearchQuery:
         query_ngrams = self.ngrams.get(query)
         if query_ngrams == None :
             throwError("couldnt find ngrams for \"" + query + "\"")
-            return
+            return []
 
         queryOutput = {}
         queryOutput['included_side_notes' ] = []
@@ -75,7 +105,6 @@ class SearchQuery:
 
     def updateAllQueries(self):
         self.getAllSideNotes()
-        runNumber = 1
         # for side_note in self.sideNotesStrings:
         #     print("N0"+str(runNumber) + " Start creating results for: " + side_note)
         #     self.makeQueryResult(side_note)
