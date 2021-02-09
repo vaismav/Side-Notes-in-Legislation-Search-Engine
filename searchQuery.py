@@ -15,11 +15,14 @@ class SearchQuery:
         self.log("Start loading Ngrams JSON")
         with open(paths.notes_ngrams_path) as f:
             self.ngrams  = json.load(f)
+            f.close()
+        
         self.log("Finished loading Ngrams JSON")
 
         self.log("Start loading Section JSON")
         with open(paths.all_sections_path) as f:
             self.sections  = json.load(f)
+            f.close()
         self.log("Finished loading Section JSON")
         
         self.log("Creating list of side-notes")
