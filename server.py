@@ -1,10 +1,11 @@
+from post_deploy import extractJsons
+extractJsons() ## extraciting the JSON DB from zip
+
 from flask import (Flask, request, send_from_directory)
 import os
 from searchHandler import SearchHandlerPool
 from flask_cors import CORS
-from post_deploy import extractJsons
 
-extractJsons() ## extraciting the JSON DB from zip
 
 app = Flask(__name__, static_folder='client/build')
 
