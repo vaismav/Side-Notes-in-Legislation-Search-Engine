@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 from shutil import copyfile
+import paths
 
 def flat_laws_zip():
     """
@@ -11,8 +12,8 @@ def flat_laws_zip():
     for root,subFolder,files in os.walk(wrd):
         for item in files:
             if(item.endswith("main.xml")):
-                dst = wrd + "\\data\\xmls\\law" + str(counter)+".xml"
-                src=str(root)+"\\main.xml"
+                dst = wrd + paths.data_xml_law_file + str(counter)+".xml"
+                src=str(root)+"/main.xml"
                 copyfile(src, dst)
                 counter += 1
 

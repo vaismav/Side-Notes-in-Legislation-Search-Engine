@@ -2,9 +2,6 @@ import json
 import os
 import sys
 import xml.etree.ElementTree as ET
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import firestore
 import time
 
 from googlesearch import search
@@ -23,10 +20,10 @@ class main_search:
         self.build_req_dict_from_big_json()
 
         # Use a service account
-        cred = credentials.Certificate('./side-notes-search-engine-firebase-adminsdk-l1e10-9d9bbece62.json')
-        firebase_admin.initialize_app(cred)
+        # cred = credentials.Certificate('./side-notes-search-engine-firebase-adminsdk-l1e10-9d9bbece62.json')
+        # firebase_admin.initialize_app(cred)
 
-        self.db = firestore.client()
+        # self.db = firestore.client()
 
     def get_more_sections(self,word):
         """
@@ -223,40 +220,40 @@ class main_search:
 
 
 
-    def fill_sections_documents_in_db(self):
-        """
-        This function add the sections to the firebase db.
-        """
-        notes_pushed=5000
-        f = open('all_sections.json',"r",  encoding="utf8")
-        data = json.load(f)
-        f.close()
-        keys = data.keys()
-        for key in keys:
-            for next_key in data[key].keys():
+    # def fill_sections_documents_in_db(self):
+    #     """
+    #     This function add the sections to the firebase db.
+    #     """
+    #     notes_pushed=5000
+    #     f = open('all_sections.json',"r",  encoding="utf8")
+    #     data = json.load(f)
+    #     f.close()
+    #     keys = data.keys()
+    #     for key in keys:
+    #         for next_key in data[key].keys():
 
 
-                if (not data[key][next_key]["uploaded_to_db"]) :
+    #             if (not data[key][next_key]["uploaded_to_db"]) :
 
-                    with open("all_sections.json", "w", encoding='utf8') as outfile:
-                        json.dump(data, outfile, ensure_ascii=False)
-                    try:
-                        data[key][next_key]["uploaded_to_db"] = True
-                        doc_ref = self.db.collection(u'notes').document(u'' + str(key))
-                        doc_ref.set(data[key])
-                        print("note " + str(key) + f"pushed to db -->{notes_pushed} pushed so far  ")
+    #                 with open("all_sections.json", "w", encoding='utf8') as outfile:
+    #                     json.dump(data, outfile, ensure_ascii=False)
+    #                 try:
+    #                     data[key][next_key]["uploaded_to_db"] = True
+    #                     doc_ref = self.db.collection(u'notes').document(u'' + str(key))
+    #                     doc_ref.set(data[key])
+    #                     print("note " + str(key) + f"pushed to db -->{notes_pushed} pushed so far  ")
 
-                        notes_pushed = notes_pushed + 1
+    #                     notes_pushed = notes_pushed + 1
 
-                        if(notes_pushed==48000):
-                            return
-                    except:
-                        data[key][next_key]["uploaded_to_db"] = False
-                        print( str(key)+"["+str(next_key)+"]" +" wasn't uploaded")
-                        break
+    #                     if(notes_pushed==48000):
+    #                         return
+    #                 except:
+    #                     data[key][next_key]["uploaded_to_db"] = False
+    #                     print( str(key)+"["+str(next_key)+"]" +" wasn't uploaded")
+    #                     break
 
-                else:
-                    print("here")
+    #             else:
+    #                 print("here")
 
     # def section_already_in_db(self, word, law_name, str_to_html):
     #     users_ref = self.db.collection(u'sections')
