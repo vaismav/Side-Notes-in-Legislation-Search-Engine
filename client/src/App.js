@@ -12,6 +12,20 @@ export default function App() {
 
   const parseMetaChars = inputStr => inputStr.replace(/"/g,'&quot;').replace(/\n/g,'&NewLine;').replace(/'/g,'&apos;')
 
+  const getNewResults =useCallback(async id => {
+    console.log("ask more results  for  si"+ id);
+        const response = await fetch('http://localhost:'+port.toString()+'/api/getResults?si='+id, {
+            method: 'GET',
+            headers: {
+            'Content-Type': 'application/json'
+            }
+        }).then(res => res.json());
+
+        console.log("response to results request os searcי id :"+id);
+        console.log(response.data);
+        setResults(response.data);
+    },[setResults, results]);
+
   const getMoreResults =useCallback(async id => {
     console.log("ask more results  for  si"+ id);
         const response = await fetch('http://localhost:'+port.toString()+'/api/getResults?si='+id, {
@@ -50,16 +64,24 @@ export default function App() {
         // getResultsOfSearch(response.searchId);
         setSearchId(response.searchId);
         console.log("responseId "+response.searchId)
-        getMoreResults(response.searchId);
+        getNewResults(response.searchId);
     },[setSearchId,getMoreResults, searchId]);
 
   const getMoreResultsNow = () => getMoreResults(searchId);
 
   return (
+      
       <div className="App">
+        <div className="appHeader">
+        <h1>מנוע חיפוש הערות צד בחקיקה</h1>
+        <h2>חלשים בגרפיקה, חזקים בהערות צד</h2>
+        </div>
         <MySearchBar  handleClick={handleSearch} />
         <SearchResults results={results}/>
-        <button onClick={getMoreResultsNow}>תוצאות נוספות</button>
+        <div className="moreResultsButton">
+        <button  onClick={getMoreResultsNow}>קבל תוצאות נוספות</button>
+        </div>
+        
       </div>
   
 

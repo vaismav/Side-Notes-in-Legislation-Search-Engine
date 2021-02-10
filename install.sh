@@ -11,14 +11,26 @@ done
 
 #installing fasttext
 git clone https://github.com/facebookresearch/fastText.git
-
 cd fastText
-
 pip install . 
+cd ../
+
+#deleting fastext installtion files
+
+rm -rf fastText
 
 #install requirements
+echo "Installing Py dependencies.."
 pip3 install -r requirements.txt
 
 #building the client
+echo "Building Client..."
+cd client
+npm install
+npm run build
+cd ../
 
 #lunching the server
+echo "Starting server"
+export FLASK_APP=server.py
+flask run

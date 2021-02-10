@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: right;
+  direction: rtl;
 }
 
 .App-logo {
@@ -38,10 +39,12 @@
 }
 
 .suggestItem:hover{
-  background-color: #61dafb;
+  background-color: #bdcbff;
 }
 
 .SearchBar{
+  padding-top: 10px;
+  text-align: center;
   width: 100%;
   
 }
@@ -51,17 +54,69 @@
   font-size: 20px;
 }
 
+.appHeader{
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(199, 199, 255);
+
+}
+
+.appHeader h1{
+  font-size: 50px;
+}
+
+.appHeader h2{
+  font-size: 30px;
+}
+
+.SearchBar button{
+  margin-left: 30px;
+  background-color: rgb(151, 183, 241);
+  font-size: 30px;
+}
+
+.moreResultsButton{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.moreResultsButton button{
+  font-size: 50px;
+  background-color: lightgreen;
+}
+
 .suggestItem{
   border-bottom-color: '#26a69a';
   border-bottom-width:1;
 }
 
 .flatList{
+  margin-right: 250px;
   padding-left: 15;
   margin-top:15;
   padding-bottom:15;
   font-size: 20;
-  border-bottom-color: '#26a69a';
-  border-bottom-width:1;
+  border:2px solid grey;
+  background-color: white;
+  position: absolute;
+}
+
+.result{
+  padding-top: 30px;
+  padding-left:20px;
+  text-align: right;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.resultContent{
+  margin-top: 20px;
+  
+  flex: 1;
+}
+.resultMeta{
+  margin-left: 30px;
+  padding-right: 20px;
+  border-left: 1px solid grey;
+  flex: 0 0 200px;
 }
 

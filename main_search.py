@@ -219,7 +219,40 @@ class main_search:
             json.dump(my_json, outfile, ensure_ascii=False)
 
 
+    def slice_triangle(self,param):
+        return param[param.find(">") + 1:len(param)]
 
+
+    def get_element_as_string2(self, element):
+        ret=""
+        for sub_element in element.iter():
+            # print(self.slice_prefix(sub_element.tag))
+            try:
+                if(self.slice_prefix(sub_element.tag)=="num"):
+                    ret = ret + sub_element.text
+                    # print(ret)
+                elif(self.slice_prefix(sub_element.tag) in ["content","intro"]):
+                    for sub_sub_element in sub_element.iter():
+                        # print(self.slice_prefix(sub_sub_element.tag))
+                        if (self.slice_prefix(sub_sub_element.tag) == "p"):
+                                if(len(sub_sub_element.text)>1):
+                                    ret=ret+sub_sub_element.text+"<br> <br> "
+                                    # print(ret)
+                                else:
+                                    for comment in sub_sub_element.iter():
+                                        # print(self.slice_prefix(comment.tag))
+                                        if (self.slice_prefix(comment.tag) == "wikicomment"):
+                                            ret = ret + comment.text + "<br>  "
+                                            # print(ret)
+                        elif (self.slice_prefix(sub_sub_element.tag) == "def"):
+                                ret=ret+self.slice_triangle(ET.tostring(sub_sub_element,encoding="unicode")) +"<br>  "
+
+
+            except:
+                x = 5
+        return (ret)
+    
+    
     # def fill_sections_documents_in_db(self):
     #     """
     #     This function add the sections to the firebase db.

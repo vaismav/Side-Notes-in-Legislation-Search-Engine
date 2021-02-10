@@ -36,8 +36,7 @@ export default function MySearchBar({ handleClick}) {
      
     const fillSearchInput = choice => {
         setSearchTerm(choice);
-    }
-    
+    }    
    
     const createSuggestionList = () => (<div className="flatList">{suggestions.map(value => (<div className="suggestItem" ><p >{value}</p></div>))}</div>);
     // onClick={fillSearchInput(value)}
@@ -51,6 +50,7 @@ export default function MySearchBar({ handleClick}) {
     return ( 
             <div className="SearchBar">
               <div>
+              <button onClick={onClickHandle} >חפש</button>
                 <input
                 type="text"
                 id="field"
@@ -59,7 +59,7 @@ export default function MySearchBar({ handleClick}) {
                 onFocus={handleFocus}
                 onBlur={handleBlur}
                 placeholder="הקלד הערת צד לחיפוש"></input>
-                <button onClick={onClickHandle} >חפש</button>
+                
                 </div>
                 <div>{suggestElement}</div>
             </div>

@@ -1,5 +1,5 @@
-from post_deploy import extractJsons
-extractJsons() ## extraciting the JSON DB from zip
+# from install import extractJsons
+# extractJsons() ## extraciting the JSON DB from zip
 
 from flask import (Flask, request, send_from_directory)
 import os
@@ -9,7 +9,7 @@ from flask_cors import CORS
 
 app = Flask(__name__, static_folder='client/build')
 
-# CORS(app)
+CORS(app)
 
 
 searchPool = SearchHandlerPool()
