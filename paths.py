@@ -12,4 +12,5 @@ notes_ngrams_path   = getPathOfOS("result/notes_ngrams.json")
 queries_path        = getPathOfOS("result/queries.json")
 results_zip         = getPathOfOS("result/results.zip")
 resulst_dir         = getPathOfOS("result")
+divider             = getPathOfOS("/")
 
