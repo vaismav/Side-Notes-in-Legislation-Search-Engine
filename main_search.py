@@ -11,16 +11,18 @@ from googlesearch import search
 
 
 
+
+
 class main_search:
     def __init__(self,words_list):
         """
         :param words_list: Expanded words lists to be found as notes in the laws xmls
         """
-        self.sections_returned=0
-        self.num_of_sections_each_time=5
-        self.lists_of_words=words_list
-        self.dict_of_side_notes={}
-        self.build_req_dict_from_big_json()
+        # self.sections_returned=0
+        # self.num_of_sections_each_time=5
+        # self.lists_of_words=words_list
+        # self.dict_of_side_notes={}
+        # self.build_req_dict_from_big_json()
 
         # Use a service account
         cred = credentials.Certificate('./side-notes-search-engine-firebase-adminsdk-l1e10-9d9bbece62.json')
@@ -189,8 +191,9 @@ class main_search:
         section_id = 0
         my_json={}
         work_dir = "".join(os.getcwd())
-        for law_id in range(len(os.listdir(work_dir + "\\data\\xmls"))):
-            tree = ET.parse(work_dir + "\\data\\xmls\\law" + str(law_id) + ".xml")
+        for law_id in range(len(os.listdir(work_dir + "\\xmls"))):
+        # for law_id in range(77,78):
+            tree = ET.parse(work_dir + "\\xmls\\law" + str(law_id) + ".xml")
             root = tree.getroot()
             for element in root.iter():
                 if (self.slice_prefix(element.tag) == "point"):
@@ -198,7 +201,12 @@ class main_search:
                         word = self.get_side_note_string(sub_element)
                         if (len(word) > 1):
                             law_name = self.find_law_name(root)
-                            str_to_html = self.get_element_as_string(element) + "<br> <br> \n\n"
+                            # str_to_html = self.get_element_as_string(element) + "<br> <br> \n\n"
+                            print(section_id)
+                            section_id+=1
+                            str_to_html = self.get_element_as_string2(element)
+
+
                             if (word not in my_json ):
                                 my_json[word]={0:{"law_id":law_id,
                                              "law_names":[law_name],
@@ -218,7 +226,7 @@ class main_search:
                                                                              }
 
 
-        with open("all_sections.json", "w", encoding='utf8') as outfile:
+        with open("all_sections2.json", "w", encoding='utf8') as outfile:
             json.dump(my_json, outfile, ensure_ascii=False)
 
 
@@ -289,7 +297,40 @@ class main_search:
     #     for json_object in my_json[word]:
     #         if json_object["string_to_html"]==str_to_html:
     #             return law_name in json_object[]
+    def slice_triangle(self,param):
+        return param[param.find(">") + 1:len(param)]
+
+
+    def get_element_as_string2(self, element):
+        ret=""
+        for sub_element in element.iter():
+            # print(self.slice_prefix(sub_element.tag))
+            try:
+                if(self.slice_prefix(sub_element.tag)=="num"):
+                    ret = ret + sub_element.text
+                    # print(ret)
+                elif(self.slice_prefix(sub_element.tag) in ["content","intro"]):
+                    for sub_sub_element in sub_element.iter():
+                        # print(self.slice_prefix(sub_sub_element.tag))
+                        if (self.slice_prefix(sub_sub_element.tag) == "p"):
+                                if(len(sub_sub_element.text)>1):
+                                    ret=ret+sub_sub_element.text+"<br> <br> "
+                                    # print(ret)
+                                else:
+                                    for comment in sub_sub_element.iter():
+                                        # print(self.slice_prefix(comment.tag))
+                                        if (self.slice_prefix(comment.tag) == "wikicomment"):
+                                            ret = ret + comment.text + "<br>  "
+                                            # print(ret)
+                        elif (self.slice_prefix(sub_sub_element.tag) == "def"):
+                                ret=ret+self.slice_triangle(ET.tostring(sub_sub_element,encoding="unicode")) +"<br>  "
+
+
+            except:
+                x = 5
+        return (ret)
 
 
 words_list=[["פירוש","הגדרות"],["הגבלת פעילות מוסדות","מועד זכות־היוצרים"]]
 y=main_search(words_list)
+y.fill_local_db_to_json()
