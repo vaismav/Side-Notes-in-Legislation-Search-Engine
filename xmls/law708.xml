@@ -1,0 +1,994 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-01-04/93394/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-01-04/93394" />
+          <FRBRdate date="2007-01-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-01-04/93394/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-01-04/93394/he@" />
+          <FRBRdate date="2007-01-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-01-04/93394/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-01-04/93394/he@" />
+          <FRBRdate date="2007-01-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2007-01-04" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/ניצול_שואה_נזקק/93394" showAs="ניצול_שואה_נזקק" />
+        <TLCTerm eId="term_2" href="/ontology/term/הטבה/93394" showAs="הטבה" />
+        <TLCTerm eId="term_3" href="/ontology/term/ההסכם_עם_גרמניה/93394" showAs="ההסכם_עם_גרמניה" />
+        <TLCTerm eId="term_4" href="/ontology/term/השכרה_ציבורית/93394" showAs="השכרה_ציבורית" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_נכי_רדיפות_הנאצים/93394" showAs="חוק_נכי_רדיפות_הנאצים" />
+        <TLCTerm eId="term_6" href="/ontology/term/המועד_הקובע/93394" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_7" href="/ontology/term/מחוסר_דיור/93394" showAs="מחוסר_דיור" />
+        <TLCTerm eId="term_8" href="/ontology/term/מענק_שנתי_לפי_חוק_זה/93394" showAs="מענק_שנתי_לפי_חוק_זה" />
+        <TLCTerm eId="term_9" href="/ontology/term/מענק_שנתי_לפי_דין_אחר/93394" showAs="מענק_שנתי_לפי_דין_אחר" />
+        <TLCTerm eId="term_10" href="/ontology/term/ניצול_שואה_נזקק/93394" showAs="ניצול_שואה_נזקק" />
+        <TLCTerm eId="term_11" href="/ontology/term/קצבה_בשל_רדיפות_הנאצים/93394" showAs="קצבה_בשל_רדיפות_הנאצים" />
+        <TLCTerm eId="term_12" href="/ontology/term/קצבה_חודשית_לפי_ההסכם_עם_גרמניה/93394" showAs="קצבה_חודשית_לפי_ההסכם_עם_גרמניה" />
+        <TLCTerm eId="term_13" href="/ontology/term/הרשות_המוסמכת/93394" showAs="הרשות_המוסמכת" />
+        <TLCTerm eId="term_14" href="/ontology/term/תגמול_חד־פעמי_לניצולי_מחנות_וגטאות/93394" showAs="תגמול_חד־פעמי_לניצולי_מחנות_וגטאות" />
+        <TLCTerm eId="term_15" href="/ontology/term/הוועדה/93394" showAs="הוועדה" />
+        <TLCTerm eId="term_16" href="/ontology/term/השר/93394" showAs="השר" />
+        <TLCTerm eId="term_17" href="/ontology/term/מדד/93394" showAs="מדד" />
+        <TLCTerm eId="term_18" href="/ontology/term/המדד_הבסיסי/93394" showAs="המדד_הבסיסי" />
+        <TLCTerm eId="term_19" href="/ontology/term/המדד_החדש/93394" showAs="המדד_החדש" />
+        <TLCTerm eId="term_20" href="/ontology/term/מדד/93394" showAs="מדד" />
+        <TLCTerm eId="term_21" href="/ontology/term/המדד_הבסיסי/93394" showAs="המדד_הבסיסי" />
+        <TLCTerm eId="term_22" href="/ontology/term/המדד_החדש/93394" showAs="המדד_החדש" />
+        <TLCTerm eId="term_23" href="/ontology/term/מדד/93394" showAs="מדד" />
+        <TLCTerm eId="term_24" href="/ontology/term/המדד_הבסיסי/93394" showAs="המדד_הבסיסי" />
+        <TLCTerm eId="term_25" href="/ontology/term/המדד_החדש/93394" showAs="המדד_החדש" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="אברהם_הירשזון" href="/ontology/person/אברהם_הירשזון" showAs="אברהם הירשזון" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הטבות לניצולי שואה, התשס"ז–2007</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_ניצול_שואה_נזקק">
+              <content>
+                <p>
+                  <def />”ניצול שואה נזקק“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_הטבה">
+              <content>
+                <p>
+                  <def />”הטבה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_ההסכם_עם_גרמניה">
+              <content>
+                <p>
+                  <def />”ההסכם עם גרמניה“ – ההסכם שנחתם ביום י"ב בתשרי התשנ"ג (9 באוקטובר 1992), בידי שר האוצר הפדרלי של גרמניה ובידי ועידת התביעות החומריות של יהודים נגד גרמניה;<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">העתק ההסכם מופקד בלשכה לשיקום נכים במשרד האוצר וכל אדם רשאי לעיין בו;</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_השכרה_ציבורית">
+              <content>
+                <p>
+                  <def />”השכרה ציבורית“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1998-10-29/164457">בחוק הדיור הציבורי (זכויות רכישה), התשנ"ט–1998</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_נכי_רדיפות_הנאצים">
+              <content>
+                <p>
+                  <def />”חוק נכי רדיפות הנאצים“ – <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים, התשי"ז–1957</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המועד_הקובע">
+              <content>
+                <p>
+                  <def />”המועד הקובע“ – יום ג׳ בסיוון התשע"ד (1 ביוני 2014);</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מחוסר_דיור">
+              <content>
+                <p>
+                  <def />”מחוסר דיור“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_מענק_שנתי_לפי_חוק_זה">
+              <content>
+                <p>
+                  <def />”מענק שנתי לפי חוק זה“ – מענק הטבות שנתי לפי <ref href="#point_3א">סעיפים 3א</ref>, <ref href="#point_4">4</ref><ref href="#point_5א">או 5א(ב)(2)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מענק_שנתי_לפי_דין_אחר">
+              <content>
+                <p>
+                  <def />”מענק שנתי לפי דין אחר“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_ניצול_שואה_נזקק">
+              <list>
+                <intro>
+                  <p>
+                    <def />”ניצול שואה נזקק“ – מי שמתקיים לגביו אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_ניצול_שואה_נזקק__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא מקבל תגמול לפי הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4ג1">סעיף 4ג1 לחוק נכי רדיפות הנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_ניצול_שואה_נזקק__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>הוא מקבל גמלת הבטחת הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref> (להלן – חוק הבטחת הכנסה), וכן אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_1__point_ניצול_שואה_נזקק__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>תגמול חודשי לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4">סעיף 4 לחוק נכי רדיפות הנאצים</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_ניצול_שואה_נזקק__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>גמלה המשולמת על ידי ממשלת גרמניה בשל רדיפות הנאצים בהתאם לחוק הפדרלי לפיצויים (BEG);</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_ניצול_שואה_נזקק__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>קצבה חודשית המשולמת על ידי מדינת חוץ אחרת בקשר עם רדיפות הנאצים ועוזריהם;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים">
+              <list>
+                <intro>
+                  <p>
+                    <def />”קצבה בשל רדיפות הנאצים“ – אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קצבה חודשית המשולמת על ידי הרפובליקה הפדרלית של גרמניה בשל רדיפות הנאצים, בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/https_www_gesetze_im_internet_de_beg">לחוק הפדראלי לפיצויים (BEG)</ref>;<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">העתק החוק מופקד בלשכה לשיקום נכים במשרד האוצר וכל אדם רשאי לעיין בו;</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>קצבה חודשית המשולמת על ידי מדינת חוץ אחרת בקשר עם רדיפות הנאצים ועוזריהם; למעט קצבה שקבע שר האוצר, בצו, בסכום שאינו עולה על הסכום האמור <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4">בסעיף 4(א1) לחוק נכי רדיפות הנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תגמול חודשי המשולם לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>תגמול חודשי המשולם מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_fs_knesset_gov_il_15_law_15_lsr_300364_pdf#chp_א">פרק א׳ לחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב לשנת 2001) (תיקון, ביטול והתליה של חקיקה שמקורה בהצעות חוק פרטיות), התשס"א–2001</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבה_בשל_רדיפות_הנאצים__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>קצבה חודשית אחרת המשולמת בקשר עם רדיפות הנאצים ועוזריהם, שקבע השר באישור ועדת העליה הקליטה והתפוצות של הכנסת;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_קצבה_חודשית_לפי_ההסכם_עם_גרמניה">
+              <content>
+                <p>
+                  <def />”קצבה חודשית לפי ההסכם עם גרמניה“ – לרבות קצבה כאמור המשולמת מראש בעד שלושה חודשים, כשהיא מחולקת ב־3;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הרשות_המוסמכת">
+              <content>
+                <p>
+                  <def />”הרשות המוסמכת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_2">בסעיף 2 לחוק נכי רדיפות הנאצים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תגמול_חד־פעמי_לניצולי_מחנות_וגטאות">
+              <list>
+                <intro>
+                  <p>
+                    <def />”תגמול חד־פעמי לניצולי מחנות וגטאות“ – אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_תגמול_חד־פעמי_לניצולי_מחנות_וגטאות__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תגמול חד־פעמי לפי סעיף 11(1)(1) לחוק הגרמני להקמת קרן ”זיכרון, אחריות ועתיד“ מיום א׳ באב התש"ס (2 באוגוסט 2000) (להלן – החוק הגרמני להקמת הקרן);</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תגמול_חד־פעמי_לניצולי_מחנות_וגטאות__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תגמול חד־פעמי לפי סעיף 2(1)(2) לחוק האוסטרי להקמת הקרן ”לפיוס, שלום ושיתוף פעולה“ מיום ט"ז בתמוז התש"ס (19 ביולי 2000) (להלן – החוק האוסטרי להקמת הקרן);</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תגמול_חד־פעמי_לניצולי_מחנות_וגטאות__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תגמול חד־פעמי ששולם בידי ועידת התביעות החומריות של יהודים נגד גרמניה, במימון הקרן האמורה בפסקה (2), לניצול שואה שעבד בעבודת פרך;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_הוועדה">
+              <content>
+                <p>
+                  <def />”הוועדה“ – ועדת העליה, הקליטה והתפוצות של הכנסת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר האוצר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלטה בדבר זכאות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוגשה בקשה לרשות המוסמכת לקבלת הטבות לפי <ref href="#point_3א">סעיפים 3א</ref>, <ref href="#point_3ב">3ב</ref>, <ref href="#point_4">4</ref><ref href="#point_5א">או 5א</ref>, תחליט הרשות המוסמכת אם מתקיימים במבקש תנאי הזכאות לקבלת ההטבות לפי <ref href="#point_3א">אותם סעיפים</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לבקשה כאמור בסעיף קטן (א) יצורף טופס ויתור על סודיות לגבי מידע הנוגע להתקיימות תנאי הזכאות לקבלת ההטבות לפי <ref href="#point_3א">סעיפים 3א</ref>, <ref href="#point_3ב">3ב</ref>, <ref href="#point_4">4</ref><ref href="#point_5א">או 5א</ref>, והסכמה לקבלת מידע כאמור המצוי בידי כל גוף הנמצא בישראל או במדינת חוץ, בנוסח שעליו תורה הרשות המוסמכת.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב1">
+              <num>(ב1)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (א), ניצול שואה נזקק כמפורט להלן זכאי למענק שנתי לפי הוראות <ref href="#point_3א">סעיף 3א</ref> בלא צורך בהגשת בקשה לרשות המוסמכת כאמור בסעיף קטן (א):</p>
+                </intro>
+                <point eId="point_2__point_ב1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מי שמקבל תגמול לפי הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4ג1">סעיף 4ג1 לחוק נכי רדיפות הנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שמקבל גמלת הבטחת הכנסה לפי חוק הבטחת הכנסה, וכן תגמול חודשי לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4">סעיף 4 לחוק נכי רדיפות הנאצים</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>לצורך בדיקת זכאותם של מקבלי תשלומים המנויים בפסקאות (2)(א) עד (ג) להגדרה ”ניצול שואה נזקק“ (בסעיף קטן זה – מקבלי הגמלאות) למענק שנתי, ימסור המוסד לביטוח לאומי לרשות המוסמכת חיווי על היותו של מקבל גמלה זכאי לגמלת הבטחת הכנסה, על בסיס רשימה עדכנית הכוללת את מספר זהותם ושמם של מקבלי גמלאות שהרשות המוסמכת תעביר למוסד לביטוח לאומי אחת לחודש; העברת המידע בין הגופים תיעשה תוך שימוש באמצעי אבטחת מידע בתהליך מסירתו כנדרש לפי <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">חוק הגנת הפרטיות, התשמ"א–1981</ref>, כדי לצמצם את הסיכון לפגיעה בשלמות המידע, לחשיפתו, להעתקתו או לשימוש בו בלא רשות כדין.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על בקשה לרשות המוסמכת לקבלת הטבות לפי <ref href="#point_3">סעיף 3</ref> יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_6">סעיף 6 לחוק נכי רדיפות הנאצים</ref>, בשינויים המחויבים, ויראו את החלטת הרשות המוסמכת בבקשה כאמור כהחלטה לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_7">סעיף 7 לחוק נכי רדיפות הנאצים</ref>, לכל עניין, לרבות לעניין הליכי ערר וערעור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמולים והטבות לנרדפים</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה, ”נרדף“ – אזרח ישראלי שהוא תושב ישראל, שמתקיים לגביו אחד מאלה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>הוא קיבל תגמול חד־פעמי לניצולי מחנות וגטאות, או שהתקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_3__point_א__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>היה זכאי לתגמול כאמור בפסקאות (1) או (2) להגדרה ”תגמול חד־פעמי לניצולי מחנות וגטאות“, אם היה מגיש בקשה לקבלת התגמול עד המועד האחרון שנקבע לכך בחוקים המנויים באותן פסקאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הוא שהה במחנה או בגטו, שהוכר לפי ההסכם עם גרמניה ולא הוכר לפי סעיף 11(1)(1) לחוק הגרמני להקמת הקרן או לפי סעיף 2(1)(2) לחוק האוסטרי להקמת הקרן;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא מקבל קצבה חודשית לפי ההסכם עם גרמניה.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>נרדף שאילולא התקיים בו האמור בפסקת משנה (א) או (ב) שלהלן היה זכאי לקבל תגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>, יהיה זכאי לתגמולים ולהטבות כאילו היה נכה הזכאי לתגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>, ובלבד שאינו מקבל קצבה בשל רדיפות הנאצים והוא לא קיבל קצבה כאמור בעד התקופה או חלקה שתחילתה במועד הקובע:</p>
+                    </intro>
+                    <point eId="point_3__point_ב__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הוא עלה לישראל ביום כ"ב בתשרי התשי"ד (1 באוקטובר 1953) או לאחריו, או ביום כ"ט באדר ב׳ התשי"ז (1 באפריל 1957) לא היה או לא נשאר לאחריו אזרח ותושב ישראל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_ב__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>ההסכם בין מדינת ישראל לבין הרפובליקה הפדרלית של גרמניה מיום כ׳ באלול התשי"ב (10 בספטמבר 1952) ומכתב מס׳ 1א שבו, לא שללו את זכותו לתבוע בשל נכותו את הרפובליקה הפדרלית של גרמניה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כל ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref> החלות בעניינו של מי שמבקש לקבל תגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">החוק האמור</ref> יחולו גם בעניינו של נרדף המבקש לקבל תגמולים לפי הוראות פסקה (1), וכל ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref> ולפי כל חוק אחר החלות בעניינו של מי שהוכר כזכאי לתגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref> יחולו גם בעניינו של נרדף שהוכר כזכאי לתגמולים לפי הוראות פסקה (1) כאילו היה נכה הזכאי לתגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כל זכות או הטבה הניתנת לנכה הזכאי לתגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>, מכוח כל דין או הסדר או על ידי גוף ציבורי לפי הסכם או נוהג, תינתן, על פי אותם הסדרים ותנאים, גם לנרדף שהוכר כזכאי לתגמולים לפי הוראות פסקה (1); לעניין זה, ”גוף ציבורי“ – הממשלה, וכן גוף מתוקצב או גוף נתמך כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_32">בסעיף 32 לחוק יסודות התקציב, התשמ"ה–1985</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מי שהוכר לפי סעיף זה כזכאי לתגמולים ולהטבות והוא מקבל קצבה חודשית לפי ההסכם עם גרמניה או קצבה שקבע שר האוצר כאמור בפסקה (3) להגדרה ”קצבה בשל רדיפות הנאצים“, או שקיבל קצבה כאמור בעד התקופה או חלקה שתחילתה במועד הקובע, ישולמו לו התגמולים האמורים בניכוי סכום השווה לסכום הקצבה האמורה; לעניין סעיף קטן זה תחושב קצבה המשולמת במטבע זר לפי השער היציג של אותו מטבע הידוע ב־1 בחודש הקלנדרי שבעדו שולמה הקצבה, ואם הקצבה משולמת מראש בעד תקופה העולה על חודש – לפי השער היציג של אותו מטבע הידוע ב־1 בחודש הקלנדרי הראשון באותה תקופה.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות סעיף קטן (ג) לא יחולו על מי שזכאי לתגמול המשולם לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4א">סעיפים 4א</ref><ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4ג1">או 4ג1 לחוק נכי רדיפות הנאצים</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3א">
+          <heading>
+            <authorialNote placement="side">
+              <p>מענק שנתי לניצול שואה נזקק</p>
+            </authorialNote>
+          </heading>
+          <num>3א.</num>
+          <content>
+            <p>ניצול שואה נזקק זכאי למענק שנתי בסכום של 11,000 שקלים חדשים, שישולם בתשלום אחד בחודש ינואר.</p>
+          </content>
+        </point>
+        <point eId="point_3ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>מענק רבעוני לניצול שואה שמקבל קצבה חודשית בהתאם לחוק הפדרלי לפיצויים</p>
+            </authorialNote>
+          </heading>
+          <num>3ב.</num>
+          <list>
+            <point eId="point_3ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אזרח ישראלי שהוא תושב ישראל שמקבל קצבה חודשית כאמור בפסקה (1) להגדרה ”קצבה בשל רדיפות הנאצים“ לשם פיצוי בשל נזקי בריאות, ואינו מקבל קצבה חודשית נוספת בשל רדיפתו מכל מקור אחר, זכאי למענק רבעוני בסכום של 2,500 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2018; החל משנת 2020, 2,530 ש"ח)</wikicomment> שישולם בחודש ינואר, בחודש אפריל, בחודש יולי ובחודש אוקטובר של כל שנה (להלן – מענק רבעוני).</p>
+              </content>
+            </point>
+            <point eId="point_3ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>סכום המענק הרבעוני יעודכן ב־1 בינואר בכל שנה (בסעיף קטן זה – יום העדכון), בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי; לעניין זה –</p>
+                </intro>
+                <point eId="point_3ב__point_ב__point_מדד">
+                  <content>
+                    <p>
+                      <def />”מדד“ – מדד המחירים לצרכן שפרסמה הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_3ב__point_ב__point_המדד_הבסיסי">
+                  <content>
+                    <p>
+                      <def />”המדד הבסיסי“ – המדד שפורסם לאחרונה לפני יום כ"ד בטבת התשע"ח (1 בינואר 2018);</p>
+                  </content>
+                </point>
+                <point eId="point_3ב__point_ב__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום העדכון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>מענק הטבות שנתי לניצול שואה שאינו מקבל קצבה חודשית</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>אזרח ישראלי שהוא תושב ישראל ומתקיים לגביו האמור בפסקאות (1) ו־(2), זכאי למענק הטבות שנתי כמפורט בסעיף קטן (ב):</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>אילולא התקיים בו האמור בפסקאות משנה (א) או (ב) היה זכאי לקבל תגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref>:</p>
+                    </intro>
+                    <point eId="point_4__point_א__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הוא עלה לישראל ביום כ"ב בתשרי התשי"ד (1 באוקטובר 1953) או לאחריו, או ביום כ"ט באדר ב׳ התשי"ז (1 באפריל 1957) לא היה או לא נשאר לאחריו אזרח ותושב ישראל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_4__point_א__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>ההסכם בין מדינת ישראל לבין הרפובליקה הפדרלית של גרמניה מיום כ׳ באלול התשי"ב (10 בספטמבר 1952) ומכתב מס׳ 1א שבו לא שללו את זכותו לתבוע בשל נכותו את הרפובליקה הפדרלית של גרמניה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא אינו מקבל קצבה בשל רדיפות הנאצים, בסכום חודשי העולה על 1,000 שקלים חדשים, או שאינו מקבל קצבה חודשית לפי ההסכם עם גרמניה או קצבה מכוח <ref href="#point_3">סעיף 3</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לצורך בדיקת זכאות למענק הטבות שנתי לפי סעיף זה לא תיבדק קיומה של נכות כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">בחוק נכי רדיפות הנאצים</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מענק ההטבות השנתי שלו זכאי מי שמתקיים בו האמור בסעיף קטן (א) יהיה בסכום של 3,960 שקלים חדשים <wikicomment font-size="x-small">(מתואם לדצמבר 2014; החל מדצמבר 2019, 3,991 ש"ח)</wikicomment>, והוא ישולם מאוצר המדינה עד 10 בפברואר של כל שנה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>הסכומים האמורים בסעיף זה יעודכנו ב־1 בדצמבר בכל שנה (בסעיף קטן זה – יום העדכון), בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי; לעניין זה –</p>
+                </intro>
+                <point eId="point_4__point_ד__point_מדד">
+                  <content>
+                    <p>
+                      <def />”מדד“ – מדד המחירים לצרכן שפרסמה הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ד__point_המדד_הבסיסי">
+                  <content>
+                    <p>
+                      <def />”המדד הבסיסי“ – המדד שפורסם לאחרונה לפני יום ט׳ בכסלו התשע"ה (1 בדצמבר 2014);</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ד__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום העדכון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_5א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראה מיוחדת לעניין הטבות לניצול שואה שמתקיימים בו תנאים מסוימים</p>
+            </authorialNote>
+          </heading>
+          <num>5א.</num>
+          <list>
+            <point eId="point_5א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>אזרח ישראלי שהוא תושב ישראל, הזכאי לגמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>, ומתקיימים בו כל אלה, זכאי להטבות המפורטות בסעיף קטן (ב):</p>
+                </intro>
+                <point eId="point_5א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא קיבל תגמול חד־פעמי לפי החוק הגרמני להקמת הקרן, למעט יורש של ניצול שואה שקיבל תגמול לפי החוק האמור;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא אינו מקבל קצבה בשל רדיפות הנאצים, קצבה לפי ההסכם עם גרמניה או קצבה מכוח <ref href="#point_3">סעיף 3</ref>, ולא קיבל קצבה כאמור בעד התקופה או חלקה שתחילתה ביום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_fs_knesset_gov_il_17_law_17_lsr_300873_pdf">חוק התכנית להגדלת גמלאות הבטחת הכנסה לקשישים נזקקים ולסיוע לניצולי שואה (תיקוני חקיקה), התשס"ח–2008</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוא אינו מקבל תגמול חודשי לפי <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220">חוק נכי המלחמה בנאצים, התשי"ד–1954</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>ההטבות שלהן זכאי מי שמתקיים בו האמור בסעיף קטן (א) הן כמפורט להלן:</p>
+                </intro>
+                <point eId="point_5א__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ב__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>מענק הטבות שנתי בסכום של 4,000 שקלים חדשים, שישולם מאוצר המדינה עד 10 בפברואר של כל שנה; הסכום האמור יעודכן ב־1 בדצמבר בכל שנה (בפסקה זו – יום העדכון), בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי; לעניין זה –</p>
+                    </intro>
+                    <point eId="point_5א__point_ב__point_2__point_מדד">
+                      <content>
+                        <p>
+                          <def />”מדד“ – מדד המחירים לצרכן שפרסמה הלשכה המרכזית לסטטיסטיקה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5א__point_ב__point_2__point_המדד_הבסיסי">
+                      <content>
+                        <p>
+                          <def />”המדד הבסיסי“ – המדד שפורסם לאחרונה לפני יום 1 בדצמבר 2007;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5א__point_ב__point_2__point_המדד_החדש">
+                      <content>
+                        <p>
+                          <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום העדכון;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_5א__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תוספת בשיעור של 10% מסכום הסיוע בתשלום שכר דירה ממשרד הבינוי והשיכון, למי שזכאי לסיוע כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערר וערעור</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הרואה עצמו נפגע מהחלטת הרשות המוסמכת כאמור <ref href="#point_2">בסעיף 2(א)</ref>, רשאי לערור עליה לפני ועדת עררים, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_16">בסעיף 16 לחוק נכי רדיפות הנאצים</ref>, בתוך 60 ימים מיום שנמסרה לו ההחלטה; ועדת עררים רשאית להאריך את התקופה האמורה ב־30 ימי נוספים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על החלטתה של ועדת העררים ניתן לערער לבית המשפט המחוזי בתוך 60 ימים מיום שנמסרה לו ההחלטה; בית המשפט המחוזי ידון בערעור בדן יחיד.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על פסק דינו של בית המשפט המחוזי ניתן לערער לבית המשפט העליון, אם נתקבלה רשות לכך מאת שופט של בית המשפט העליון.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>סדרי הדין שנקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_17">סעיפים 17</ref><ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_17א">ו־17א לחוק נכי רדיפות הנאצים</ref> יחולו, בשינויים המחויבים, על ערר וערעור כאמור בסעיף זה, ככל שלא נקבעו לפי חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת הזכאות</p>
+            </authorialNote>
+          </heading>
+          <num>6א.</num>
+          <list>
+            <point eId="point_6א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מי שהוחלט לגביו לפי <ref href="#point_2">סעיף 2(א)</ref> כי מתקיימים בו תנאי הזכאות לקבלת ההטבות לפי <ref href="#point_3ב">סעיפים 3ב</ref>, <ref href="#point_4">4</ref><ref href="#point_5א">או 5א</ref>, זכאי להטבות אלה בעד התקופה שבה מתקיימים בו התנאים האמורים, החל ב־1 בחודש שבו הגיש את הבקשה לפי <ref href="#point_2">סעיף 2(א)</ref>, ולגבי מענק שנתי לפי חוק זה – החל ב־1 בינואר של השנה שבה הגיש את הבקשה.</p>
+              </content>
+            </point>
+            <point eId="point_6א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (א), ניצול שואה נזקק שמתקיים בו אחד מהתנאים שלהלן זכאי למענק שנתי לפי הוראות <ref href="#point_3א">סעיף 3א</ref>, החל ב־1 בינואר בשנה שבה מתקיים לגביו אחד מתנאים אלה:</p>
+                </intro>
+                <point eId="point_6א__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא מקבל תגמול לפי הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4ג1">סעיף 4ג1 לחוק נכי רדיפות הנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6א__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא מקבל גמלת הבטחת הכנסה לפי חוק הבטחת הכנסה, וכן תגמול חודשי לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4">סעיף 4 לחוק נכי רדיפות הנאצים</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מי שזכאי למענק שנתי לפי חוק זה, יהיה זכאי למלוא המענק כאמור אף אם חדלו להתקיים לגביו תנאי הזכאות למענק במהלך אותה שנה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור העברה, ערבות ועיקול</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>זכות להטבה אינה ניתנת להעברה, לערבות או לעיקול בכל דרך שהיא, אלא לשם תשלום מזונות לפי פסק דין של בית משפט או בית דין מוסמך; בסעיף זה, ”הטבה“ – מענק רבעוני או מענק שנתי לפי חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף קטן (א) יחולו גם על הטבה ששולמה באמצעות תאגיד בנקאי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>, או באמצעות חברת דואר ישראל בע"מ, בנותנה שירותים לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_88א">סעיף 88א לחוק הדואר, התשמ"ו–1986</ref> (בסעיף זה – החברה), במשך שלושים ימים מיום ששולמה, ואולם רשאים התאגיד הבנקאי או החברה, לפי הענין, לנכות מן ההטבה כל סכום שנתנו לזכאי לה על חשבון ההטבה.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">(החל מהיום הקובע לתחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_fs_knesset_gov_il_18_law_18_lsr_301460_pdf">חוק הדואר (תיקון מס׳ 11), התשע"ב–2012</ref>, ביום 31.12.2021):</wikicomment> הוראות סעיף קטן (א) יחולו גם על הטבה ששולמה באמצעות תאגיד בנקאי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>, או באמצעות החברה הבת כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356">בחוק הדואר, התשמ"ו–1986</ref> (בסעיף זה – החברה הבת), במשך שלושים ימים מיום ששולמה, ואולם רשאים התאגיד הבנקאי או החברה הבת, לפי הענין, לנכות מן ההטבה כל סכום שנתנו לזכאי לה על חשבון ההטבה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות מיוחדות לענין תשלום</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <point eId="point_8א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>קצבה חודשית לפי ההסכם עם גרמניה, או מענק רבעוני ומענק שנתי לפי חוק זה, לא ייחשבו כהכנסה –</p>
+                </intro>
+                <point eId="point_8א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>, או לענין תשלומי חובה או היטלים אחרים, לפי כל דין;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לענין גמלאות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>, או לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לענין שכר דירה בהשכרה ציבורית;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לעניין תגמול לפי הכנסה ותגמול מוגדל לפי הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220">חוק נכי המלחמה בנאצים, התשי"ד–1954</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>מענק שנתי לפי חוק זה לא ייחשב כהטבה באותו עניין שבתחומי ההטבות –</p>
+                </intro>
+                <point eId="point_8א__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התגמולים_לאסירי_ציון_ולבני_משפחותיהם#point_17ה">סעיף 17ה לחוק התגמולים לאסירי ציון ולבני משפחותיהם, התשנ"ב–1992</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_מעמד_ותיקי_מלחמת_העולם_השנייה#point_8">סעיף 8 לחוק מעמד ותיקי מלחמת העולם השנייה, התש"ס–2000</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לעניין <ref href="/akn/il/act/PrimaryLegislation/2001-06-14/170682#point_10">סעיף 10 לחוק המסייעים לנטרול תוצאות אסון צ׳רנוביל, התשס"א–2001</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת שכר טרחה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר המשפטים רשאי, לאחר התייעצות עם המועצה הארצית של לשכת עורכי הדין, לקבוע, בצו, שיעורים מרביים לשכר הטרחה שמותר לקבל בעד טיפול בבקשה לרשות המוסמכת, לפי חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יידרש אדם, על אף האמור בכל הסכם, לשלם שכר טרחה בעד הטיפול בבקשה כאמור בסעיף קטן (א) בסכום העולה על השיעורים שנקבעו לפי אותו סעיף קטן; שילם אדם בעד הטיפול בבקשה כאמור שכר טרחה בסכום העולה על השיעורים שנקבעו לפי סעיף קטן (א), רשאי הוא לתבוע את החזרת הסכום העודף.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_22ב1">סעיפים 22ב1 עד 22ב3 לחוק נכי רדיפות הנאצים</ref> יחולו, בשינויים המחוייבים, לעניין טיפול בבקשה לרשות המוסמכת לפי חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>השר ממונה על חוק זה והוא רשאי להתקין תקנות לביצועו.</p>
+          </content>
+        </point>
+        <point eId="point_10א">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת דיווח לכנסת – הוראת שעה</p>
+            </authorialNote>
+          </heading>
+          <num>10א.</num>
+          <list>
+            <point eId="point_10א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השר ידווח בכתב, מדי חצי שנה, לוועדה, על יישומו של חוק זה, ועל יישום <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_www_pmo_gov_il_Secretary_GovDecisions_2007_Pages_des2534_aspx">החלטת הממשלה מס׳ 2534 מיום כ"ג בחשוון התשס"ח (4 בנובמבר 2007)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_www_pmo_gov_il_Secretary_GovDecisions_2008_Pages_des2941_aspx">והחלטת הממשלה מס׳ 2941 מיום ו׳ בשבט התשס"ח (13 בינואר 2008)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דיווח ראשון כאמור בסעיף קטן (א) יימסר לוועדה עד ליום י"ב בתמוז התשס"ח (15 ביולי 2008).</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סעיף זה יעמוד בתוקפו עד תום שנתיים מיום הדיווח הראשון כאמור בסעיף קטן (ב).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה ותחולה</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תחילתו של חוק זה ביום ט"ו בתמוז התשס"ז (1 ביולי 2007) (בחוק זה – יום התחילה), ואולם לא תשולם ולא תינתן הטבה לפי חוק זה בעד התקופה שקדמה ליום התחילה.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת שעה</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>בתקופה שמיום התחילה ועד ליום כ"ב בטבת התשס"ח (31 בדצמבר 2007) ייקרא <ref href="#point_5">סעיף 5(א)</ref> כך שבמקום ”15%“ יבוא ”7.5%“.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אברהם_הירשזון">אברהם הירשזון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

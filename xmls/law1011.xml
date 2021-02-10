@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2" />
+          <FRBRdate date="UnknownWorkDate" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2/he@" />
+          <FRBRdate date="UnknownWorkDate" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/הכרזת_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_בידוד_של_אדם_שנכנס_לישראל_בנסיבות_מיוחדות_מס_2/he@" />
+          <FRBRdate date="UnknownWorkDate" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="UnknownWorkDate" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>הכרזת סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (בידוד של אדם שנכנס לישראל בנסיבות מיוחדות) (מס׳ 2), התשפ"א–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותה של הממשלה לפי <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_22ג">סעיף 22ג</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">לחוק סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה), התש"ף–2020</ref> (להלן – החוק), ולאחר ששוכנעה הממשלה כי יש סיכון מוגבר להגעת חולים לישראל מחוצה לה מכל מדינות העולם, וכי כניסתם לישראל עלולה להביא להחמרה ברמת התחלואה במדינה, על סמך חוות דעת אפידמיולוגית מטעם משרד הבריאות, ולאחר שבחנה הממשלה דרכי פעולה חלופיות ושקלה את הצורך בהכרזה מול מידת הפגיעה בזכויות של חוזר, וכן לאחר שהתקיים האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_22ג">בסעיף 22ג(ב)(2) לחוק</ref>, מכריזה הממשלה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכרזה לפי סעיף 22ג לחוק</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>חוזר החייב בבידוד ישהה במקום לבידוד מטעם המדינה, זולת אם התקיימו כל אלה:</p>
+            </intro>
+            <point eId="point_1__point_1">
+              <num>(1)</num>
+              <content>
+                <p>פורסמה באתר האינטרנט של משרד הבריאות הודעת המנהל בעקבות צפי למחסור במקומות בידוד מטעם המדינה ובה פורטו המדינות שלגביהן לא קיים סיכון גבוה יותר להתפשטות המוטציה לעומת מדינות אחרות, ולכן לגבי החוזרים מהן לא תחול הכרזה זאת בכפוף לביצוע בדיקות לפי פסקה (3) וכן התקופה שלגביה מתקיים האמור בפסקה זאת; הודעה כאמור תפורסם בהקדם האפשרי ברשומות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_2">
+              <num>(2)</num>
+              <content>
+                <p>החוזר שהה ב־14 הימים האחרונים שלפני הגעתו לישראל במדינה אחת או יותר מהמדינות שהמנהל הודיע עליהן כאמור בפסקה (1), ובהן בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_3">
+              <num>(3)</num>
+              <content>
+                <p>החוזר הסכים לבצע בדיקות לאבחון הנגיף כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_2">בסעיף 2(ג3) לצו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>תחילתה של הכרזה זו ביום ח׳ בטבת התשפ"א (23 בדצמבר 2020) בשעה 22:00.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקף</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>תוקפה של הכרזה זו עד יום י"ז בטבת התשפ"א (1 בינואר 2021).</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

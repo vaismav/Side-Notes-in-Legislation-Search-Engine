@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075" />
+          <FRBRdate date="2018-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075/he@" />
+          <FRBRdate date="2018-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-22/99999075/he@" />
+          <FRBRdate date="2018-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2018-03-22" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="משה_כחלון" href="/ontology/person/משה_כחלון" showAs="משה כחלון" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2019), התשע"ח–2018</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרת החוק</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה בא לתקן חוקים שונים ולקבוע הוראות נוספות במטרה לחזק את הצמיחה במשק, להגדיל את הפריון במשק ואת רמת התחרות בו, להוזיל את יוקר המחיה בישראל ולצמצם את הנטל הרגולטורי, והכול בהתאם ליעדי התקציב והמדיניות הכלכלית לשנת 2019.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>בנקאות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825">בחוק הבנקאות (שירות ללקוח), התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק הבנקאות (שירות ללקוח) – תחילה והוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="#chp_ב">פרק זה</ref> שלוש שנים מיום פרסומו של חוק זה (<ref href="#chp_ב">בפרק זה</ref> – יום התחילה); שר האוצר, בהסכמת נגיד בנק ישראל ובאישור ועדת הכלכלה של הכנסת, רשאי לדחות את המועד האמור, בשתי תקופות נוספות, שלא יעלו על שישה חודשים כל אחת.<br xml:space="preserve" xmlns=""> </br><wikicomment font-size="x-small">פורסמו תקנות התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2019) (דחיית תחילתו של פרק ב׳ לחוק), התש"ף–2020 (ק"ת תש"ף, 1880), לפיהן יום תחילתו של פרק ב׳ יידחה בשישה חודשים, ליום ט"ז בתשרי התשפ"ב (22 בספטמבר 2021).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_3__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_10">סעיף 10(1) לחוק הבנקאות (שירות ללקוח)</ref>, כנוסחו בחוק זה, ביום פרסומו של חוק זה (להלן – יום הפרסום); ואולם בתקופה שמיום הפרסום של חוק זה ועד יום התחילה, יקראו את הסעיף כך שבמקום האמור בו יבוא ”<ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_10">בסעיף 10(1)</ref>, אחרי ”<ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_5א2">5א2</ref>,“ יבוא ”<ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_5ב">5ב(ב)</ref>,““;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_11א">סעיף 11א(א1) לחוק הבנקאות (שירות ללקוח)</ref>, כנוסחו בחוק זה, ארבע שנים מיום הפרסום.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הבנקאות (שירות ללקוח) – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>ביקש לקוח, בתקופה שמיום הפרסום עד יום התחילה, לסגור את חשבונו בבנק, לא יבטל הבנק שבו מנוהל החשבון, רק בשל בקשת הסגירה, את ההטבות וההנחות שלהן היה זכאי הלקוח במסגרת ניהול חשבונו באותו בנק במועד מוקדם מהמועד שנקבע לעניין זה בהסכם בין הבנק ובין הלקוח; לא נקבע בהסכם מועד כאמור, לא יבטל הבנק את ההטבות וההנחות כאמור, במשך שלושה חודשים לפחות ממועד בקשת הסגירה או עד מועד סגירת החשבון, לפי המוקדם.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>הסרת חסמים בייבוא אישי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2016-07-18/484924">בחוק רישוי שירותים ומקצועות בענף הרכב, התשע"ו–2016</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק רישוי שירותים ומקצועות בענף הרכב – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2016-07-18/484924#point_112">סעיף 112 לחוק רישוי שירותים ומקצועות בענף הרכב</ref>, כנוסחו בחוק זה, ביום י"ח בסיוון התשע"ח (1 ביוני 2018).</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">בחוק התקנים, התשי"ג–1953</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק התקנים – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_1">סעיפים 1</ref><ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_9">ו־9 לחוק התקנים</ref>, כנוסחם בחוק זה, ביום י"ח בתמוז התשע"ח (1 ביולי 2018); שר הכלכלה והתעשייה, באישור ועדת הכלכלה של הכנסת, רשאי לדחות, בצו, את המועד האמור בתקופה אחת שלא תעלה על ארבעה חודשים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>טלגרף אלחוטי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275">בפקודת הטלגרף האלחוטי [נוסח חדש], התשל"ב–1972</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_בתי_משפט_לעניינים_מינהליים">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-06-30/158399">בחוק אזורים חופשיים לייצור בישראל, התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-08-22/147159">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ד׳ – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="#chp_ד">פרק זה</ref> חודש מיום פרסומו של חוק זה (<ref href="#chp_ד">בפרק זה</ref> – יום התחילה).</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_13__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#chp_ג_sec_ב">סימן ב׳ בפרק ג׳ לפקודה</ref> כנוסחו בחוק זה, ושל יתר הוראות <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275">הפקודה</ref> כנוסחה בחוק זה לעניין אישור התאמה, ביום י"ט באב התשע"ח (1 באוגוסט 2018); שר התקשורת, באישור ועדת הכלכלה של הכנסת, רשאי לדחות, בצו, את המועד האמור בתקופה אחת שלא תעלה על ארבעה חודשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#chp_ט">פרק ט׳ לפקודה</ref>, כנוסחו בחוק זה, לעניין מערכת הביטחון, שישה חודשים מיום פרסומו של חוק זה; שר התקשורת, באישור ועדת הכלכלה של הכנסת, רשאי לדחות, בצו, את המועד האמור בתקופה אחת שלא תעלה על שישה חודשים; לעניין זה, ”מערכת הביטחון“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#point_10">בסעיף 10 לחוק הגנת הסביבה (סמכויות פיקוח ואכיפה), התשע"א–2011</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ד׳ – הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רישיון או תעודה שניתנו לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_5">סעיפים 5</ref><ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_13">או 13 לפקודה</ref>, לפני יום התחילה, והיו בתוקף ערב היום האמור, יראו אותם כרישיון שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4ג">סעיף 4ג</ref><ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4ח">או 4ח לפקודה</ref>, כנוסחם בחוק זה, לפי העניין, עד תום תקופת תוקפם, אלא אם כן בוטלו קודם לכן.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אישור סוג שניתן לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הטלגרף_האלחוטי_רישיונות_תעודות_ואגרות">תקנות הטלגרף האלחוטי (רישיונות, תעודות ואגרות), התשמ"ז–1987</ref> (בסעיף זה – תקנות הטלגרף האלחוטי), לפני יום התחילה, והיה בתוקף ערב היום האמור, יראו אותו כאישור סוג שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4ג">סעיף 4ג(א)(1) לפקודה</ref>, כנוסחו בחוק זה, אלא אם כן בוטלו קודם לכן.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אישור שנתן המנהל לפי <ref href="/akn/il/act/SecondaryLegislation/1982-01-20/25029#point_1">סעיף 1 לצו הטלגרף האלחוטי (אי־תחולת הפקודה) (מס׳ 2), התשמ"ב–1982</ref> (בסעיף זה – צו אי־תחולה מס׳ 2), יראו אותו כאישור התאמה שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4יא">סעיף 4יא לפקודה</ref>, כנוסחו בחוק זה, וימשיכו לחול על בעל האישור ההוראות שנקבעו באישור, והכול אלא אם כן בוטל האישור קודם לכן.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מכשיר אלחוטי שמתקיימות בו התכונות הטכניות המפורטות <ref href="/akn/il/act/SecondaryLegislation/1982-01-20/25029#point_1">בסעיף 1 לצו אי־תחולה מס׳ 2</ref> יראו אותו כמכשיר במסלול אישור שנקבע לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4ט">סעיף 4ט(א) לפקודה</ref>, כנוסחו בחוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_14__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מפקח שהמנהל אצל לו את סמכויותיו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/תקנות_הטלגרף_האלחוטי_רישיונות_תעודות_ואגרות#point_9">תקנה 9 לתקנות הטלגרף האלחוטי</ref> והסמכתו עמדה בתוקף ערב יום התחילה, יראו אותו, לתקופה של שנתיים מיום התחילה, כמפקח שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_11א">סעיף 11א(א) ו־(ב) לפקודה</ref>, כנוסחו בחוק זה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מפקח שמונה בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#chp_ו">פרק ו׳ לחוק הטיס</ref>, ומינויו היה בתוקף ערב יום התחילה, יראו אותו, לתקופה של שנתיים מיום התחילה, כמפקח לעניין רישיון לתחנה בכלי טיס שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_11א">סעיף 11א(ג) לפקודה</ref>, כנוסחו בחוק זה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הודעה על פרטי מפקחים שיראו אותם כמפקחים שהוסמכו לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_11א">סעיף 11א לפקודה</ref>, כאמור בסעיף קטן זה, תפורסם ברשומות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>חברי ועדת התדרים שכיהנו ערב יום התחילה בהתאם להחלטת הממשלה שניתנה לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_5ד">סעיף 5ד(ג) לפקודה</ref>, כנוסחו לפני יום התחילה, יראו אותם כחברי ועדת התדרים שמונו לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_5ה">סעיף 5ה לפקודה</ref>, כנוסחו בחוק זה, ובלבד שמינוים לא בוטל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>תקשורת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הרשות_השנייה_לטלוויזיה_ורדיו">בחוק הרשות השנייה לטלוויזיה ורדיו, התש"ן–1990</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-08-22/147159">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">בחוק הפצת שידורים באמצעות תחנות שידור ספרתיות, התשע"ב–2012</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-01-11/169981">בחוק סיווג, סימון ואיסור שידורים מזיקים, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק הרשות השנייה – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>תחילתם של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הרשות_השנייה_לטלוויזיה_ורדיו#point_71ח">סעיפים 71ח(א)(3)</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הרשות_השנייה_לטלוויזיה_ורדיו#point_83">83(ג)(1)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הרשות_השנייה_לטלוויזיה_ורדיו#point_85א">ו־85א(ב1) לחוק הרשות השנייה</ref>, כנוסחם <ref href="#chp_ה">בפרק זה</ref>, ביום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_הרשות_השנייה_לטלוויזיה_ורדיו#point_83">סעיף 83(ג) לחוק הרשות השנייה</ref> כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/http_fs_knesset_gov_il_20_law_20_lsr_491148_pdf#point_21">בסעיף 21 לחוק הרשות השנייה (תיקון מס׳ 44), התשע"ח–2018</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תחבורה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/פקודת_התעבורה">בפקודת התעבורה</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_בית_הספר_החקלאי_מקווה_ישראל">בחוק בית הספר החקלאי מקווה ישראל, התשל"ו–1976</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>תכנון ובנייה</p>
+          </content>
+        </title>
+        <section eId="chp_ז__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>פטור מהיתר לרשת כבלים אופטית ולמתקני שידור לתקשורת בשיטה התאית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התכנון_והבנייה">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>פטור מהיטל השבחה למיתקן פוטו־וולטאי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התכנית_הכלכלית_תיקוני_חקיקה_ליישום_המדיניות_הכלכלית_לשנות_התקציב_2017_ו_2018">בחוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2017 ו־2018), התשע"ז–2016</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>הוראות שונות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/UnknownWorkDate/חוק_התכנון_והבנייה">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>כבאות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2012-08-08/433692">בחוק הרשות הארצית לכבאות והצלה, התשע"ב–2012</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450">בחוק רישוי עסקים, התשכ"ח–1968</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ח׳ – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="#chp_ח">פרק זה</ref> 60 ימים מיום פרסומו של חוק זה (בסעיף זה – יום התחילה).</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוועדה המייעצת לאסדרה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2012-08-08/433692">בחוק הרשות הארצית לכבאות והצלה, התשע"ב–2012</ref>, כנוסחו בחוק זה, תוקם עד יום התחילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>חברות ממשלתיות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ט׳ – תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605#point_34א">סעיף 34א לחוק החברות הממשלתיות</ref>, כנוסחו בחוק זה, 30 ימים מיום פרסומו של חוק זה, והוא יחול על דוחות לפי <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605#point_33">סעיף 33(א) לחוק החברות הממשלתיות</ref> לגבי שנת 2017 ואילך.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_כחלון">משה כחלון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>
