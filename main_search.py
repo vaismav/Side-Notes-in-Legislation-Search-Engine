@@ -215,7 +215,7 @@ class main_search:
                                                                              }
 
 
-        with open("all_sections.json", "w", encoding='utf8') as outfile:
+        with open("all_sections2.json", "w", encoding='utf8') as outfile:
             json.dump(my_json, outfile, ensure_ascii=False)
 
 
@@ -323,3 +323,4 @@ class main_search:
 
 words_list=[["פירוש","הגדרות"],["הגבלת פעילות מוסדות","מועד זכות־היוצרים"]]
 y=main_search(words_list)
+y.fill_local_db_to_json()
