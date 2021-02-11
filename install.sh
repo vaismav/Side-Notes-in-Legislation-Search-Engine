@@ -1,10 +1,10 @@
 #!/bin/bash
 
 while true; do
-    read -p "Are you currently running a virtual environment?(Y/n)" yn
+    read -p "Do you wish to install the dependencies in virtual evironment?(Y/n) " yn
     case $yn in
-        [Yy]* )  break;;
-        [Nn]* ) python3 -m venv venv; source venv/bin/activate; break;;
+        [Yy]* ) python3 -m venv venv; source venv/bin/activate; break;;
+        [Nn]* )  break;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -29,6 +29,15 @@ cd client
 npm install
 npm run build
 cd ../
+
+while true; do
+    read -p "Do you want to lunch the fast-limited install INSTEAD OF the long install of all features?(Y/n) " yn
+    case $yn in
+        [Yy]* ) python3 install.py -f; break;;
+        [Nn]* ) python3 install.py -a; break;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 
 #lunching the server
 echo "Starting server"

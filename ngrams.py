@@ -80,7 +80,7 @@ class SideNotesNgrams:
         return output
     
     
-    def expandSearchTerm(self, searchTerm):
+    def expandSearchTerm(self, searchTerm, addToDicionary):
         """# gets a string and return array of array of search terms by order
             #example input="hi there partner"
             #   output = [ 
@@ -109,14 +109,17 @@ class SideNotesNgrams:
         else:
             newSearchTerms.append(None)
         newSearchTerms.append(ngrams)
-        self.dictionary[self.parseMetaChars(searchTerm)] = newSearchTerms
+        if addToDicionary:
+            self.dictionary[self.parseMetaChars(searchTerm)] = newSearchTerms
+        else:
+            return newSearchTerms
     
     def createNoteNgramsJson(self, notesArray):
         printEvent("Creating dictionary")
         index = 0
         for note in notesArray:
             # print("Working on term N0"+ str(index))
-            self.expandSearchTerm(note)
+            self.expandSearchTerm(note,True)
             print("Finished term N0"+str(index))
             index+=1
 
@@ -138,8 +141,8 @@ if __name__ == "__main__":
             printEvent("Creating dictionary")
             index = 0
             for note in side_notes_list:
-                print("Working on term N0"+ str(index))
-                obj.expandSearchTerm(note)
+                
+                obj.expandSearchTerm(note,True)
                 print("Finished term N0"+str(index))
                 index+=1
                 # if(index >100):
@@ -154,4 +157,4 @@ if __name__ == "__main__":
             printEvent("Finished Creating JSON")
 
         else:
-            obj.expandSearchTerm(side_notes_list[int(sys.argv[1])])
+            obj.expandSearchTerm(side_notes_list[int(sys.argv[1])],True)

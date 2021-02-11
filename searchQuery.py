@@ -1,6 +1,8 @@
 import json
 import paths
 import side_notes_set_in_list
+from ngrams import SideNotesNgrams
+
 
 def throwError(message):
     print("ERROR!" + message)
@@ -84,8 +86,13 @@ class SearchQuery:
         query_ngrams = self.ngrams.get(query)
         if query_ngrams == None :
             throwError("couldnt find ngrams for \"" + query + "\"")
-            return []
-            query_ngrams = 
+            try:
+                query_ngrams = SideNotesNgrams().expandSearchTerm(query,False)
+                print("created  new ngrams for the query")
+            except:
+                print("failed to load result for a query which isnt included in the db")
+                print("query: "+query)
+                return[]
 
         queryOutput = {}
         queryOutput['included_side_notes' ] = []

@@ -57,6 +57,9 @@ if __name__ == "__main__":
     -d, --builddatabase           Create loacle sections DB
     -t, --trainmodel              Train the fasttext Words Model
     -n, --createngrams            Create the ngrams dataset
+    -f, --fastinstall             Exporting the minimal required data quickly
+                                  instead of running the entire installation 
+                                  and trainning process
     -h, --help                    Print this help
 
     you can use multiple flags together
@@ -64,39 +67,49 @@ if __name__ == "__main__":
     if len(sys.argv) < 2 :
         print(errorMsg)
         exit()
-    
     for arg in sys.argv:
-        if arg == "-a":
+        if arg == "-a" or arg == "--all" :
             run_all = True
             break
-        elif arg == "-s":
+        elif arg == "-s" or arg == "--builddatabase":
             build_all_sections = True
-        elif arg == "-t":
+        elif arg == "-t" or arg == "--trainmodel":
             train_model = True
-        elif arg == "-n":
+        elif arg == "-n" or arg == "--createngrams":
             create_ngrams = True
+        elif arg == "-f" or arg == "--fastinstall":
+            extractResultJsons()
+        elif arg == "install.py":
+            pass
         else:
             print(errorMsg)
             exit()
-    # extractLawsXML()
-    # flat_laws_zip()
-    # main_search.fill_local_db_to_json()
+    
+    if run_all or build_all_sections:
+        extractLawsXML()
+        flat_laws_zip()
+        main_search.fill_local_db_to_json()
+    
     # #train word model
-    # wordModel = FastTextModel()
-    # with open(paths.all_sections_path, 'r',encoding="utf8") as f:
-    #     sections_json = json.load(f)
-    #     print("log ===> collecting all strings of side notes")
-    #     keys_str = ""
-    #     keys_str += " ".join(sections_json.keys())
-    #     # create clean dataset file
-    #     print("log ===> creating clean corpus")
-    #     wordModel.clearDataSetObject(keys_str,paths.data_dataset,None)
-    #     print("log ===> Start training word model")
-    #     wordModel.trainModel(paths.data_dataset)
-    #     print("log ===> Finished training word model")
-
-    #     ngramsCreator = SideNotesNgrams()
-    #     ngramsCreator.createNoteNgramsJson(sections_json.keys())
+    if run_all or train_model or create_ngrams:
+        wordModel = FastTextModel()
+        with open(paths.all_sections_path, 'r',encoding="utf8") as f:
+            sections_json = json.load(f)
+            
+            if run_all or train_model:
+                print("log ===> collecting all strings of side notes")
+                keys_str = ""
+                keys_str += " ".join(sections_json.keys())
+                # create clean dataset file
+                print("log ===> creating clean corpus")
+                wordModel.clearDataSetObject(keys_str,paths.data_dataset,None)
+                print("log ===> Start training word model")
+                wordModel.trainModel(paths.data_dataset)
+                print("log ===> Finished training word model")
+            
+            if run_all or create_ngrams:
+                ngramsCreator = SideNotesNgrams()
+                ngramsCreator.createNoteNgramsJson(sections_json.keys())
 
 
 
