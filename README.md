@@ -3,11 +3,11 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Requirments](#Requirments)
+* [How to build](#how-to-build)
 * [How to run](#how-to-run)
 * [How it works](#how-it-works)
-* [Features](#features)
-* [Status](#status)
+* [Authors](#Authors)
 
 
 
@@ -23,74 +23,54 @@ It is a search engine of sections by side notes in laws in Israel, built to help
 ## Technologies
 * Server - Python (3.7) flask
 * Client - React
+* Words Trainning Model - [fastText]( https://fasttext.cc/docs/en/unsupervised-tutorial.html )
 
-## Setup
-* install python3 (or above)
-* install pip (sudo apt-get install python3-pip)
-* install flask (pip3 install Flask)
+## Requirments
+* python3 (or above)
+* pip (sudo apt-get install python3-pip)
+* npm
+
+## How to build
+* On terminal run:
+
+```bash
+git clone https://github.com/vaismav/Side-Notes-in-Legislation-Search-Engine.git
+cd Side-Notes-in-Legislation-Search-Engine
+./install.sh
+```
+
+You will have to choose at the beginning if to run the installation in venv.
+(if you choose so, venv dir will create automatically and all dependencies will be install there)
+And at the end. wheter you want the fast-and-limited installation or to install all features:
+* Fast and Limited  : quickly deploy the neccesary files to support minimal search in the given laws xmls.
+* All features      : Take times, creates a trained model of fastText and support search queries of terms which aren't found in the side-note collections     
+
+In the end of the installation process the server will be launch automatically on default PORT
 
 ## How to run
-* On terminal run:
-* git clone https://github.com/vaismav/Side-Notes-in-Legislation-Search-Engine.git
-
-    cd Side-Notes-in-Legislation-Search-Engine
- 
-    python3 install.py
+* After installation you can run the server explictly with
+```bash
+export FLASK_APP=server.py
+flask run
+```
+* Or you can use the start script
+```bash
+./start
+```
 
 ## How it works
 * All xml(law) files extracted from /data/LawRepoWiki.zip to /data/xmls.
 * A JSON fill of all sections created.
 * FastText model ( https://fasttext.cc/docs/en/unsupervised-tutorial.html ) run on all the side notes in the JSON.
-* A flask application created from 'app.py'.
+* A flask application created from 'server.py', and serve the client files as static files from client/build directory.
 * The user ask for a side note x, the server search for a side notes that are closest to x in in the trained model data and offers them to te user.
 * The user pick a side note y and get a list of sections witch y is their side note.
+* If the user wishs to see more results, there is a BIG GREEN BUTTON in the bottom of the results list to feth more results
 
-## Code Examples
-
-```
-   def fill_local_db_to_json():
-    """
-    This function creates a JSON file(all_sections.json) contains all the sections(law_id, law_names, html element representing the section, uploaded_to_db(True/False).
-    """
-    section_id = 0
-    my_json={}
-    work_dir = "".join(os.getcwd())
-    for law_id in range(len(os.listdir(work_dir + paths._data_xmls))):
-        tree = ET.parse(work_dir + paths._data_xml_law_file + str(law_id) + ".xml")
-        root = tree.getroot()
-        for element in root.iter():
-            if (slice_prefix(element.tag) == "point"):
-                for sub_element in element.iter():
-                    word = get_side_note_string(sub_element)
-                    if (len(word) > 1):
-                        print(section_id)
-                        section_id+=1
-                        law_name = find_law_name(root)
-                        str_to_html = get_element_as_string2(element)
-                        if (word not in my_json ):
-                            my_json[word]={0:{"law_id":law_id,
-                                         "law_names":[law_name],
-                                          "string_to_html":str_to_html,
-                                          "uploaded_to_db":False
-
-                                         }}
-                        else:
-                            index = index_of_same_html(my_json[word], str_to_html)
-                            if (index > -1):
-                                my_json[word][index]["law_names"].append(law_name)
-                            else:
-                                my_json[word][len(my_json[word].keys())]={"law_id":law_id,
-                                                                         "law_names":[law_name],
-                                                                         "string_to_html":str_to_html,
-                                                                         "uploaded_to_db":False
-                                                                         }
-
-
-    with open(paths.all_sections_path, "w", encoding='utf8') as outfile:
-        json.dump(my_json, outfile, ensure_ascii=False, indent=4, sort_keys=True)
-
-```
-
+## Authors
+* Yarin Kagal       -   [Git](https://github.com/yarink3) | [LinkedIn](https://www.linkedin.com/in/yarin-kagal-358248173/)
+* Avishai Vaisman   -   [Git](https://github.com/vaismav) | [LinkedIn](https://www.linkedin.com/in/avishai-vaisman)
+* Contact us for help, consulting, offer us a job, or send us donations ;)
 
 <!-- ### Requirements
 To run this project, Python3, pip3 & pip are requierd -->
