@@ -33,9 +33,9 @@ It is a search engine of sections by side notes in laws in Israel, built to help
 * On terminal run:
 * git clone https://github.com/vaismav/Side-Notes-in-Legislation-Search-Engine.git
 
- cd Side-Notes-in-Legislation-Search-Engine
+    cd Side-Notes-in-Legislation-Search-Engine
  
- python3 install.py
+    python3 install.py
 
 ## How it works
 * All xml(law) files extracted from /data/LawRepoWiki.zip to /data/xmls.
