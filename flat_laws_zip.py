@@ -9,11 +9,13 @@ def flat_laws_zip():
     """
     counter=0
     wrd = "".join(os.getcwd())
-    for root,subFolder,files in os.walk(wrd):
+    
+    for root,subFolder,files in os.walk(wrd+getPathOfOS("\\data")):
         for item in files:
             if(item.endswith("main.xml")):
-                dst = wrd + paths.data_xml_law_file + str(counter)+".xml"
-                src=str(root)+"/main.xml"
+                dst=wrd+getPathOfOS("\\data\\xmls\\law")+ str(counter)+".xml"
+                # dst = wrd + paths.data_xml_law_file + str(counter)+".xml"
+                src=str(root)+getPathOfOS("\\main.xml")
                 copyfile(src, dst)
                 counter += 1
 

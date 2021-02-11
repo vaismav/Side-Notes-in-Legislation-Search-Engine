@@ -195,7 +195,7 @@ class main_search:
                         word = self.get_side_note_string(sub_element)
                         if (len(word) > 1):
                             law_name = self.find_law_name(root)
-                            str_to_html = self.get_element_as_string(element) + "<br> <br> \n\n"
+                            str_to_html = self.get_element_as_string2(element)
                             if (word not in my_json ):
                                 my_json[word]={0:{"law_id":law_id,
                                              "law_names":[law_name],
