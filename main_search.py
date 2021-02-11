@@ -3,6 +3,7 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 import time
+import paths
 
 from googlesearch import search
 
@@ -67,16 +68,16 @@ def find_words_original_zip():
     work_dir = "".join(os.getcwd())
     for words_list in lists_of_words:
         for word in words_list:
-            for law_id in  range (len( os.listdir(work_dir+"\\xmls"))):
+            for law_id in  range (len( os.listdir(work_dir+paths._data_xmls))):
 
-                tree = ET.parse(work_dir+"\\xmls\\law" + str(law_id)+".xml" )
+                tree = ET.parse(work_dir+paths._data_xml_law_file + str(law_id)+".xml" )
                 root = tree.getroot()
                 for element in root.iter():
                     if(slice_prefix(element.tag)=="point"):
                         for sub_element in element.iter():
                             if (this_side_note(word,sub_element)):
                                 law_name=find_law_name(root)
-                                str_to_html= get_element_as_string2(element)+"<br> <br> \n\n"
+                                str_to_html= get_element_as_string2(element)
                                 #modify dictionary
                                 if(word not in dict_of_side_notes):
                                     dict_of_side_notes[word]=[{"law_id":law_id,
@@ -100,8 +101,8 @@ def extract_all_side_notes():
     """
     all_side_notes_file=open("all_side_notes_file.txt","w",encoding="utf8")
     work_dir = "".join(os.getcwd())
-    for i in range(len(os.listdir(work_dir + "\\xmls"))):
-        tree = ET.parse(work_dir + "\\xmls\\law" + str(i) + ".xml")
+    for i in range(len(os.listdir(work_dir + path._data_xmls))):
+        tree = ET.parse(work_dir + paths._data_xml_law_file + str(i) + ".xml")
         root = tree.getroot()
         for element in root.iter():
             if slice_prefix(element.tag) == "authorialNote" and element.get("placement") == "side":
@@ -113,6 +114,25 @@ def extract_all_side_notes():
                             break
     all_side_notes_file.close()
 
+def extract_all_side_notes_string():
+    """
+    This function creates a text file contains all the side notes in the corpus.
+    """
+    all_side_notes_file=""
+    work_dir = "".join(os.getcwd())
+    for i in range(len(os.listdir(work_dir + path._data_xmls))):
+        tree = ET.parse(work_dir + paths._data_xml_law_file + str(i) + ".xml")
+        root = tree.getroot()
+        for element in root.iter():
+            if slice_prefix(element.tag) == "authorialNote" and element.get("placement") == "side":
+                for sub_element in element.iter():
+                    if (slice_prefix(sub_element.tag) == "p" ):
+                        s=sub_element.text
+                        if(len(s)>1):
+                            all_side_notes_file += ( sub_element.text + " ")
+                            break
+    return all_side_notes_file
+
 
 def fill_local_db_to_json():
     """
@@ -121,8 +141,8 @@ def fill_local_db_to_json():
     section_id = 0
     my_json={}
     work_dir = "".join(os.getcwd())
-    for law_id in range(len(os.listdir(work_dir + "\\data\\xmls"))):
-        tree = ET.parse(work_dir + "\\data\\xmls\\law" + str(law_id) + ".xml")
+    for law_id in range(len(os.listdir(work_dir + paths._data_xmls))):
+        tree = ET.parse(work_dir + paths._data_xml_law_file + str(law_id) + ".xml")
         root = tree.getroot()
         for element in root.iter():
             if (slice_prefix(element.tag) == "point"):
@@ -152,8 +172,8 @@ def fill_local_db_to_json():
                                                                          }
 
 
-    with open("all_sections.json", "w", encoding='utf8') as outfile:
-        json.dump(my_json, outfile, ensure_ascii=False)
+    with open(paths.all_sections_path, "w", encoding='utf8') as outfile:
+        json.dump(my_json, outfile, ensure_ascii=False, indent=4, sort_keys=True)
 
 
 def slice_triangle(param):
@@ -257,4 +277,4 @@ def get_law_url_on_web( law_name):
 #             return law_name in json_object[]
 
 
-fill_local_db_to_json()
+# fill_local_db_to_json()

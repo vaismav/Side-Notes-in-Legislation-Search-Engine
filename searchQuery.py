@@ -56,7 +56,8 @@ class SearchQuery:
         Returns:
             [type]: [description]
         """
-        self.sideNotesStrings = side_notes_set_in_list.side_notes_list
+        # self.sideNotesStrings = side_notes_set_in_list.side_notes_list
+        self.sideNotesStrings = self.sections.keys()
 
     def createResultObject(self, side_note_string, sections):
         """
@@ -84,6 +85,7 @@ class SearchQuery:
         if query_ngrams == None :
             throwError("couldnt find ngrams for \"" + query + "\"")
             return []
+            query_ngrams = 
 
         queryOutput = {}
         queryOutput['included_side_notes' ] = []

@@ -111,6 +111,22 @@ class SideNotesNgrams:
         newSearchTerms.append(ngrams)
         self.dictionary[self.parseMetaChars(searchTerm)] = newSearchTerms
     
+    def createNoteNgramsJson(self, notesArray):
+        printEvent("Creating dictionary")
+        index = 0
+        for note in notesArray:
+            # print("Working on term N0"+ str(index))
+            self.expandSearchTerm(note)
+            print("Finished term N0"+str(index))
+            index+=1
+
+        printEvent("Finished Creating dictionary")
+        printEvent("Creating JSON")
+
+        with open(paths.notes_ngrams_path, 'w' , encoding="utf-8") as fp:
+            json.dump(self.dictionary, fp, ensure_ascii=False, indent=4, sort_keys=True)
+
+        printEvent("Finished Creating JSON")
 
 if __name__ == "__main__":
     obj = SideNotesNgrams()

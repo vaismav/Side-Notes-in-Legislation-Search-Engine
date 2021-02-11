@@ -60,6 +60,25 @@ class FastTextModel:
         outputFile.write(outputString)
         pass
 
+    def clearDataSetObject(self, inputString, outputRelativePath, delimiter):
+        """clean the dataset from the delimiter 
+
+        Args:
+            inputString (string): [description]
+            delimiter ([type]): [description]
+        """
+        # cwd= os.getcwd()
+        outputFile = open(outputRelativePath,"w")
+        print("open output file "+outputRelativePath)
+
+        if((delimiter != None) & (delimiter != "")):
+            outputString = inputString.replace(delimiter,'').replace('\n',' ').replace('\r',' ')
+        else:
+            outputString = inputString.replace('\n',' ').replace('\r',' ')
+
+        outputFile.write(outputString)
+        pass
+
     def loadModel(self, trainedModelPath):
         """
             return model object of fasttext trained model dataset

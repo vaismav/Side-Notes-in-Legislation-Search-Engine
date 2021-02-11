@@ -17,5 +17,6 @@ data_LawRepoWikiZIP = getPathOfOS("data/LawRepoWiki.zip")
 _mainXML            = getPathOfOS("/main.xml")
 _data               = getPathOfOS("/data")
 dataDIR             = getPathOfOS("data")
-_data_xmls           = getPathOfOS("data/xmls")
-
+data_xmls           = getPathOfOS("data/xmls")
+_data_xmls           = getPathOfOS("/data/xmls")
+data_dataset        = getPathOfOS("data/dataset")
