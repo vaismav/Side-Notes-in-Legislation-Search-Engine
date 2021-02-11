@@ -10,7 +10,9 @@ __pycache__/
 #fasttext model files
 result/*.bin
 result/*.json
-
+data/akn
+data/xmls
+data/*.xml
 
 #venv
 dev/
